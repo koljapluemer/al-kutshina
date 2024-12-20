@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col gap-2 mt-10">
         <div v-for="(row, r) in gridWithItemNames" class="flex flex-row gap-2 justify-center">
-            <FieldRenderer v-for="(cell, c) in row" :itemId="cell" :cellSize="cellSize" :coordinate="[r, c]" />
+            <FieldRenderer v-for="(cell, c) in row" :field="{ itemId: cell, cellSize: cellSize, coordinate: [r, c] }" />
         </div>
     </div>
 </template>

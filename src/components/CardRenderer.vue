@@ -1,7 +1,7 @@
 <template>
 
     <div class="draggable-component grow relative h-full w-full card rounded shadow-md bg-gray-200"
-        :class="{ 'being-dragged': isBeingDragged }" @dragstart="onDragStart($event)" draggable="true">
+        :class="{ 'being-dragged': isBeingDragged }" @dragstart="onDragStart($event)"  @dragend="onDragEnd($event)" draggable="true">
         <ItemRenderer :item="card.item" v-if="card.item" />
         <!-- todo: renderer for possible extra cards -->
     </div>
@@ -9,22 +9,30 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import type { Card } from '../types';
+import type { Card, FieldData,  } from '../types';
 import ItemRenderer from './ItemRenderer.vue';
+import { dragDropStore } from '../stores/dragDropStore';
 
 
 const props = defineProps<{
-    card: Card
+    card: Card,
+    parentField: FieldData,
 }>();
 
 const isBeingDragged = ref(false)
 
-function onDragStart(event: any) {
-    console.info('field registered drag start')
+function onDragStart(event: DragEvent) {
     isBeingDragged.value = true
-    event.dataTransfer.dropEffect = "move";
-    event.dataTransfer.effectAllowed = "move";
-    // emit("startedDraggingFromField", item.value, props.coordinate);
+    if (event.dataTransfer) {
+        event.dataTransfer.setData("text/plain", props.card.item.id)
+        event.dataTransfer.dropEffect = "move"
+    }
+    dragDropStore.dragStartedFromField = props.parentField
+}
+
+function onDragEnd(_event:DragEvent) {
+    isBeingDragged.value = false
+    // actual drops are handled by the field their dropped on
 }
 
 

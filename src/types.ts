@@ -7,3 +7,9 @@ export type Card = {
     // todo: replace any by a reasonable type
     extraImages?: any,
 }
+
+export type FieldData = {
+    itemId: string,
+    cellSize: string,
+    coordinate: Coordinate
+}
