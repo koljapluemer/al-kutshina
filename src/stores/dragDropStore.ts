@@ -14,9 +14,7 @@ export const dragDropStore = reactive({
     },
 
     handleDrop(droppedOnField: (FieldData)) {
-        console.info('drop on item registered', droppedOnField, 'from', this.dragStartedFromField)
-
-
+        if (!this.grid) return
         if (!this.dragStartedFromField) { console.warn('drop without drop start, should be impossible'); return }
 
 
@@ -27,6 +25,10 @@ export const dragDropStore = reactive({
             if (this.dragStartedFromField) this.changeGridAfterCapabilityTriggeredOnField(this.dragStartedFromField, interaction)
             this.changeGridAfterAffordanceTriggeredOnField(droppedOnField, interaction)
         })
+        if (droppedOnField.itemId === "") {
+            this.grid[this.dragStartedFromField.coordinate[0]][this.dragStartedFromField.coordinate[1]] = ""
+            this.grid[droppedOnField.coordinate[0]][droppedOnField.coordinate[1]] = this.dragStartedFromField.itemId
+        }
     },
 
     changeGridAfterCapabilityTriggeredOnField(field: FieldData, capabilityKey: string) {

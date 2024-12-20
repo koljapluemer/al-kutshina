@@ -6,12 +6,12 @@ export type Exercise = {
 
 export const exercises:Exercise[] = [
     {
-        grid: [["kiwi", "knife"]],
+        grid: [["kiwi", "knife", ""]],
         quest: "knife-cut-kiwi",
         collections: ["cutting-things"]
     },
     {
-        grid: [["knife", "kiwi"]],
+        grid: [["knife", "kiwi", ""]],
         quest: "knife-cut-kiwi",
         collections: ["cutting-things"]
     },
