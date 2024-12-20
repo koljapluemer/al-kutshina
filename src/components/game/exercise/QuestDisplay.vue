@@ -1,7 +1,6 @@
 <template>
     <div class="text-center mt-10">
-        you should try doing this quest: {{ questKey }}
-
+        {{ questKey }}
     </div>
 
 </template>

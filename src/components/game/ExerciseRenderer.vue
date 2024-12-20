@@ -3,7 +3,7 @@
 
         <GridRenderer :gridWithItemNames="dragDropStore.grid" />
 
-        <QuestDisplay :questKey="'hello world'" />
+        <QuestDisplay :questKey="exercise.quest" />
 
     </div>
 </template>
@@ -24,6 +24,8 @@ onMounted(() => {
     // global store, so that changes can be managed there
     dragDropStore.setGrid(props.exercise.grid)
 })
+
+
 
 
 </script>

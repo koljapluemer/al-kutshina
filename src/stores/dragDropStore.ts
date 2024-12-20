@@ -10,10 +10,15 @@ export const dragDropStore = reactive({
     dragStartedFromField: undefined as (FieldData | undefined),
     grid: undefined as (ItemNameGrid | undefined),
     extraImage: undefined as (ExtraImage | undefined),
+    lastActionsThatWereDone: [] as (string[]),
 
     setGrid(grid: ItemNameGrid) {
         this.grid = grid
         this.extraImage = undefined
+    },
+
+    getLastActions(): string [] {
+        return this.lastActionsThatWereDone
     },
 
     handleDrop(droppedOnField: (FieldData)) {
@@ -23,9 +28,14 @@ export const dragDropStore = reactive({
 
         const interactions = Alchemy.getInteractionsBetweenFields(this.dragStartedFromField, droppedOnField)
         console.log('interactions', interactions)
+        // should only be one interaction, but who knows
+        this.lastActionsThatWereDone = []
         interactions.forEach(interaction => {
-            console.log('trigger for', this.dragStartedFromField!, interaction)
-            if (this.dragStartedFromField) this.changeGridAfterCapabilityTriggeredOnField(this.dragStartedFromField, interaction)
+            const actionString = this.dragStartedFromField!.itemId + '-' + interaction + '-' + droppedOnField.itemId
+            // TODO: this is super unideal that we're generting this string here, in this semi SSOT state component
+            this.lastActionsThatWereDone.push(actionString)
+            console.log('actionString', actionString)
+            this.changeGridAfterCapabilityTriggeredOnField(this.dragStartedFromField!, interaction)
             this.changeGridAfterAffordanceTriggeredOnField(this.dragStartedFromField!, droppedOnField, interaction)
         })
     },
@@ -82,7 +92,7 @@ export const dragDropStore = reactive({
                     coordinate: receiver.coordinate,
                     id: sender.itemId,
                     scale: 1,
-                    offset: [0,0],
+                    offset: [0, 0],
                     rotation: 0
                 }
                 console.info('set extra image')
