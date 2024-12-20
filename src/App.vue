@@ -1,5 +1,5 @@
 <template>
-  <main class="m-auto max-w-screen-md">
+  <main class="m-auto max-w-screen-lg">
     <RouterView></RouterView>
   </main>
 

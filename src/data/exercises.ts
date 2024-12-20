@@ -16,7 +16,7 @@ export const exercises:Exercise[] = [
         collections: ["cutting-things"]
     },
     {
-        grid: [["car", "parking_lot"]],
+        grid: [["car", ""], ["", "parking_lot"]],
         quest: "car-park-parking_lot",
         collections: ["parking", "cars"]
     }

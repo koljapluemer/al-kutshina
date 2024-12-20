@@ -1,23 +1,28 @@
 <template>
 
     I'm a grid:
-
-    <div class="row" v-for="row in gridWithItemNames">
-        <div class="cell" v-for="cell in row">
-            <ItemCardRenderer :itemId="cell" />
+    {{ gridWithItemNames }}
+    <div class="flex flex-col gap-2">
+        <div v-for="(row, r) in gridWithItemNames" class="flex flex-row gap-2 justify-center">
+            <ItemCardRenderer v-for="(cell, c) in row" :itemId="cell" :cellSize="cellSize" :coordinate="[r, c]" />
         </div>
     </div>
 </template>
 
-
 <script setup lang="ts">
+import { computed } from 'vue';
 import ItemCardRenderer from './ItemCardRenderer.vue';
-
-
+import { useCellSize } from '../composables/useCellSize';
+import { getGridDimensions } from '../utils/arrayUtils';
 
 const props = defineProps<{
     gridWithItemNames: string[][]
 }>();
+
+const gridDimensions = computed(() => getGridDimensions(props.gridWithItemNames));
+const rows = computed(() => gridDimensions.value.rows);
+const cols = computed(() => gridDimensions.value.cols);
+const { cellSize } = useCellSize(rows.value, cols.value);
 
 
 </script>

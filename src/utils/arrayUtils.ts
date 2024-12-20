@@ -8,3 +8,10 @@ export const pickRandom = <T>(array: T[]): T | undefined => {
     const randomIndex = Math.floor(Math.random() * array.length);
     return array[randomIndex];
 };
+
+export function getGridDimensions<T>(grid: T[][]): { rows: number; cols: number } {
+    const rows = grid.length;
+    const cols = grid[0]?.length || 0; // Fallback to 0 if no columns exist
+    return { rows, cols };
+  }
+  
