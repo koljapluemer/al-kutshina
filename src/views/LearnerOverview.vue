@@ -1,12 +1,16 @@
 <template>
 
     <div class="flex gap-2 flex-col items-center mt-20">
-        <CollectionItem v-for="collection in collections" :collection="collection"
+        <CollectionItem v-for="collection in gameDataStore.collections" :collection="collection"
             @click="selectedCollection = collection" :class="{ 'btn-primary': selectedCollection === collection }" />
 
-        <button class="btn btn-primary btn-lg mt-5" v-if="selectedCollection">
-            Play
-        </button>
+
+        <router-link :to="{ name: 'collectionPlay', params: { id: selectedCollection.id } }" v-if="selectedCollection">
+            <button class="btn btn-primary btn-lg mt-5">
+                Play
+            </button>
+        </router-link>
+
     </div>
 
 
@@ -14,16 +18,12 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { IguanodoTreeParser } from '../iguanodo/utils/treeParserUtils';
+import { IguanodoTreeParser } from '../iguanodo/utils/treeParser';
 import type { Collection } from '../iguanodo/types/Collection';
 import CollectionItem from '../components/CollectionItem.vue';
+import { gameDataStore } from '../stores/gameData';
 
-const collections = ref([] as Collection[])
 const selectedCollection = ref(undefined as (Collection | undefined))
 
-onMounted(() => {
-    collections.value = IguanodoTreeParser.getCollectionsFromJSON()
-    console.log('got collections', collections)
 
-})
 </script>
