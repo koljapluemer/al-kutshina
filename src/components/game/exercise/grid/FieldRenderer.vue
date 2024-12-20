@@ -1,12 +1,12 @@
 <template>
 
-<div class="bg-base-200 p-1 aspect-square" @dragover.prevent @drop="onDrop($event)" :style="{
-        height: '160px',
-        width: '160px',
-    }"
-    >
-    <CardRenderer :card="{item:item}" :parentField="field" v-if="item"/>
-</div>
+    <div class="bg-base-200 p-1 aspect-square" @dragover="item ? $event.preventDefault() : null" @drop="onDrop($event)"
+        :style="{
+            height: '160px',
+            width: '160px',
+        }">
+        <CardRenderer :card="{ item: item }" :parentField="field" v-if="item" />
+    </div>
 
 </template>
 
@@ -20,7 +20,7 @@ import CardRenderer from './field/CardRenderer.vue';
 
 
 const props = defineProps<{
-    field:FieldData
+    field: FieldData
 }>();
 
 const item = ref(undefined as (Item | undefined))

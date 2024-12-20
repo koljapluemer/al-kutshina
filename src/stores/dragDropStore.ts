@@ -25,10 +25,6 @@ export const dragDropStore = reactive({
             if (this.dragStartedFromField) this.changeGridAfterCapabilityTriggeredOnField(this.dragStartedFromField, interaction)
             this.changeGridAfterAffordanceTriggeredOnField(droppedOnField, interaction)
         })
-        if (droppedOnField.itemId === "") {
-            this.grid[this.dragStartedFromField.coordinate[0]][this.dragStartedFromField.coordinate[1]] = ""
-            this.grid[droppedOnField.coordinate[0]][droppedOnField.coordinate[1]] = this.dragStartedFromField.itemId
-        }
     },
 
     changeGridAfterCapabilityTriggeredOnField(field: FieldData, capabilityKey: string) {
