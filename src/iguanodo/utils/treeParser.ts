@@ -1,4 +1,5 @@
 import { exercises, type Exercise } from "../../data/exercises";
+import { items, type Item } from "../../data/items";
 import type { Collection } from "../types/Collection";
 
 export class IguanodoTreeParser {
@@ -27,5 +28,13 @@ export class IguanodoTreeParser {
         })
 
         return collections
+    }
+
+    // this one if probably not going to be abstractable in the general library,
+    // items are a pretty "only tpr-game-vue" kinda thing
+    public static getItemsFromJSON():Item[] {
+        // ...it's also a somewhat silly function, with items still being perfectly adapted to
+        // this game, not represented as abstract learning cards or anything...
+        return items
     }
 }

@@ -5,7 +5,8 @@ export enum Reaction {
     AddImage
 }
 
-type Item = {
+export type Item = {
+    id: string,
     affordances?: AffordanceInfo[],
     capabilities?: AffordanceInfo[]
 
@@ -16,21 +17,26 @@ type AffordanceInfo = [
 ]
 
 
-export const items: Record<string, Item> = {
-    kiwi: {
+export const items: Item[] = [
+    {
+        id: "kiwi",
         affordances: [["cut", 2, "kiwi_cut"]]
     },
-    kiwi_cut: {
+    {
+        id: "kiwi_cut"
     },
-    knife: {
+    {
+        id: "knife",
         capabilities: [["cut", 1]]
     },
-    car: {
+    {
+        id: "car",
         capabilities: [["park", Reaction.Disappear]]
     },
-    parking_lot: {
+    {
+        id: "parking_lot",
         affordances: [["park", 3]]
     }
-}
+]
 
 

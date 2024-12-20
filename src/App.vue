@@ -14,6 +14,7 @@ import { onMounted } from 'vue';
 
 onMounted(() => {
   gameDataStore.setCollections(IguanodoTreeParser.getCollectionsFromJSON())
+  gameDataStore.setItems(IguanodoTreeParser.getItemsFromJSON())
 
 })
 </script>
