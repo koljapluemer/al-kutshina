@@ -1,26 +1,36 @@
-export enum Reaction {
+export enum CapabilityReaction {
     Disappear,
-    Return,
+    Return
+}
+
+export enum AffordanceReaction {
+    Disappear,
+    DoNothing,
     ChangeTo,
     AddImage
 }
 
+
 export type Item = {
     id: string,
     affordances?: AffordanceInfo[],
-    capabilities?: AffordanceInfo[]
+    capabilities?: CapabilityInfo[]
 
 }
 
+type CapabilityInfo = [
+    string, CapabilityReaction, string?
+]
+
 type AffordanceInfo = [
-    string, Reaction, string?
+    string, AffordanceReaction, string?
 ]
 
 
 export const items: Item[] = [
     {
         id: "kiwi",
-        affordances: [["cut", 2, "kiwi_cut"]]
+        affordances: [["cut", AffordanceReaction.ChangeTo, "kiwi_cut"]]
     },
     {
         id: "kiwi_cut"
@@ -31,7 +41,7 @@ export const items: Item[] = [
     },
     {
         id: "car",
-        capabilities: [["park", Reaction.Disappear]]
+        capabilities: [["park", CapabilityReaction.Disappear]]
     },
     {
         id: "parking_lot",
