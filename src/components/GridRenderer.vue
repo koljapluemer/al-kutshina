@@ -1,17 +1,14 @@
 <template>
-
-    I'm a grid:
-    {{ gridWithItemNames }}
-    <div class="flex flex-col gap-2">
+    <div class="flex flex-col gap-2 mt-10">
         <div v-for="(row, r) in gridWithItemNames" class="flex flex-row gap-2 justify-center">
-            <ItemCardRenderer v-for="(cell, c) in row" :itemId="cell" :cellSize="cellSize" :coordinate="[r, c]" />
+            <FieldRenderer v-for="(cell, c) in row" :itemId="cell" :cellSize="cellSize" :coordinate="[r, c]" />
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import ItemCardRenderer from './ItemCardRenderer.vue';
+import FieldRenderer from './FieldRenderer.vue';
 import { useCellSize } from '../composables/useCellSize';
 import { getGridDimensions } from '../utils/arrayUtils';
 

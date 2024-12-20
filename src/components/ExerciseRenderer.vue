@@ -1,9 +1,6 @@
 <template>
 
-I'm the exercise renderer
-<br>
 <GridRenderer :gridWithItemNames="exercise.grid"></GridRenderer>
-<br>
 
 <QuestDisplay :questKey="'hello world'" />
     

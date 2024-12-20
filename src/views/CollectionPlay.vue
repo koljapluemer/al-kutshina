@@ -1,7 +1,6 @@
 <template>
 
     <div class="" v-if="collection">
-        let's play from collection: {{ collection.id }}
 
         <ExerciseRenderer v-if="currentExercise" :exercise="currentExercise" />
         <div class="" v-else>no exercise found</div>

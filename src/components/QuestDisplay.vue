@@ -1,5 +1,8 @@
 <template>
-    you should try doing this quest: {{ questKey }}
+    <div class="text-center mt-10">
+        you should try doing this quest: {{ questKey }}
+
+    </div>
 
 </template>
 
