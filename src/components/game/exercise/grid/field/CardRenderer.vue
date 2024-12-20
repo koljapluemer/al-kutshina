@@ -1,17 +1,22 @@
 <template>
 
     <div class="draggable-component grow relative h-full w-full card rounded shadow-md bg-gray-200"
-        :class="{ 'being-dragged': isBeingDragged }" @dragstart="onDragStart($event)"  @dragend="onDragEnd($event)" draggable="true">
+        :class="{ 'being-dragged': isBeingDragged }" @dragstart="onDragStart($event)" @dragend="onDragEnd($event)"
+        draggable="true">
         <ItemRenderer :item="card.item" v-if="card.item" />
-        <!-- todo: renderer for possible extra cards -->
+        <ExtraImageRenderer :image="dragDropStore.extraImage"
+            v-if="dragDropStore.extraImage && areCoordinatesEqual(dragDropStore.extraImage.coordinate, parentField.coordinate)" />
+
     </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import type { Card, FieldData,  } from '../../../../../types';
+import type { Card, FieldData, } from '../../../../../types';
 import { dragDropStore } from '../../../../../stores/dragDropStore';
 import ItemRenderer from './card/ItemRenderer.vue';
+import ExtraImageRenderer from './card/ExtraImageRenderer.vue';
+import { areCoordinatesEqual } from '../../../../../utils/arrayUtils';
 
 
 const props = defineProps<{
@@ -30,7 +35,7 @@ function onDragStart(event: DragEvent) {
     dragDropStore.dragStartedFromField = props.parentField
 }
 
-function onDragEnd(_event:DragEvent) {
+function onDragEnd(_event: DragEvent) {
     isBeingDragged.value = false
     // actual drops are handled by the field their dropped on
 }

@@ -15,3 +15,11 @@ export type FieldData = {
 }
 
 export type ItemNameGrid = string[][]
+
+export type ExtraImage = {
+    coordinate: Coordinate
+    id: string
+    scale: number
+    offset: [number, number]
+    rotation: number
+  }
