@@ -13,3 +13,5 @@ export type FieldData = {
     cellSize: string,
     coordinate: Coordinate
 }
+
+export type ItemNameGrid = string[][]

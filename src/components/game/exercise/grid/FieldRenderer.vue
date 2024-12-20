@@ -26,9 +26,9 @@ const props = defineProps<{
 const item = ref(undefined as (Item | undefined))
 
 onMounted(() => {
+    console.log('getting item', props.field.itemId)
     item.value = gameDataStore.getItemById(props.field.itemId)
 })
-
 
 function onDrop(_event: any) {
     dragDropStore.handleDrop(props.field)

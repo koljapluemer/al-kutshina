@@ -22,5 +22,4 @@ export const gameDataStore = reactive({
         this.items = items
     }
 
-
 })

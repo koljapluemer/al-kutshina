@@ -37,6 +37,6 @@ export const items: Item[] = [
         id: "parking_lot",
         affordances: [["park", 3]]
     }
-]
+] as const
 
 
