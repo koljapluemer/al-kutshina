@@ -1,4 +1,10 @@
-export const exercises = [
+type Exercise = {
+    grid: string[][],
+    quest: string,
+    collections: string[]
+}
+
+export const exercises:Exercise[] = [
     {
         grid: [["kiwi", "knife"]],
         quest: "knife-cut-kiwi",
@@ -14,4 +20,4 @@ export const exercises = [
         quest: "car-park-parking_lot",
         collections: ["parking"]
     }
-]
+] 
