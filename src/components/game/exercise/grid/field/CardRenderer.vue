@@ -9,9 +9,9 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import type { Card, FieldData,  } from '../types';
-import ItemRenderer from './ItemRenderer.vue';
-import { dragDropStore } from '../stores/dragDropStore';
+import type { Card, FieldData,  } from '../../../../../types';
+import { dragDropStore } from '../../../../../stores/dragDropStore';
+import ItemRenderer from './card/ItemRenderer.vue';
 
 
 const props = defineProps<{

@@ -12,11 +12,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import type { Item } from '../data/items';
-import { gameDataStore } from '../stores/gameData';
-import type { FieldData as FieldData } from '../types';
-import CardRenderer from './CardRenderer.vue';
-import { dragDropStore } from '../stores/dragDropStore';
+import type { Item } from '../../../../data/items';
+import { gameDataStore } from '../../../../stores/gameData';
+import type { FieldData as FieldData } from '../../../../types';
+import { dragDropStore } from '../../../../stores/dragDropStore';
+import CardRenderer from './field/CardRenderer.vue';
 
 
 const props = defineProps<{

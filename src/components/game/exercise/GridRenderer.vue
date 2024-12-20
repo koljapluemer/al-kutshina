@@ -8,9 +8,9 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import FieldRenderer from './FieldRenderer.vue';
-import { useCellSize } from '../composables/useCellSize';
-import { getGridDimensions } from '../utils/arrayUtils';
+import { useCellSize } from '../../../composables/useCellSize';
+import { getGridDimensions } from '../../../utils/arrayUtils';
+import FieldRenderer from './grid/FieldRenderer.vue';
 
 const props = defineProps<{
     gridWithItemNames: string[][]

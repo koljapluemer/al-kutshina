@@ -16,7 +16,7 @@
 import { onMounted, ref } from 'vue';
 import { gameDataStore } from '../stores/gameData';
 import type { Collection } from '../iguanodo/types/Collection';
-import ExerciseRenderer from '../components/ExerciseRenderer.vue';
+import ExerciseRenderer from '../components/game/ExerciseRenderer.vue';
 import type { Exercise } from '../data/exercises';
 import { CollectionHelper } from '../iguanodo/types/classes/CollectionHelper';
 
