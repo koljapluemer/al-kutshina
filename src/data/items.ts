@@ -29,62 +29,229 @@ type AffordanceInfo = [
 
 export const items: Item[] = [
     {
-        id: "kiwi",
-        affordances: [["cut", AffordanceReaction.ChangeTo, "kiwi_cut"]]
+        "id": "bowl",
+        "affordances": [
+            [
+                "put_in",
+                3
+            ]
+        ]
     },
     {
-        id: "kiwi_cut"
+        "id": "knife",
+        "capabilities": [
+            [
+                "cut",
+                1
+            ]
+        ]
     },
     {
-        id: "broccoli_half"
+        "id": "apple",
+        "affordances": [
+            [
+                "cut",
+                2,
+                "apple_half"
+            ],
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "apple_half"
+        "id": "apple_half",
+        "affordances": [
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "lemon_cut"
+        "id": "avocado",
+        "affordances": [
+            [
+                "cut",
+                2,
+                "avocado_cut"
+            ],
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "mango_cut"
+        "id": "avocado_cut",
+        "affordances": [
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "onion_cut"
+        "id": "broccoli",
+        "affordances": [
+            [
+                "cut",
+                2,
+                "broccoli_half"
+            ],
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "melon_cut"
+        "id": "broccoli_half",
+        "affordances": [
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "knife",
-        capabilities: [["cut", 1]]
+        "id": "honeymelon",
+        "affordances": [
+            [
+                "cut",
+                2,
+                "honeymelon_cut"
+            ],
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "car",
-        capabilities: [["park", CapabilityReaction.Disappear]]
+        "id": "honeymelon_cut",
+        "affordances": [
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "parking_lot",
-        affordances: [["park", 3]]
+        "id": "kiwi",
+        "affordances": [
+            [
+                "cut",
+                2,
+                "kiwi_cut"
+            ],
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "apple",
-        affordances: [["cut", 2, "apple_half"]]
+        "id": "kiwi_cut",
+        "affordances": [
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "broccoli",
-        affordances: [["cut", 2, "broccoli_half"]]
+        "id": "lemon",
+        "affordances": [
+            [
+                "cut",
+                2,
+                "lemon_cut"
+            ],
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "lemon",
-        affordances: [["cut", 2, "lemon_cut"]]
+        "id": "lemon_cut",
+        "affordances": [
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "mango",
-        affordances: [["cut", 2, "mango_cut"]]
+        "id": "mango",
+        "affordances": [
+            [
+                "cut",
+                2,
+                "mango_cut"
+            ],
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
     {
-        id: "onion",
-        affordances: [["cut", 2, "onion_cut"]]
+        "id": "mango_cut",
+        "affordances": [
+            [
+                "put_in",
+                0
+            ]
+        ]
     },
-] as const
-
+    {
+        "id": "melon_whole",
+        "affordances": [
+            [
+                "cut",
+                2,
+                "melon_cut"
+            ],
+            [
+                "put_in",
+                0
+            ]
+        ]
+    },
+    {
+        "id": "melon_cut",
+        "affordances": [
+            [
+                "put_in",
+                0
+            ]
+        ]
+    },
+    {
+        "id": "onion",
+        "affordances": [
+            [
+                "cut",
+                2,
+                "onion_cut"
+            ],
+            [
+                "put_in",
+                0
+            ]
+        ]
+    },
+    {
+        "id": "onion_cut",
+        "affordances": [
+            [
+                "put_in",
+                0
+            ]
+        ]
+    }
+]
 

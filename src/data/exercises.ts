@@ -6,33 +6,129 @@ export type Exercise = {
 
 export const exercises:Exercise[] = [
     {
-        grid: [["kiwi", "knife", ""]],
-        quest: "knife-cut-kiwi",
-        collections: ["cutting-things"]
+        "grid": [
+            [
+                "apple",
+                "knife"
+            ]
+        ],
+        "quest": "knife-cut-apple",
+        "collections": [
+            "cutting things",
+            "making food",
+            "fruits"
+        ]
     },
     {
-        grid: [["knife", "apple", ""]],
-        quest: "knife-cut-apple",
-        collections: ["cutting-things"]
+        "grid": [
+            [
+                "avocado",
+                "knife"
+            ]
+        ],
+        "quest": "knife-cut-avocado",
+        "collections": [
+            "cutting things",
+            "making food",
+            "fruits"
+        ]
     },
     {
-        grid: [["knife", "mango", ""]],
-        quest: "knife-cut-mango",
-        collections: ["cutting-things"]
+        "grid": [
+            [
+                "broccoli",
+                "knife"
+            ]
+        ],
+        "quest": "knife-cut-broccoli",
+        "collections": [
+            "cutting things",
+            "making food",
+            "vegetables"
+        ]
     },
     {
-        grid: [["knife", "mango", "lemon"]],
-        quest: "knife-cut-mango",
-        collections: ["cutting-things"]
+        "grid": [
+            [
+                "honeymelon",
+                "knife"
+            ]
+        ],
+        "quest": "knife-cut-honeymelon",
+        "collections": [
+            "cutting things",
+            "making food",
+            "fruits"
+        ]
     },
     {
-        grid: [["knife", "lemon", "onion"]],
-        quest: "knife-cut-lemon",
-        collections: ["cutting-things"]
+        "grid": [
+            [
+                "kiwi",
+                "knife"
+            ]
+        ],
+        "quest": "knife-cut-kiwi",
+        "collections": [
+            "cutting things",
+            "making food",
+            "fruits"
+        ]
     },
     {
-        grid: [["car", ""], ["", "parking_lot"]],
-        quest: "car-park-parking_lot",
-        collections: ["parking", "cars"]
+        "grid": [
+            [
+                "lemon",
+                "knife"
+            ]
+        ],
+        "quest": "knife-cut-lemon",
+        "collections": [
+            "cutting things",
+            "making food",
+            "fruits"
+        ]
+    },
+    {
+        "grid": [
+            [
+                "mango",
+                "knife"
+            ]
+        ],
+        "quest": "knife-cut-mango",
+        "collections": [
+            "cutting things",
+            "making food",
+            "fruits"
+        ]
+    },
+    {
+        "grid": [
+            [
+                "melon_whole",
+                "knife"
+            ]
+        ],
+        "quest": "knife-cut-melon_whole",
+        "collections": [
+            "cutting things",
+            "making food",
+            "fruits"
+        ]
+    },
+    {
+        "grid": [
+            [
+                "onion",
+                "knife"
+            ]
+        ],
+        "quest": "knife-cut-onion",
+        "collections": [
+            "cutting things",
+            "making food",
+            "vegetables"
+        ]
     }
-] 
+]
