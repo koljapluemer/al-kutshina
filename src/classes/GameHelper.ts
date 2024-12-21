@@ -7,6 +7,7 @@ export class GameHelper {
     public static getInteractionsBetweenFields(sender: Field, receiver: Field):string[] {
         const senderItem = gameDataStore.getItemById(sender.itemId)
         const receiverItem = gameDataStore.getItemById(receiver.itemId)
+        console.log('sender item, rec item', senderItem, receiverItem)
         if (!senderItem || !receiverItem) return []
 
         const senderCapabilityKeys = senderItem.capabilities?.map(([key])=> key)
@@ -17,35 +18,32 @@ export class GameHelper {
         return actionableKeywords || []
     }
 
-    public static changeFieldAfterCapabilityTriggered(field: Field, capabilityKey: string) {
+    public static getFieldAfterCapabilityTriggered(field: Field, capabilityKey: string):Field {
         const relevantItem = gameDataStore.getItemById(field.itemId)
         const itemCapabilityData = relevantItem?.capabilities
-        if (!itemCapabilityData) return
+        if (!itemCapabilityData) return field
         const relevantCapabilityData = itemCapabilityData.find(aff => aff[0] === capabilityKey)
-        if (!relevantCapabilityData) return
+        if (!relevantCapabilityData) return field
 
 
         switch (relevantCapabilityData[1]) {
             case CapabilityReaction.Disappear:
                 console.log('disappear')
-                // grid[field.coordinate[0]][field.coordinate[1]] = {
-                //     itemId: "",
-                //     coordinate: field.coordinate
-                // }
                 field.itemId = ""
                 break
             case CapabilityReaction.Return:
                 console.log('return')
                 break
         }
+        return field
     }
 
-    public static  changeFieldAfterAffordanceTriggered(sender: Field, receiver: Field, affordanceKey: string) {
+    public static  getFieldAfterAffordanceTriggered(sender: Field, receiver: Field, affordanceKey: string):Field {
         const relevantItem = gameDataStore.getItemById(receiver.itemId)
         const itemAffordanceData = relevantItem?.affordances
-        if (!itemAffordanceData) return
+        if (!itemAffordanceData) return receiver
         const relevantAffordanceData = itemAffordanceData.find(aff => aff[0] === affordanceKey)
-        if (!relevantAffordanceData) return
+        if (!relevantAffordanceData) return receiver
 
 
         switch (relevantAffordanceData[1]) {
@@ -74,6 +72,7 @@ export class GameHelper {
                 }
                 receiver.extraImage = extraImage
         }
+        return receiver
     }
 
     public static createGameGrid(itemGrid: ItemNameGrid): Field[][] {

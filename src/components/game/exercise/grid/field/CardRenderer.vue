@@ -24,6 +24,7 @@ const item = ref(undefined as (Item | undefined))
 const props = defineProps<{
     parentField: Field,
 }>();
+const emit = defineEmits(['dragStarted'])
 
 const isBeingDragged = ref(false)
 
@@ -37,10 +38,9 @@ onMounted(() => {
 function onDragStart(event: DragEvent) {
     isBeingDragged.value = true
     if (event.dataTransfer) {
-        // event.dataTransfer.setData("text/plain", props.card.item.id)
         event.dataTransfer.dropEffect = "move"
     }
-    // dragDropStore.dragStartedFromField = props.parentField
+    emit('dragStarted')
 }
 
 function onDragEnd(_event: DragEvent) {
