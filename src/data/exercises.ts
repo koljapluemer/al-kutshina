@@ -1,7 +1,8 @@
 export type Exercise = {
     grid: string[][],
     quest: string,
-    collections: string[]
+    collections: string[],
+    disallowShuffle?: boolean
 }
 
 export const exercises:Exercise[] = [

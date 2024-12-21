@@ -1,24 +1,26 @@
+import type { Exercise } from "../data/exercises";
 import { AffordanceReaction, CapabilityReaction } from "../data/items";
 import { gameDataStore } from "../stores/gameData";
 import type { ExtraImage, Field, Grid, ItemNameGrid } from "../types";
+import { shuffleArray } from "../utils/arrayUtils";
 
 // handles the stuff that encompasses interactions, affordances, capabilities
 export class GameHelper {
-    public static getInteractionsBetweenFields(sender: Field, receiver: Field):string[] {
+    public static getInteractionsBetweenFields(sender: Field, receiver: Field): string[] {
         const senderItem = gameDataStore.getItemById(sender.itemId)
         const receiverItem = gameDataStore.getItemById(receiver.itemId)
         console.log('sender item, rec item', senderItem, receiverItem)
         if (!senderItem || !receiverItem) return []
 
-        const senderCapabilityKeys = senderItem.capabilities?.map(([key])=> key)
-        const receiverAffordanceKeys = receiverItem.affordances?.map(([key])=> key)
+        const senderCapabilityKeys = senderItem.capabilities?.map(([key]) => key)
+        const receiverAffordanceKeys = receiverItem.affordances?.map(([key]) => key)
 
         const actionableKeywords = senderCapabilityKeys?.filter(capabilityKey => receiverAffordanceKeys?.includes(capabilityKey))
 
         return actionableKeywords || []
     }
 
-    public static getFieldAfterCapabilityTriggered(field: Field, capabilityKey: string):Field {
+    public static getFieldAfterCapabilityTriggered(field: Field, capabilityKey: string): Field {
         const relevantItem = gameDataStore.getItemById(field.itemId)
         const itemCapabilityData = relevantItem?.capabilities
         if (!itemCapabilityData) return field
@@ -38,7 +40,7 @@ export class GameHelper {
         return field
     }
 
-    public static  getFieldAfterAffordanceTriggered(sender: Field, receiver: Field, affordanceKey: string):Field {
+    public static getFieldAfterAffordanceTriggered(sender: Field, receiver: Field, affordanceKey: string): Field {
         const relevantItem = gameDataStore.getItemById(receiver.itemId)
         const itemAffordanceData = relevantItem?.affordances
         if (!itemAffordanceData) return receiver
@@ -63,8 +65,7 @@ export class GameHelper {
                 }
                 break
             case AffordanceReaction.AddImage:
-                const extraImage:ExtraImage = {
-                    coordinate: receiver.coordinate,
+                const extraImage: ExtraImage = {
                     id: sender.itemId,
                     scale: 1,
                     offset: [0, 0],
@@ -75,14 +76,36 @@ export class GameHelper {
         return receiver
     }
 
-    public static createGameGrid(itemGrid: ItemNameGrid): Field[][] {
-        return itemGrid.map((row, rowIndex) =>
-          row.map((itemId, colIndex) => ({
-            itemId,
-            coordinate: { row:rowIndex, col:colIndex },
-          }))
+    public static createGameGrid(exercise: Exercise): Grid {
+        let grid: Grid = exercise.grid.map((row, rowIndex) =>
+            row.map((itemId, colIndex) => ({
+                itemId,
+                coordinate: { row: rowIndex, col: colIndex },
+            }))
         );
-      }
+        if (!exercise.disallowShuffle) {
+            grid = this.shuffleGrid(grid)
+            return grid
+        } else {
+            return grid
+
+        }
+    }
+
+    private static shuffleGrid(grid: Grid): Grid {
+        const copiedGrid = JSON.parse(JSON.stringify(grid))
+        const flattenedGrid: Field[] = copiedGrid.flat();
+        const shuffledFields = shuffleArray(flattenedGrid)
+
+        const nrRows = copiedGrid.length
+        const nrCols = copiedGrid[0].length
+
+        const shuffledGrid: Grid = []
+        for (let i = 0; i < nrRows; i++) {
+            shuffledGrid.push(shuffledFields.slice(i * nrCols, (i + 1) * nrCols))
+        }
+        return shuffledGrid
+    }
 
 
 }

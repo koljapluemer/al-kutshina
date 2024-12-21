@@ -31,7 +31,8 @@ type Feedback = {
 const grid = ref(undefined as (Grid | undefined))
 
 onMounted(() => {
-    grid.value = GameHelper.createGameGrid(props.exercise.grid)
+    grid.value = GameHelper.createGameGrid(props.exercise)
+    console.log('set grid to', grid.value)
 })
 
 

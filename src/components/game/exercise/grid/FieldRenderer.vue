@@ -12,24 +12,25 @@
 
 <script setup lang="ts">
 import { computed} from 'vue';
-import type { Field as Field } from '../../../../types';
+import type { Coordinate, Field as Field } from '../../../../types';
 import CardRenderer from './field/CardRenderer.vue';
 
 
 const props = defineProps<{
-    field: Field
+    field: Field,
+    coordinate: Coordinate
 }>();
 
 const emit = defineEmits(['dragStartedFromField', 'dropHappenedOnField'])
 
 function onCardDragStarted() {
-    emit('dragStartedFromField', props.field.coordinate)
+    emit('dragStartedFromField', props.coordinate)
 }
 
 
 function onDrop(_event: any) {
     console.info('drop!')
-    emit('dropHappenedOnField',  props.field.coordinate)
+    emit('dropHappenedOnField',  props.coordinate)
 }
 
 const hasItemOnIt = computed(() => {

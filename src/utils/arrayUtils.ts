@@ -18,6 +18,11 @@ export function getGridDimensions<T>(grid: T[][]): { rows: number; cols: number 
 }
 
 
-export function areCoordinatesEqual(expected: Coordinate, actual: Coordinate): boolean {
-    return expected[0] === actual[0] && expected[1] === actual[1];
-}
+// Fisher-Yates shuffle function to shuffle the array
+export function shuffleArray<T>(array: T[]): T[] {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+    return array;
+  }
