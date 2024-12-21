@@ -16,7 +16,7 @@ import type { Coordinate, Field, Grid, ItemNameGrid } from '../../../types';
 import { GameHelper } from '../../../classes/GameHelper';
 
 const props = defineProps<{
-    grid: ItemNameGrid
+    grid: Grid
 }>();
 
 const gridDimensions = computed(() => getGridDimensions(props.grid));
@@ -38,7 +38,7 @@ function onDragStarted(coord: Coordinate) {
 
 function onDropHappened(receivingFieldCoord: Coordinate) {
     if (!sendingFieldCoord.value) return;
-    if (!grid.value) return;
+    if (!props.grid) return;
 
     const senderField = getFieldAtCoord(sendingFieldCoord.value)
     const receiverField = getFieldAtCoord(receivingFieldCoord)
@@ -55,22 +55,16 @@ function onDropHappened(receivingFieldCoord: Coordinate) {
 
         const rec = GameHelper.getFieldAfterAffordanceTriggered(senderField, receiverField, affordance)
         const send = GameHelper.getFieldAfterCapabilityTriggered(senderField, affordance)
-        grid.value![receivingFieldCoord.row][receivingFieldCoord.col] = rec
-        grid.value![sendingFieldCoord.value!.row][sendingFieldCoord.value!.col] = send
+        props.grid![receivingFieldCoord.row][receivingFieldCoord.col] = rec
+        props.grid![sendingFieldCoord.value!.row][sendingFieldCoord.value!.col] = send
     })
 }
 
 function getFieldAtCoord(coord: Coordinate): (Field | undefined) {
-    if (!grid.value) return undefined
-    return grid.value[coord.row][coord.col]
+    if (!props.grid) return undefined
+    return props.grid[coord.row][coord.col]
 }
 
-const grid = ref(undefined as (Grid | undefined))
-
-onMounted(() => {
-    grid.value = GameHelper.createGameGrid(props.grid)
-    console.log('created grid', grid.value)
-})
 
 
 
