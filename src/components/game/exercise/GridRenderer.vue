@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-2 mt-10">
+    <div class="flex flex-col gap-2 mt-20">
         <div v-for="(row, r) in grid" class="flex flex-row gap-2 justify-center">
             <FieldRenderer v-for="(field, c) in row" :field="field" :coordinate="{ row: r, col: c }" :key="field.itemId + field.extraImage?.id"
                 @dragStartedFromField="onDragStarted" @dropHappenedOnField="onDropHappened" />

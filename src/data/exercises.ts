@@ -11,8 +11,23 @@ export const exercises:Exercise[] = [
         collections: ["cutting-things"]
     },
     {
-        grid: [["knife", "kiwi", ""]],
-        quest: "knife-cut-kiwi",
+        grid: [["knife", "apple", ""]],
+        quest: "knife-cut-apple",
+        collections: ["cutting-things"]
+    },
+    {
+        grid: [["knife", "mango", ""]],
+        quest: "knife-cut-mango",
+        collections: ["cutting-things"]
+    },
+    {
+        grid: [["knife", "mango", "lemon"]],
+        quest: "knife-cut-mango",
+        collections: ["cutting-things"]
+    },
+    {
+        grid: [["knife", "lemon", "onion"]],
+        quest: "knife-cut-lemon",
         collections: ["cutting-things"]
     },
     {

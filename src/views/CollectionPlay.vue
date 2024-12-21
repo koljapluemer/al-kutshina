@@ -1,16 +1,7 @@
 <template>
-
     <div class="" v-if="collection">
-
-        <ExerciseRenderer v-if="currentExercise" :exercise="currentExercise" />
-        <div class="" v-else>no exercise found</div>
+        <ExerciseRenderer v-if="currentExercise" :exercise="currentExercise" @exercise-over="handleExerciseDone" />
     </div>
-    <div class="" v-else>
-        ...collection loading...
-    </div>
-
-
-
 </template>
 
 <script setup lang="ts">
@@ -30,8 +21,19 @@ const currentExercise = ref(undefined as (Exercise | undefined))
 
 onMounted(() => {
     collection.value = gameDataStore.getCollectionById(props.id)
-    if (collection.value) currentExercise.value = CollectionHelper.getRandomExerciseFromCollection(collection.value)
+    startNextExercise()
 })
+
+function handleExerciseDone() {
+    currentExercise.value = undefined
+    setTimeout(() => {
+        startNextExercise()
+    }, 100)
+}
+
+function startNextExercise() {
+    if (collection.value) currentExercise.value = CollectionHelper.getRandomExerciseFromCollection(collection.value)
+}
 
 
 </script>

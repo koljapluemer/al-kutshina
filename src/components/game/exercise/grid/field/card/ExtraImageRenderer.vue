@@ -3,14 +3,11 @@
 </template>
 
 <script setup lang="ts">
-import type { ExtraImage } from '../../../../../types';
-
-
+import type { ExtraImage } from '../../../../../../types';
 
 const props = defineProps<{
     image: ExtraImage
 }>();
-
 
 
 function filePath(): string {
