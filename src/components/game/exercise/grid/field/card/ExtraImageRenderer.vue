@@ -3,7 +3,8 @@
 </template>
 
 <script setup lang="ts">
-import type { ExtraImage } from '../../../../../../types';
+import type { ExtraImage } from '../../../../../types';
+
 
 
 const props = defineProps<{

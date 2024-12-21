@@ -1,6 +1,6 @@
 import type { Item } from "./data/items"
 
-export type Coordinate = [number, number]
+export type Coordinate = {row:number, col:number}
 
 export type Card = {
     item: Item,
@@ -8,11 +8,13 @@ export type Card = {
     extraImages?: any,
 }
 
-export type FieldData = {
+export type Field = {
     itemId: string,
-    cellSize: string,
-    coordinate: Coordinate
+    coordinate: Coordinate,
+    extraImage?:ExtraImage
 }
+
+export type Grid = Field[][]
 
 export type ItemNameGrid = string[][]
 

@@ -3,36 +3,44 @@
     <div class="draggable-component grow relative h-full w-full card rounded shadow-md bg-gray-200"
         :class="{ 'being-dragged': isBeingDragged }" @dragstart="onDragStart($event)" @dragend="onDragEnd($event)"
         draggable="true">
-        <ItemRenderer :item="card.item" v-if="card.item" />
-        <ExtraImageRenderer :image="dragDropStore.extraImage"
-            v-if="dragDropStore.extraImage && areCoordinatesEqual(dragDropStore.extraImage.coordinate, parentField.coordinate)" />
+        <ItemRenderer :item="item" v-if="item" />
+        <ExtraImageRenderer :image="parentField.extraImage" v-if="parentField.extraImage" />
 
     </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import type { Card, FieldData, } from '../../../../../types';
-import { dragDropStore } from '../../../../../stores/dragDropStore';
+import { onMounted, ref } from 'vue';
+import type { Card, Field, } from '../../../../../types';
 import ItemRenderer from './card/ItemRenderer.vue';
+import type { Item } from '../../../../../data/items';
+import { gameDataStore } from '../../../../../stores/gameData';
 import ExtraImageRenderer from './card/ExtraImageRenderer.vue';
-import { areCoordinatesEqual } from '../../../../../utils/arrayUtils';
+
+
+const item = ref(undefined as (Item | undefined))
 
 
 const props = defineProps<{
-    card: Card,
-    parentField: FieldData,
+    parentField: Field,
 }>();
 
 const isBeingDragged = ref(false)
 
+
+onMounted(() => {
+    console.log('getting item', props.parentField.itemId)
+    item.value = gameDataStore.getItemById(props.parentField.itemId)
+})
+
+
 function onDragStart(event: DragEvent) {
     isBeingDragged.value = true
     if (event.dataTransfer) {
-        event.dataTransfer.setData("text/plain", props.card.item.id)
+        // event.dataTransfer.setData("text/plain", props.card.item.id)
         event.dataTransfer.dropEffect = "move"
     }
-    dragDropStore.dragStartedFromField = props.parentField
+    // dragDropStore.dragStartedFromField = props.parentField
 }
 
 function onDragEnd(_event: DragEvent) {
