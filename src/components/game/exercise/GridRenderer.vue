@@ -26,6 +26,9 @@ const { cellSize } = useCellSize(rows.value, cols.value);
 
 const sendingFieldCoord = ref(undefined as (undefined | Coordinate))
 
+const emit = defineEmits(['interactionHappened'])
+
+
 function onDragStarted(coord: Coordinate) {
     // console.log('got data', toRaw(toRaw(coord.row)))
     console.log('got data', coord, coord.row, coord.col)
@@ -47,6 +50,9 @@ function onDropHappened(receivingFieldCoord: Coordinate) {
         receiverField
     )
     affordances.forEach(affordance => {
+        const actionString = senderField.itemId + '-' + affordance + '-' + receiverField.itemId
+        emit('interactionHappened', actionString)
+
         const rec = GameHelper.getFieldAfterAffordanceTriggered(senderField, receiverField, affordance)
         const send = GameHelper.getFieldAfterCapabilityTriggered(senderField, affordance)
         grid.value![receivingFieldCoord.row][receivingFieldCoord.col] = rec

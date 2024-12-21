@@ -9,7 +9,6 @@
         ...collection loading...
     </div>
 
-    {{ dragDropStore.lastActionsThatWereDone }}
 
 
 </template>
@@ -21,7 +20,6 @@ import type { Collection } from '../iguanodo/types/Collection';
 import ExerciseRenderer from '../components/game/ExerciseRenderer.vue';
 import type { Exercise } from '../data/exercises';
 import { CollectionHelper } from '../iguanodo/types/classes/CollectionHelper';
-import { dragDropStore } from '../stores/dragDropStore';
 
 const props = defineProps<{
     id: string
@@ -35,8 +33,5 @@ onMounted(() => {
     if (collection.value) currentExercise.value = CollectionHelper.getRandomExerciseFromCollection(collection.value)
 })
 
-watch(dragDropStore.getLastActions(),  (newState, _oldState) => {
-    console.warn('actions changed', newState)
-})
 
 </script>

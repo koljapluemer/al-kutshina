@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <GridRenderer :grid="exercise.grid" />
+        <GridRenderer :grid="exercise.grid" @interactionHappened="onInteractionHappened" />
 
         <QuestDisplay :questKey="exercise.quest" />
 
@@ -18,6 +18,14 @@ const props = defineProps<{
 }>();
 
 
+function onInteractionHappened(interaction:string) {
+    if (interaction === props.exercise.quest) {
+        alert('fire!')
+    } else {
+        alert("you're trash")
+    }
+
+}
 
 
 </script>
