@@ -1,4 +1,4 @@
-[
+export const translations = [
     {
         "key": "knife-cut-apple",
         "en": "Cut the apple!",
@@ -44,4 +44,4 @@
         "en": "Cut the onion!",
         "arz": "\u0642\u0637\u0651\u0639 \u0627\u0644\u0628\u0635\u0644!"
     }
-]
+] as const
