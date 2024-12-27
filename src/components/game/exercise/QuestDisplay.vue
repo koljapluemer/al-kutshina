@@ -2,9 +2,9 @@
     <div class="text-center mt-10 text-4xl">
         {{ TranslationHelper.getTranslationForKey(questKey) }}
     </div>
-    <center>
+    <!-- <center>
         {{ questKey }}
-    </center>
+    </center> -->
 
 </template>
 

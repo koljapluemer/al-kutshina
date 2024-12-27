@@ -22,7 +22,7 @@ export class GameHelper {
         return actionableKeywords || []
     }
 
-    public static getInteractionsBetweenItems(sender:Item, receiver:Item): string[] {
+    public static getInteractionsBetweenItems(sender: Item, receiver: Item): string[] {
         const senderCapabilityKeys = sender.capabilities?.map(([key]) => key)
         const receiverAffordanceKeys = receiver.affordances?.map(([key]) => key)
 
@@ -137,7 +137,7 @@ export class GameHelper {
         return [itemA, itemB]
     }
 
-    private static getDistractor(otherFields:Field[]): Item | undefined {
+    private static getDistractor(otherFields: Field[]): Item | undefined {
         const itemsThatCouldBeDistractors = items.filter(item => {
             let couldBeValidDistractor = true
             otherFields.forEach(field => {
@@ -146,7 +146,7 @@ export class GameHelper {
                 }
             })
             return couldBeValidDistractor
-        }) 
+        })
         return pickRandom(itemsThatCouldBeDistractors)
 
     }
@@ -195,7 +195,7 @@ export class GameHelper {
             quest = `${fieldB.key}-${interactions[0]}-${fieldA.key}`
 
         }
-        
+
 
         const exercise: Exercise = {
             grid: grid,
@@ -206,8 +206,8 @@ export class GameHelper {
     }
 
 
-    public static getAllPossibleExerciseStrings():string[] {
-        const exercises:string[] = [] 
+    public static getAllPossibleExerciseStrings(): string[] {
+        const exercises: string[] = []
         items.forEach(
             item => {
                 const relatedItems = this.findRelatedItems(item, items)
@@ -216,12 +216,11 @@ export class GameHelper {
                         const interactions = this.getInteractionsBetweenItems(item, relatedItem)
                         interactions.forEach(interaction => {
                             const itemKeys = this.getPossibleQuestKeysForItem(item)
-                            const relatedItemKeys = this.getPossibleQuestKeysForItem(relatedItem) 
+                            const relatedItemKeys = this.getPossibleQuestKeysForItem(relatedItem)
                             itemKeys.forEach(itemKey => {
                                 relatedItemKeys.forEach(relatedItemKey => {
-                                    exercises.push(
-                                        `${itemKey}-${interaction}-${relatedItemKey}`
-                                    )
+                                    const key = `${itemKey}-${interaction}-${relatedItemKey}`
+                                    if (!exercises.includes(key)) exercises.push(key)
                                 })
                             })
                         })

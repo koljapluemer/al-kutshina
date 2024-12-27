@@ -1,0 +1,557 @@
+[
+    {
+        "key": "bottle-store_small-backpack",
+        "en": "Put the bottle in the backpack.",
+        "ar": "ضع الزجاجة في حقيبة الظهر."
+    },
+    {
+        "key": "bottle-store_small-backpack__color__blue",
+        "en": "Put the bottle in the blue backpack.",
+        "ar": "ضع الزجاجة في حقيبة الظهر الزرقاء."
+    },
+    {
+        "key": "bottle-store_small-backpack__color__red",
+        "en": "Put the bottle in the red backpack.",
+        "ar": "ضع الزجاجة في حقيبة الظهر الحمراء."
+    },
+    {
+        "key": "bottle-store_medium-car",
+        "en": "Put the bottle in the car.",
+        "ar": "ضع الزجاجة في السيارة."
+    },
+    {
+        "key": "bottle-store_medium-car__color__black",
+        "en": "Put the bottle in the black car.",
+        "ar": "ضع الزجاجة في السيارة السوداء."
+    },
+    {
+        "key": "bottle-store_medium-car__color__blue",
+        "en": "Put the bottle in the blue car.",
+        "ar": "ضع الزجاجة في السيارة الزرقاء."
+    },
+    {
+        "key": "bottle-store_medium-car__color__green",
+        "en": "Put the bottle in the green car.",
+        "ar": "ضع الزجاجة في السيارة الخضراء."
+    },
+    {
+        "key": "bottle-store_medium-car__color__orange",
+        "en": "Put the bottle in the orange car.",
+        "ar": "ضع الزجاجة في السيارة البرتقالية."
+    },
+    {
+        "key": "bottle-store_medium-car__color__pink",
+        "en": "Put the bottle in the pink car.",
+        "ar": "ضع الزجاجة في السيارة الوردية."
+    },
+    {
+        "key": "bottle-store_medium-car__color__purple",
+        "en": "Put the bottle in the purple car.",
+        "ar": "ضع الزجاجة في السيارة البنفسجية."
+    },
+    {
+        "key": "bottle-store_medium-car__color__red",
+        "en": "Put the bottle in the red car.",
+        "ar": "ضع الزجاجة في السيارة الحمراء."
+    },
+    {
+        "key": "bottle-store_medium-car__color__silver",
+        "en": "Put the bottle in the silver car.",
+        "ar": "ضع الزجاجة في السيارة الفضية."
+    },
+    {
+        "key": "bottle-store_medium-car__color__white",
+        "en": "Put the bottle in the white car.",
+        "ar": "ضع الزجاجة في السيارة البيضاء."
+    },
+    {
+        "key": "bottle-store_medium-car__color__yellow",
+        "en": "Put the bottle in the yellow car.",
+        "ar": "ضع الزجاجة في السيارة الصفراء."
+    },
+    {
+        "key": "bottle-store_medium-car__age__new",
+        "en": "Put the bottle in the new car.",
+        "ar": "ضع الزجاجة في السيارة الجديدة."
+    },
+    {
+        "key": "bottle-store_medium-car__age__old",
+        "en": "Put the bottle in the old car.",
+        "ar": "ضع الزجاجة في السيارة القديمة."
+    },
+    {
+        "key": "dog-store_medium-car",
+        "en": "Put the dog in the car.",
+        "ar": "ضع الكلب في السيارة."
+    },
+    {
+        "key": "dog-store_medium-car__color__black",
+        "en": "Put the dog in the black car.",
+        "ar": "ضع الكلب في السيارة السوداء."
+    },
+    {
+        "key": "dog__size__big-store_medium-car",
+        "en": "Put the big dog in the car.",
+        "ar": "ضع الكلب الكبير في السيارة."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__black",
+        "en": "Put the big dog in the black car.",
+        "ar": "ضع الكلب الكبير في السيارة السوداء."
+    },
+    {
+        "key": "dog-store_medium-car__color__blue",
+        "en": "Put the dog in the blue car.",
+        "ar": "ضع الكلب في السيارة الزرقاء."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__blue",
+        "en": "Put the big dog in the blue car.",
+        "ar": "ضع الكلب الكبير في السيارة الزرقاء."
+    },
+    {
+        "key": "dog-store_medium-car__color__green",
+        "en": "Put the dog in the green car.",
+        "ar": "ضع الكلب في السيارة الخضراء."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__green",
+        "en": "Put the big dog in the green car.",
+        "ar": "ضع الكلب الكبير في السيارة الخضراء."
+    },
+    {
+        "key": "dog-store_medium-car__color__orange",
+        "en": "Put the dog in the orange car.",
+        "ar": "ضع الكلب في السيارة البرتقالية."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__orange",
+        "en": "Put the big dog in the orange car.",
+        "ar": "ضع الكلب الكبير في السيارة البرتقالية."
+    },
+    {
+        "key": "dog-store_medium-car__color__pink",
+        "en": "Put the dog in the pink car.",
+        "ar": "ضع الكلب في السيارة الوردية."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__pink",
+        "en": "Put the big dog in the pink car.",
+        "ar": "ضع الكلب الكبير في السيارة الوردية."
+    },
+    {
+        "key": "dog-store_medium-car__color__purple",
+        "en": "Put the dog in the purple car.",
+        "ar": "ضع الكلب في السيارة الأرجوانية."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__purple",
+        "en": "Put the big dog in the purple car.",
+        "ar": "ضع الكلب الكبير في السيارة الأرجوانية."
+    },
+    {
+        "key": "dog-store_medium-car__color__red",
+        "en": "Put the dog in the red car.",
+        "ar": "ضع الكلب في السيارة الحمراء."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__red",
+        "en": "Put the big dog in the red car.",
+        "ar": "ضع الكلب الكبير في السيارة الحمراء."
+    },
+    {
+        "key": "dog-store_medium-car__color__silver",
+        "en": "Put the dog in the silver car.",
+        "ar": "ضع الكلب في السيارة الفضية."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__silver",
+        "en": "Put the big dog in the silver car.",
+        "ar": "ضع الكلب الكبير في السيارة الفضية."
+    },
+    {
+        "key": "dog-store_medium-car__color__white",
+        "en": "Put the dog in the white car.",
+        "ar": "ضع الكلب في السيارة البيضاء."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__white",
+        "en": "Put the big dog in the white car.",
+        "ar": "ضع الكلب الكبير في السيارة البيضاء."
+    },
+    {
+        "key": "dog-store_medium-car__color__yellow",
+        "en": "Put the dog in the yellow car.",
+        "ar": "ضع الكلب في السيارة الصفراء."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__color__yellow",
+        "en": "Put the big dog in the yellow car.",
+        "ar": "ضع الكلب الكبير في السيارة الصفراء."
+    },
+    {
+        "key": "dog-store_medium-car__age__new",
+        "en": "Put the dog in the new car.",
+        "ar": "ضع الكلب في السيارة الجديدة."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__age__new",
+        "en": "Put the big dog in the new car.",
+        "ar": "ضع الكلب الكبير في السيارة الجديدة."
+    },
+    {
+        "key": "dog-store_medium-car__age__old",
+        "en": "Put the dog in the old car.",
+        "ar": "ضع الكلب في السيارة القديمة."
+    },
+    {
+        "key": "dog__size__big-store_medium-car__age__old",
+        "en": "Put the big dog in the old car.",
+        "ar": "ضع الكلب الكبير في السيارة القديمة."
+    },
+    {
+        "key": "dog__size__small-store_medium-car",
+        "en": "Put the small dog in the car.",
+        "ar": "ضع الكلب الصغير في السيارة."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__black",
+        "en": "Put the small dog in the black car.",
+        "ar": "ضع الكلب الصغير في السيارة السوداء."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__blue",
+        "en": "Put the small dog in the blue car.",
+        "ar": "ضع الكلب الصغير في السيارة الزرقاء."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__green",
+        "en": "Put the small dog in the green car.",
+        "ar": "ضع الكلب الصغير في السيارة الخضراء."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__orange",
+        "en": "Put the small dog in the orange car.",
+        "ar": "ضع الكلب الصغير في السيارة البرتقالية."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__pink",
+        "en": "Put the small dog in the pink car.",
+        "ar": "ضع الكلب الصغير في السيارة الوردية."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__purple",
+        "en": "Put the small dog in the purple car.",
+        "ar": "ضع الكلب الصغير في السيارة البنفسجية."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__red",
+        "en": "Put the small dog in the red car.",
+        "ar": "ضع الكلب الصغير في السيارة الحمراء."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__silver",
+        "en": "Put the small dog in the silver car.",
+        "ar": "ضع الكلب الصغير في السيارة الفضية."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__white",
+        "en": "Put the small dog in the white car.",
+        "ar": "ضع الكلب الصغير في السيارة البيضاء."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__color__yellow",
+        "en": "Put the small dog in the yellow car.",
+        "ar": "ضع الكلب الصغير في السيارة الصفراء."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__age__new",
+        "en": "Put the small dog in the new car.",
+        "ar": "ضع الكلب الصغير في السيارة الجديدة."
+    },
+    {
+        "key": "dog__size__small-store_medium-car__age__old",
+        "en": "Put the small dog in the old car.",
+        "ar": "ضع الكلب الصغير في السيارة القديمة."
+    },
+    {
+        "key": "notebook-store_small-backpack",
+        "en": "Put the notebook in the backpack.",
+        "ar": "ضع الدفتر في حقيبة الظهر."
+    },
+    {
+        "key": "notebook-store_small-backpack__color__blue",
+        "en": "Put the notebook in the blue backpack.",
+        "ar": "ضع الدفتر في حقيبة الظهر الزرقاء."
+    },
+    {
+        "key": "notebook-store_small-backpack__color__red",
+        "en": "Put the notebook in the red backpack.",
+        "ar": "ضع الدفتر في حقيبة الظهر الحمراء."
+    },
+    {
+        "key": "notebook-store_medium-car",
+        "en": "Put the notebook in the car.",
+        "ar": "ضع الدفتر في السيارة."
+    },
+    {
+        "key": "notebook-store_medium-car__color__black",
+        "en": "Put the notebook in the black car.",
+        "ar": "ضع الدفتر في السيارة السوداء."
+    },
+    {
+        "key": "notebook-store_medium-car__color__blue",
+        "en": "Put the notebook in the blue car.",
+        "ar": "ضع الدفتر في السيارة الزرقاء."
+    },
+    {
+        "key": "notebook-store_medium-car__color__green",
+        "en": "Put the notebook in the green car.",
+        "ar": "ضع الدفتر في السيارة الخضراء."
+    },
+    {
+        "key": "notebook-store_medium-car__color__orange",
+        "en": "Put the notebook in the orange car.",
+        "ar": "ضع الدفتر في السيارة البرتقالية."
+    },
+    {
+        "key": "notebook-store_medium-car__color__pink",
+        "en": "Put the notebook in the pink car.",
+        "ar": "ضع الدفتر في السيارة الوردية."
+    },
+    {
+        "key": "notebook-store_medium-car__color__purple",
+        "en": "Put the notebook in the purple car.",
+        "ar": "ضع الدفتر في السيارة البنفسجية."
+    },
+    {
+        "key": "notebook-store_medium-car__color__red",
+        "en": "Put the notebook in the red car.",
+        "ar": "ضع الدفتر في السيارة الحمراء."
+    },
+    {
+        "key": "notebook-store_medium-car__color__silver",
+        "en": "Put the notebook in the silver car.",
+        "ar": "ضع الدفتر في السيارة الفضية."
+    },
+    {
+        "key": "notebook-store_medium-car__color__white",
+        "en": "Put the notebook in the white car.",
+        "ar": "ضع الدفتر في السيارة البيضاء."
+    },
+    {
+        "key": "notebook-store_medium-car__color__yellow",
+        "en": "Put the notebook in the yellow car.",
+        "ar": "ضع الدفتر في السيارة الصفراء."
+    },
+    {
+        "key": "notebook-store_medium-car__age__new",
+        "en": "Put the notebook in the new car.",
+        "ar": "ضع الدفتر في السيارة الجديدة."
+    },
+    {
+        "key": "notebook-store_medium-car__age__old",
+        "en": "Put the notebook in the old car.",
+        "ar": "ضع الدفتر في السيارة القديمة."
+    },
+    {
+        "key": "shirt-store_small-backpack__color__red",
+        "en": "Put the shirt in the red backpack.",
+        "ar": "ضع القميص في الحقيبة الحمراء."
+    },
+    {
+        "key": "shirt-store_medium-car",
+        "en": "Put the shirt in the car.",
+        "ar": "ضع القميص في السيارة."
+    },
+    {
+        "key": "shirt-store_medium-car__color__black",
+        "en": "Put the shirt in the black car.",
+        "ar": "ضع القميص في السيارة السوداء."
+    },
+    {
+        "key": "shirt-store_medium-car__color__blue",
+        "en": "Put the shirt in the blue car.",
+        "ar": "ضع القميص في السيارة الزرقاء."
+    },
+    {
+        "key": "shirt-store_medium-car__color__green",
+        "en": "Put the shirt in the green car.",
+        "ar": "ضع القميص في السيارة الخضراء."
+    },
+    {
+        "key": "shirt-store_medium-car__color__orange",
+        "en": "Put the shirt in the orange car.",
+        "ar": "ضع القميص في السيارة البرتقالية."
+    },
+    {
+        "key": "shirt-store_medium-car__color__pink",
+        "en": "Put the shirt in the pink car.",
+        "ar": "ضع القميص في السيارة الوردية."
+    },
+    {
+        "key": "shirt-store_medium-car__color__purple",
+        "en": "Put the shirt in the purple car.",
+        "ar": "ضع القميص في السيارة البنفسجية."
+    },
+    {
+        "key": "shirt-store_medium-car__color__red",
+        "en": "Put the shirt in the red car.",
+        "ar": "ضع القميص في السيارة الحمراء."
+    },
+    {
+        "key": "shirt-store_medium-car__color__silver",
+        "en": "Put the shirt in the silver car.",
+        "ar": "ضع القميص في السيارة الفضية."
+    },
+    {
+        "key": "shirt-store_medium-car__color__white",
+        "en": "Put the shirt in the white car.",
+        "ar": "ضع القميص في السيارة البيضاء."
+    },
+    {
+        "key": "shirt-store_medium-car__color__yellow",
+        "en": "Put the shirt in the yellow car.",
+        "ar": "ضع القميص في السيارة الصفراء."
+    },
+    {
+        "key": "shirt-store_medium-car__age__new",
+        "en": "Put the shirt in the new car.",
+        "ar": "ضع القميص في السيارة الجديدة."
+    },
+    {
+        "key": "shirt-store_medium-car__age__old",
+        "en": "Put the shirt in the old car.",
+        "ar": "ضع القميص في السيارة القديمة."
+    },
+    {
+        "key": "shoes-store_small-backpack",
+        "en": "Put the shoes in the backpack.",
+        "ar": "ضع الحذاء في حقيبة الظهر."
+    },
+    {
+        "key": "shoes-store_small-backpack__color__blue",
+        "en": "Put the shoes in the blue backpack.",
+        "ar": "ضع الحذاء في حقيبة الظهر الزرقاء."
+    },
+    {
+        "key": "shoes-store_small-backpack__color__red",
+        "en": "Put the shoes in the red backpack.",
+        "ar": "ضع الحذاء في حقيبة الظهر الحمراء."
+    },
+    {
+        "key": "shoes-store_medium-car",
+        "en": "Put the shoes in the car.",
+        "ar": "ضع الحذاء في السيارة."
+    },
+    {
+        "key": "shoes-store_medium-car__color__black",
+        "en": "Put the shoes in the black car.",
+        "ar": "ضع الحذاء في السيارة السوداء."
+    },
+    {
+        "key": "shoes-store_medium-car__color__blue",
+        "en": "Put the shoes in the blue car.",
+        "ar": "ضع الحذاء في السيارة الزرقاء."
+    },
+    {
+        "key": "shoes-store_medium-car__color__green",
+        "en": "Put the shoes in the green car.",
+        "ar": "ضع الحذاء في السيارة الخضراء."
+    },
+    {
+        "key": "shoes-store_medium-car__color__orange",
+        "en": "Put the shoes in the orange car.",
+        "ar": "ضع الحذاء في السيارة البرتقالية."
+    },
+    {
+        "key": "shoes-store_medium-car__color__pink",
+        "en": "Put the shoes in the pink car.",
+        "ar": "ضع الحذاء في السيارة الوردية."
+    },
+    {
+        "key": "shoes-store_medium-car__color__purple",
+        "en": "Put the shoes in the purple car.",
+        "ar": "ضع الحذاء في السيارة البنفسجية."
+    },
+    {
+        "key": "shoes-store_medium-car__color__red",
+        "en": "Put the shoes in the red car.",
+        "ar": "ضع الحذاء في السيارة الحمراء."
+    },
+    {
+        "key": "shoes-store_medium-car__color__silver",
+        "en": "Put the shoes in the silver car.",
+        "ar": "ضع الحذاء في السيارة الفضية."
+    },
+    {
+        "key": "shoes-store_medium-car__color__white",
+        "en": "Put the shoes in the white car.",
+        "ar": "ضع الحذاء في السيارة البيضاء."
+    },
+    {
+        "key": "shoes-store_medium-car__color__yellow",
+        "en": "Put the shoes in the yellow car.",
+        "ar": "ضع الحذاء في السيارة الصفراء."
+    },
+    {
+        "key": "shoes-store_medium-car__age__new",
+        "en": "Put the shoes in the new car.",
+        "ar": "ضع الحذاء في السيارة الجديدة."
+    },
+    {
+        "key": "shoes-store_medium-car__age__old",
+        "en": "Put the shoes in the old car.",
+        "ar": "ضع الحذاء في السيارة القديمة."
+    },
+    {
+        "key": "you-get_in-car__color__blue",
+        "en": "Get in the blue car.",
+        "ar": "اركب السيارة الزرقاء."
+    },
+    {
+        "key": "you-get_in-car__color__green",
+        "en": "Get in the green car.",
+        "ar": "اركب السيارة الخضراء."
+    },
+    {
+        "key": "you-get_in-car__color__orange",
+        "en": "Get in the orange car.",
+        "ar": "اركب السيارة البرتقالية."
+    },
+    {
+        "key": "you-get_in-car__color__pink",
+        "en": "Get in the pink car.",
+        "ar": "اركب السيارة الوردية."
+    },
+    {
+        "key": "you-get_in-car__color__purple",
+        "en": "Get in the purple car.",
+        "ar": "اركب السيارة البنفسجية."
+    },
+    {
+        "key": "you-get_in-car__color__red",
+        "en": "Get in the red car.",
+        "ar": "اركب السيارة الحمراء."
+    },
+    {
+        "key": "you-get_in-car__color__silver",
+        "en": "Get in the silver car.",
+        "ar": "اركب السيارة الفضية."
+    },
+    {
+        "key": "you-get_in-car__color__white",
+        "en": "Get in the white car.",
+        "ar": "اركب السيارة البيضاء."
+    },
+    {
+        "key": "you-get_in-car__color__yellow",
+        "en": "Get in the yellow car.",
+        "ar": "اركب السيارة الصفراء."
+    },
+    {
+        "key": "you-get_in-car__age__old",
+        "en": "Get in the old car.",
+        "ar": "اركب السيارة القديمة."
+    }
+]
