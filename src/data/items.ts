@@ -12,9 +12,11 @@ export enum AffordanceReaction {
 
 
 export type Item = {
-    id: string,
-    affordances?: AffordanceInfo[],
-    capabilities?: CapabilityInfo[]
+    key: string,
+    img: string,
+    props: any,
+    affordances: AffordanceInfo[],
+    capabilities: CapabilityInfo[]
 
 }
 
@@ -29,229 +31,459 @@ type AffordanceInfo = [
 
 export const items: Item[] = [
     {
-        "id": "bowl",
+        "img": "backpack_blue",
+        "props": {
+            "color": "blue"
+        },
+        "key": "backpack",
+        "capabilities": [],
         "affordances": [
             [
-                "put_in",
-                3
-            ]
-        ]
-    },
-    {
-        "id": "knife",
-        "capabilities": [
-            [
-                "cut",
+                "store_small",
                 1
             ]
         ]
     },
     {
-        "id": "apple",
+        "img": "backpack_red",
+        "props": {
+            "color": "red"
+        },
+        "key": "backpack",
+        "capabilities": [],
         "affordances": [
             [
-                "cut",
-                2,
-                "apple_half"
+                "store_small",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "bottle_1",
+        "props": {},
+        "key": "bottle",
+        "capabilities": [
+            [
+                "store_small",
+                0
             ],
             [
-                "put_in",
+                "store_medium",
                 0
             ]
-        ]
+        ],
+        "affordances": []
     },
     {
-        "id": "apple_half",
-        "affordances": [
+        "img": "bottle_2",
+        "props": {},
+        "key": "bottle",
+        "capabilities": [
             [
-                "put_in",
+                "store_small",
                 0
-            ]
-        ]
-    },
-    {
-        "id": "avocado",
-        "affordances": [
-            [
-                "cut",
-                2,
-                "avocado_cut"
             ],
             [
-                "put_in",
+                "store_medium",
                 0
             ]
-        ]
+        ],
+        "affordances": []
     },
     {
-        "id": "avocado_cut",
+        "img": "car__col__black",
+        "props": {
+            "color": "black"
+        },
+        "key": "car",
+        "capabilities": [],
         "affordances": [
             [
-                "put_in",
-                0
-            ]
-        ]
-    },
-    {
-        "id": "broccoli",
-        "affordances": [
-            [
-                "cut",
-                2,
-                "broccoli_half"
+                "store_medium",
+                1
             ],
             [
-                "put_in",
-                0
+                "get_in",
+                1
             ]
         ]
     },
     {
-        "id": "broccoli_half",
+        "img": "car__col__blue__1",
+        "props": {
+            "color": "blue"
+        },
+        "key": "car",
+        "capabilities": [],
         "affordances": [
             [
-                "put_in",
-                0
-            ]
-        ]
-    },
-    {
-        "id": "honeymelon",
-        "affordances": [
-            [
-                "cut",
-                2,
-                "honeymelon_cut"
+                "store_medium",
+                1
             ],
             [
-                "put_in",
-                0
+                "get_in",
+                1
             ]
         ]
     },
     {
-        "id": "honeymelon_cut",
+        "img": "car__col__blue__2",
+        "props": {
+            "color": "blue"
+        },
+        "key": "car",
+        "capabilities": [],
         "affordances": [
             [
-                "put_in",
-                0
-            ]
-        ]
-    },
-    {
-        "id": "kiwi",
-        "affordances": [
-            [
-                "cut",
-                2,
-                "kiwi_cut"
+                "store_medium",
+                1
             ],
             [
-                "put_in",
-                0
+                "get_in",
+                1
             ]
         ]
     },
     {
-        "id": "kiwi_cut",
+        "img": "car__col__blue__3",
+        "props": {
+            "color": "blue"
+        },
+        "key": "car",
+        "capabilities": [],
         "affordances": [
             [
-                "put_in",
-                0
-            ]
-        ]
-    },
-    {
-        "id": "lemon",
-        "affordances": [
-            [
-                "cut",
-                2,
-                "lemon_cut"
+                "store_medium",
+                1
             ],
             [
-                "put_in",
-                0
+                "get_in",
+                1
             ]
         ]
     },
     {
-        "id": "lemon_cut",
+        "img": "car__col__green",
+        "props": {
+            "color": "green"
+        },
+        "key": "car",
+        "capabilities": [],
         "affordances": [
             [
-                "put_in",
-                0
-            ]
-        ]
-    },
-    {
-        "id": "mango",
-        "affordances": [
-            [
-                "cut",
-                2,
-                "mango_cut"
+                "store_medium",
+                1
             ],
             [
-                "put_in",
-                0
+                "get_in",
+                1
             ]
         ]
     },
     {
-        "id": "mango_cut",
+        "img": "car__col__orange",
+        "props": {
+            "color": "orange"
+        },
+        "key": "car",
+        "capabilities": [],
         "affordances": [
             [
-                "put_in",
-                0
-            ]
-        ]
-    },
-    {
-        "id": "melon_whole",
-        "affordances": [
-            [
-                "cut",
-                2,
-                "melon_cut"
+                "store_medium",
+                1
             ],
             [
-                "put_in",
-                0
+                "get_in",
+                1
             ]
         ]
     },
     {
-        "id": "melon_cut",
+        "img": "car__col__pink",
+        "props": {
+            "color": "pink"
+        },
+        "key": "car",
+        "capabilities": [],
         "affordances": [
             [
-                "put_in",
-                0
-            ]
-        ]
-    },
-    {
-        "id": "onion",
-        "affordances": [
-            [
-                "cut",
-                2,
-                "onion_cut"
+                "store_medium",
+                1
             ],
             [
-                "put_in",
-                0
+                "get_in",
+                1
             ]
         ]
     },
     {
-        "id": "onion_cut",
+        "img": "car__col__purple",
+        "props": {
+            "color": "purple"
+        },
+        "key": "car",
+        "capabilities": [],
         "affordances": [
             [
-                "put_in",
-                0
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
             ]
         ]
+    },
+    {
+        "img": "car__col__red",
+        "props": {
+            "color": "red"
+        },
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "car__col__red__2",
+        "props": {
+            "color": "red"
+        },
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "car__col__red__3",
+        "props": {
+            "color": "red"
+        },
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "car__col__silver",
+        "props": {
+            "color": "silver"
+        },
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "car__col__silver__2",
+        "props": {
+            "color": "silver"
+        },
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "car__col__silver__3",
+        "props": {
+            "color": "silver"
+        },
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "car__col__white",
+        "props": {
+            "color": "white"
+        },
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "car__col__yellow__age__new",
+        "props": {
+            "color": "yellow",
+            "age": "new"
+        },
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "car__col__yellow__age__old",
+        "props": {
+            "color": "yellow",
+            "age": "old"
+        },
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "dog",
+        "props": {
+            "size": "big"
+        },
+        "key": "dog",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "dog_small",
+        "props": {
+            "size": "small"
+        },
+        "key": "dog",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "notebook",
+        "props": {},
+        "key": "notebook",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "shirt",
+        "props": {},
+        "key": "shirt",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "shoes",
+        "props": {},
+        "key": "shoes",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "you",
+        "props": {},
+        "key": "you",
+        "capabilities": [
+            [
+                "get_in",
+                0
+            ]
+        ],
+        "affordances": []
     }
 ]
-

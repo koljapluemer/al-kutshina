@@ -1,8 +1,8 @@
 import type { Exercise } from "../data/exercises";
-import { AffordanceReaction, CapabilityReaction } from "../data/items";
+import { AffordanceReaction, CapabilityReaction, items, type Item } from "../data/items";
 import { gameDataStore } from "../stores/gameData";
 import type { ExtraImage, Field, Grid, ItemNameGrid } from "../types";
-import { shuffleArray } from "../utils/arrayUtils";
+import { pickRandom, shuffleArray } from "../utils/arrayUtils";
 
 // handles the stuff that encompasses interactions, affordances, capabilities
 export class GameHelper {
@@ -105,6 +105,36 @@ export class GameHelper {
             shuffledGrid.push(shuffledFields.slice(i * nrCols, (i + 1) * nrCols))
         }
         return shuffledGrid
+    }
+
+    public static findRelatedItems(targetItem: Item, itemList: Item[]): Item[] {
+        // Extract affordance and capability names from the target item
+        const targetAffordanceNames = targetItem.affordances.map((aff) => aff[0]);
+        const targetCapabilityNames = targetItem.capabilities.map((cap) => cap[0]);
+      
+        return itemList.filter((item) => {
+          // Check if the item has any matching capabilities with the target affordances
+          const hasMatchingCapabilities = item.capabilities.some((cap) =>
+            targetAffordanceNames.includes(cap[0])
+          );
+      
+          // Check if the item has any matching affordances with the target capabilities
+          const hasMatchingAffordances = item.affordances.some((aff) =>
+            targetCapabilityNames.includes(aff[0])
+          );
+      
+          return hasMatchingCapabilities || hasMatchingAffordances;
+        });
+      }
+
+    public static getRandomItem(): Item {
+        return pickRandom(items)!
+    }
+
+    public static getTwoRandomMatchingItems(): [Item, Item] {
+        const itemA = this.getRandomItem()
+        const itemB = pickRandom(this.findRelatedItems(itemA, items))!
+        return [itemA, itemB]
     }
 
 

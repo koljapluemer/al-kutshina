@@ -1,6 +1,6 @@
 <template>
 
-<img :src="filePath()" :alt="item.id"  class="object-contain absolute" draggable="false">
+<img :src="filePath()" :alt="item.key"  class="object-contain absolute" draggable="false">
 
 </template>
 
@@ -15,7 +15,7 @@ const props = defineProps<{
 
 
 function filePath(): string {
-    return '/assets/items/' + props.item.id + '.webp'
+    return '/assets/items/' + props.item.key + '.webp'
 }
 
 </script>

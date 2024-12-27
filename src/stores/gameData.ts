@@ -11,7 +11,7 @@ export const gameDataStore = reactive({
     },
 
     getItemById(id: string): Item | undefined {
-        return this.items.find(item => item.id === id)
+        return this.items.find(item => item.key === id)
     },
 
     setCollections(collections: Collection[]) {
