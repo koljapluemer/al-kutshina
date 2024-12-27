@@ -22,6 +22,15 @@ export class GameHelper {
         return actionableKeywords || []
     }
 
+    public static getInteractionsBetweenItems(sender:Item, receiver:Item): string[] {
+        const senderCapabilityKeys = sender.capabilities?.map(([key]) => key)
+        const receiverAffordanceKeys = receiver.affordances?.map(([key]) => key)
+
+        const actionableKeywords = senderCapabilityKeys?.filter(capabilityKey => receiverAffordanceKeys?.includes(capabilityKey))
+        return actionableKeywords || []
+
+    }
+
     public static getFieldAfterCapabilityTriggered(field: Field, capabilityKey: string): Field {
         const relevantItem = this.getItemById(field.itemId)
         const itemCapabilityData = relevantItem?.capabilities
@@ -194,6 +203,35 @@ export class GameHelper {
         }
 
         return exercise
+    }
+
+
+    public static getAllPossibleExerciseStrings():string[] {
+        const exercises:string[] = [] 
+        items.forEach(
+            item => {
+                const relatedItems = this.findRelatedItems(item, items)
+                relatedItems.forEach(
+                    relatedItem => {
+                        const interactions = this.getInteractionsBetweenItems(item, relatedItem)
+                        interactions.forEach(interaction => {
+                            const itemKeys = this.getPossibleQuestKeysForItem(item)
+                            const relatedItemKeys = this.getPossibleQuestKeysForItem(relatedItem) 
+                            itemKeys.forEach(itemKey => {
+                                relatedItemKeys.forEach(relatedItemKey => {
+                                    exercises.push(
+                                        `${itemKey}-${interaction}-${relatedItemKey}`
+                                    )
+                                })
+                            })
+                        })
+                    }
+                )
+
+            }
+        )
+        console.warn(exercises)
+        return exercises
     }
 
 
