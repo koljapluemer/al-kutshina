@@ -50,7 +50,7 @@ function onDropHappened(receivingFieldCoord: Coordinate) {
         receiverField
     )
     affordances.forEach(affordance => {
-        const actionString = senderField.itemId + '-' + affordance + '-' + receiverField.itemId
+        const actionString = senderField.key + '-' + affordance + '-' + receiverField.key
         emit('interactionHappened', actionString)
 
         const rec = GameHelper.getFieldAfterAffordanceTriggered(senderField, receiverField, affordance)

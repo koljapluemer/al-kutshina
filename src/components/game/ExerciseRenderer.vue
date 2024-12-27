@@ -33,15 +33,18 @@ const feedbackForAction = ref(undefined as (undefined | Feedback))
 
 
 function onInteractionHappened(interaction: string) {
+    console.log('interaction', interaction)
     if (interaction === props.exercise.quest) {
         feedbackForAction.value = {
             type: 'success',
-            message: 'صـَلّـَح'
+            message: 'nice!'
+            // message: 'صـَلّـَح'
         }
     } else {
         feedbackForAction.value = {
             type: 'warning',
-            message: 'غـَلـَط'
+            message: 'incorrect.'
+            // message: 'غـَلـَط'
         }
     }
     emitExerciseOverWithDelay()
