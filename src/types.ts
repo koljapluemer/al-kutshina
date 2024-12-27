@@ -8,6 +8,7 @@ export type Card = {
 
 export type Field = {
     itemId: string,
+    key: string,
     extraImage?: ExtraImage,
     coordinate: Coordinate
 }
@@ -26,6 +27,5 @@ export type ExtraImage = {
 export type Exercise = {
     grid: Grid,
     quest: string,
-    collections: string[],
     disallowShuffle?: boolean
 }

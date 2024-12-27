@@ -14,7 +14,7 @@ export enum AffordanceReaction {
 export type Item = {
     key: string,
     img: string,
-    props: any,
+    props: Record<string, string>,
     affordances: AffordanceInfo[],
     capabilities: CapabilityInfo[]
 

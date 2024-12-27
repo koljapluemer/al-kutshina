@@ -5,14 +5,13 @@ import { pickRandom, shuffleArray } from "../utils/arrayUtils";
 // handles the stuff that encompasses interactions, affordances, capabilities
 export class GameHelper {
 
-    public static getItemById(id:string) {
+    public static getItemById(id: string) {
         return items.find(item => item.img === id)
     }
 
     public static getInteractionsBetweenFields(sender: Field, receiver: Field): string[] {
         const senderItem = this.getItemById(sender.itemId)
         const receiverItem = this.getItemById(receiver.itemId)
-        console.log('sender item, rec item', senderItem, receiverItem)
         if (!senderItem || !receiverItem) return []
 
         const senderCapabilityKeys = senderItem.capabilities?.map(([key]) => key)
@@ -114,6 +113,14 @@ export class GameHelper {
         });
     }
 
+    public static getPossibleQuestKeysForItem(item: Item): string[] {
+        const keys = [item.key]
+        Object.entries(item.props).forEach(([prop, propVal]) => {
+            keys.push(item.key + '__' + prop + '__' + propVal)
+        })
+        return keys
+    }
+
     public static getRandomItem(): Item {
         return pickRandom(items)!
     }
@@ -126,25 +133,43 @@ export class GameHelper {
 
     public static generateRandomExercise(): Exercise {
         const items = this.getTwoRandomMatchingItems()
+        const itemAString = pickRandom(this.getPossibleQuestKeysForItem(items[0]))!
+        const itemBString = pickRandom(this.getPossibleQuestKeysForItem(items[1]))!
+
+        const fieldA: Field = {
+            itemId: items[0].img,
+            coordinate: { row: 0, col: 0 },
+            key: itemAString
+        }
+        const fieldB: Field = {
+            itemId: items[1].img,
+            coordinate: { row: 0, col: 1 },
+            key: itemBString
+
+        }
         // TODO: bring back shuffling
+        // TODO: don't code the coords into the types, that's silly
         const grid: Grid = [
             [
-                {
-                    itemId: items[0].img,
-                    coordinate: {row:0, col:0}
-                },
-                {
-                    itemId: items[1].img,
-                    coordinate: {row:0, col:1}
+                fieldA, fieldB
 
-                }
             ]
         ]
 
-        const exercise:Exercise = {
+        let quest = ""
+        let interactions = this.getInteractionsBetweenFields(fieldA, fieldB)
+        if (interactions.length > 0) {
+            quest = `${fieldA.key}-${interactions[0]}-${fieldB.key}`
+        } else {
+            interactions = this.getInteractionsBetweenFields(fieldB, fieldA)
+            quest = `${fieldB.key}-${interactions[0]}-${fieldA.key}`
+
+        }
+        
+
+        const exercise: Exercise = {
             grid: grid,
-            quest: "hi",
-            collections: []
+            quest: quest,
         }
 
         return exercise
