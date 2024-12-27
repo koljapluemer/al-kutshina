@@ -1,6 +1,10 @@
-import { AffordanceReaction, CapabilityReaction, items, type Item } from "../data/items";
-import type { Exercise, ExtraImage, Field, Grid, ItemNameGrid } from "../types";
+import { AffordanceReaction, CapabilityReaction, type Item, type Exercise, type ExtraImage, type Field, type Grid, type ItemNameGrid } from "../types";
 import { pickRandom, shuffleArray } from "../utils/arrayUtils";
+
+import rawItems from '../data/items.json';
+
+// @ts-ignore
+const items: Item[] = rawItems;
 
 // handles the stuff that encompasses interactions, affordances, capabilities
 export class GameHelper {

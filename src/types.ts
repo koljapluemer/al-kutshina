@@ -1,4 +1,3 @@
-import type { Item } from "./data/items"
 
 export type Coordinate = { row: number, col: number }
 
@@ -28,3 +27,34 @@ export type Exercise = {
     quest: string,
     disallowShuffle?: boolean
 }
+
+
+export enum CapabilityReaction {
+    Disappear,
+    Return
+}
+
+export enum AffordanceReaction {
+    Disappear,
+    DoNothing,
+    ChangeTo,
+    AddImage
+}
+
+
+export type Item = {
+    key: string,
+    img: string,
+    props: Record<string, string>,
+    affordances: AffordanceInfo[],
+    capabilities: CapabilityInfo[]
+
+}
+
+export type CapabilityInfo = [
+    string, CapabilityReaction, string?
+]
+
+export type AffordanceInfo = [
+    string, AffordanceReaction, string?
+]

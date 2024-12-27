@@ -1,0 +1,1965 @@
+{
+    "backpack": {
+        "key": "backpack",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_small",
+                1
+            ]
+        ],
+        "things": [
+            "backpack_blue",
+            "backpack_red"
+        ]
+    },
+    "bottle": {
+        "key": "bottle",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [],
+        "things": [
+            "bottle_1",
+            "bottle_2"
+        ]
+    },
+    "car": {
+        "key": "car",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_medium",
+                1
+            ],
+            [
+                "get_in",
+                1
+            ]
+        ],
+        "things": [
+            "car__col__black",
+            "car__col__blue__1",
+            "car__col__blue__2",
+            "car__col__blue__3",
+            "car__col__green",
+            "car__col__orange",
+            "car__col__pink",
+            "car__col__purple",
+            "car__col__red",
+            "car__col__red__2",
+            "car__col__red__3",
+            "car__col__silver",
+            "car__col__silver__2",
+            "car__col__silver__3",
+            "car__col__white",
+            "car__col__yellow__age__new",
+            "car__col__yellow__age__old"
+        ]
+    },
+    "dog": {
+        "key": "dog",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [],
+        "things": [
+            "dog",
+            "dog_small"
+        ]
+    },
+    "hat": {
+        "key": "hat",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hat"
+        ]
+    },
+    "notebook": {
+        "key": "notebook",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [],
+        "things": [
+            "notebook"
+        ]
+    },
+    "pot": {
+        "key": "pot",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pot"
+        ]
+    },
+    "shirt": {
+        "key": "shirt",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [],
+        "things": [
+            "shirt"
+        ]
+    },
+    "shoes": {
+        "key": "shoes",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [],
+        "things": [
+            "shoes"
+        ]
+    },
+    "stroller": {
+        "key": "stroller",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "stroller"
+        ]
+    },
+    "suitcase": {
+        "key": "suitcase",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "suitcas2",
+            "suitcase1"
+        ]
+    },
+    "umbrella": {
+        "key": "umbrella",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "umbrella"
+        ]
+    },
+    "you": {
+        "key": "you",
+        "capabilities": [
+            [
+                "get_in",
+                0
+            ]
+        ],
+        "affordances": [],
+        "things": [
+            "you"
+        ]
+    },
+    "brush": {
+        "key": "brush",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "brush"
+        ]
+    },
+    "cat_white": {
+        "key": "cat_white",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cat_white"
+        ]
+    },
+    "instrument": {
+        "key": "instrument",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "instrument"
+        ]
+    },
+    "house_front": {
+        "key": "house_front",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "house_front"
+        ]
+    },
+    "father_son": {
+        "key": "father_son",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "father_son"
+        ]
+    },
+    "wedding_ring": {
+        "key": "wedding_ring",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "wedding_ring"
+        ]
+    },
+    "banana_peeled": {
+        "key": "banana_peeled",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "banana_peeled"
+        ]
+    },
+    "sisters1": {
+        "key": "sisters1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "sisters1"
+        ]
+    },
+    "avocado_cut": {
+        "key": "avocado_cut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "avocado_cut"
+        ]
+    },
+    "stool": {
+        "key": "stool",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "stool"
+        ]
+    },
+    "laptop": {
+        "key": "laptop",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "laptop"
+        ]
+    },
+    "doll": {
+        "key": "doll",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "doll"
+        ]
+    },
+    "cake": {
+        "key": "cake",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cake"
+        ]
+    },
+    "snake": {
+        "key": "snake",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "snake"
+        ]
+    },
+    "siblings2": {
+        "key": "siblings2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings2"
+        ]
+    },
+    "pizza": {
+        "key": "pizza",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pizza"
+        ]
+    },
+    "cat_eyes_green": {
+        "key": "cat_eyes_green",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cat_eyes_green"
+        ]
+    },
+    "siblings1": {
+        "key": "siblings1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings1"
+        ]
+    },
+    "walnut_half": {
+        "key": "walnut_half",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "walnut_half"
+        ]
+    },
+    "hut": {
+        "key": "hut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hut"
+        ]
+    },
+    "onion_cut": {
+        "key": "onion_cut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "onion_cut"
+        ]
+    },
+    "woman_hair_blonde": {
+        "key": "woman_hair_blonde",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_hair_blonde"
+        ]
+    },
+    "cup_plastic": {
+        "key": "cup_plastic",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cup_plastic"
+        ]
+    },
+    "vase2": {
+        "key": "vase2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "vase2"
+        ]
+    },
+    "garlic": {
+        "key": "garlic",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "garlic"
+        ]
+    },
+    "hand_push": {
+        "key": "hand_push",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hand_push"
+        ]
+    },
+    "watch": {
+        "key": "watch",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "watch"
+        ]
+    },
+    "onion": {
+        "key": "onion",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "onion"
+        ]
+    },
+    "cat_food": {
+        "key": "cat_food",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cat_food"
+        ]
+    },
+    "couple1": {
+        "key": "couple1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "couple1"
+        ]
+    },
+    "ring": {
+        "key": "ring",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "ring"
+        ]
+    },
+    "motor_bike": {
+        "key": "motor_bike",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "motor_bike"
+        ]
+    },
+    "cupboard_1": {
+        "key": "cupboard_1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cupboard_1"
+        ]
+    },
+    "nutcracker": {
+        "key": "nutcracker",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "nutcracker"
+        ]
+    },
+    "lemon_cut": {
+        "key": "lemon_cut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "lemon_cut"
+        ]
+    },
+    "couple3": {
+        "key": "couple3",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "couple3"
+        ]
+    },
+    "box": {
+        "key": "box",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "box"
+        ]
+    },
+    "teddy": {
+        "key": "teddy",
+        "capabilities": [
+            [
+                "put-in-bedding",
+                0
+            ]
+        ],
+        "affordances": [],
+        "things": [
+            "teddy"
+        ]
+    },
+    "saw": {
+        "key": "saw",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "saw"
+        ]
+    },
+    "car_mustang_ajar": {
+        "key": "car_mustang_ajar",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "car_mustang_ajar"
+        ]
+    },
+    "cup_coffee": {
+        "key": "cup_coffee",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cup_coffee"
+        ]
+    },
+    "anchor": {
+        "key": "anchor",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "anchor"
+        ]
+    },
+    "siblings1_brother": {
+        "key": "siblings1_brother",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings1_brother"
+        ]
+    },
+    "bus_front": {
+        "key": "bus_front",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bus_front"
+        ]
+    },
+    "camera": {
+        "key": "camera",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "camera"
+        ]
+    },
+    "tuktuk": {
+        "key": "tuktuk",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "tuktuk"
+        ]
+    },
+    "wedding_rings": {
+        "key": "wedding_rings",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "wedding_rings"
+        ]
+    },
+    "plane": {
+        "key": "plane",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "plane"
+        ]
+    },
+    "kiwi_cut": {
+        "key": "kiwi_cut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "kiwi_cut"
+        ]
+    },
+    "sunflower": {
+        "key": "sunflower",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "sunflower"
+        ]
+    },
+    "comb": {
+        "key": "comb",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "comb"
+        ]
+    },
+    "mosque": {
+        "key": "mosque",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "mosque"
+        ]
+    },
+    "man_full_1": {
+        "key": "man_full_1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "man_full_1"
+        ]
+    },
+    "avocado": {
+        "key": "avocado",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "avocado"
+        ]
+    },
+    "pencil_colored": {
+        "key": "pencil_colored",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pencil_colored"
+        ]
+    },
+    "tortoise": {
+        "key": "tortoise",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "tortoise"
+        ]
+    },
+    "cap": {
+        "key": "cap",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cap"
+        ]
+    },
+    "house": {
+        "key": "house",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "house"
+        ]
+    },
+    "banana": {
+        "key": "banana",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "banana"
+        ]
+    },
+    "glasses2": {
+        "key": "glasses2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "glasses2"
+        ]
+    },
+    "taxi_old": {
+        "key": "taxi_old",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "taxi_old"
+        ]
+    },
+    "taxi": {
+        "key": "taxi",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "taxi"
+        ]
+    },
+    "woman_full_sitting_2": {
+        "key": "woman_full_sitting_2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_full_sitting_2"
+        ]
+    },
+    "scissors": {
+        "key": "scissors",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "scissors"
+        ]
+    },
+    "man_semi_1": {
+        "key": "man_semi_1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "man_semi_1"
+        ]
+    },
+    "siblings8": {
+        "key": "siblings8",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings8"
+        ]
+    },
+    "lemon": {
+        "key": "lemon",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "lemon"
+        ]
+    },
+    "siblings3": {
+        "key": "siblings3",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings3"
+        ]
+    },
+    "cable": {
+        "key": "cable",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cable"
+        ]
+    },
+    "pot_flower": {
+        "key": "pot_flower",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pot_flower"
+        ]
+    },
+    "tomato_piece": {
+        "key": "tomato_piece",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "tomato_piece"
+        ]
+    },
+    "pot_bush": {
+        "key": "pot_bush",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pot_bush"
+        ]
+    },
+    "glasses": {
+        "key": "glasses",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "glasses"
+        ]
+    },
+    "candle": {
+        "key": "candle",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "candle"
+        ]
+    },
+    "giraffe": {
+        "key": "giraffe",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "giraffe"
+        ]
+    },
+    "garlic_pieces": {
+        "key": "garlic_pieces",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "garlic_pieces"
+        ]
+    },
+    "gelato": {
+        "key": "gelato",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "gelato"
+        ]
+    },
+    "walnut": {
+        "key": "walnut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "walnut"
+        ]
+    },
+    "phone": {
+        "key": "phone",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "phone"
+        ]
+    },
+    "woman_full_sittin_1": {
+        "key": "woman_full_sittin_1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_full_sittin_1"
+        ]
+    },
+    "parking_lot": {
+        "key": "parking_lot",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "parking_lot"
+        ]
+    },
+    "dress": {
+        "key": "dress",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "dress"
+        ]
+    },
+    "lock": {
+        "key": "lock",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "lock"
+        ]
+    },
+    "house_rot": {
+        "key": "house_rot",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "house_rot"
+        ]
+    },
+    "egg": {
+        "key": "egg",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "egg"
+        ]
+    },
+    "clothes_line": {
+        "key": "clothes_line",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "clothes_line"
+        ]
+    },
+    "woman_semi_3": {
+        "key": "woman_semi_3",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_semi_3"
+        ]
+    },
+    "clock": {
+        "key": "clock",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "clock"
+        ]
+    },
+    "pot_cactus": {
+        "key": "pot_cactus",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pot_cactus"
+        ]
+    },
+    "mustang_open": {
+        "key": "mustang_open",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "mustang_open"
+        ]
+    },
+    "tractor": {
+        "key": "tractor",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "tractor"
+        ]
+    },
+    "hair_dryer": {
+        "key": "hair_dryer",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hair_dryer"
+        ]
+    },
+    "car_key": {
+        "key": "car_key",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "car_key"
+        ]
+    },
+    "parking_lot_2": {
+        "key": "parking_lot_2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "parking_lot_2"
+        ]
+    },
+    "hut_no_bg": {
+        "key": "hut_no_bg",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hut_no_bg"
+        ]
+    },
+    "cucumber_piece": {
+        "key": "cucumber_piece",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cucumber_piece"
+        ]
+    },
+    "cat_grey": {
+        "key": "cat_grey",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cat_grey"
+        ]
+    },
+    "brothers1": {
+        "key": "brothers1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "brothers1"
+        ]
+    },
+    "siblings1_sister": {
+        "key": "siblings1_sister",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings1_sister"
+        ]
+    },
+    "coat_hanging": {
+        "key": "coat_hanging",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "coat_hanging"
+        ]
+    },
+    "bowl_2": {
+        "key": "bowl_2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bowl_2"
+        ]
+    },
+    "piano": {
+        "key": "piano",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "piano"
+        ]
+    },
+    "pot_plant": {
+        "key": "pot_plant",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pot_plant"
+        ]
+    },
+    "jeans_blue_dark": {
+        "key": "jeans_blue_dark",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "jeans_blue_dark"
+        ]
+    },
+    "hair_girls_straight": {
+        "key": "hair_girls_straight",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hair_girls_straight"
+        ]
+    },
+    "church": {
+        "key": "church",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "church"
+        ]
+    },
+    "family3": {
+        "key": "family3",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "family3"
+        ]
+    },
+    "family4": {
+        "key": "family4",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "family4"
+        ]
+    },
+    "sakko": {
+        "key": "sakko",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "sakko"
+        ]
+    },
+    "globe": {
+        "key": "globe",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "globe"
+        ]
+    },
+    "couple2": {
+        "key": "couple2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "couple2"
+        ]
+    },
+    "bed": {
+        "key": "bed",
+        "capabilities": [],
+        "affordances": [
+            [
+                "put-in-bedding",
+                3
+            ]
+        ],
+        "things": [
+            "bed"
+        ]
+    },
+    "broccoli": {
+        "key": "broccoli",
+        "capabilities": [],
+        "affordances": [
+            ["cut", 2, "broccoli_half"]
+        ],
+        "things": [
+            "broccoli"
+        ]
+    },
+    "knife": {
+        "key": "knife",
+        "capabilities": [
+            ["cut", 1]
+        ],
+        "affordances": [],
+        "things": [
+            "knife"
+        ]
+    },
+    "hair_girls_curly": {
+        "key": "hair_girls_curly",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hair_girls_curly"
+        ]
+    },
+    "door_red_ajar": {
+        "key": "door_red_ajar",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "door_red_ajar"
+        ]
+    },
+    "Amisha": {
+        "key": "Amisha",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "Amisha"
+        ]
+    },
+    "siblings7": {
+        "key": "siblings7",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings7"
+        ]
+    },
+    "siblings4": {
+        "key": "siblings4",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings4"
+        ]
+    },
+    "shell": {
+        "key": "shell",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "shell"
+        ]
+    },
+    "siblings5": {
+        "key": "siblings5",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings5"
+        ]
+    },
+    "apple": {
+        "key": "apple",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "apple"
+        ]
+    },
+    "coconut": {
+        "key": "coconut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "coconut"
+        ]
+    },
+    "bus_mid_size": {
+        "key": "bus_mid_size",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bus_mid_size"
+        ]
+    },
+    "basket_cherries": {
+        "key": "basket_cherries",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "basket_cherries"
+        ]
+    },
+    "bowl_3": {
+        "key": "bowl_3",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bowl_3"
+        ]
+    },
+    "door_red_open": {
+        "key": "door_red_open",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "door_red_open"
+        ]
+    },
+    "nuts": {
+        "key": "nuts",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "nuts"
+        ]
+    },
+    "pineapple": {
+        "key": "pineapple",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pineapple"
+        ]
+    },
+    "family2": {
+        "key": "family2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "family2"
+        ]
+    },
+    "books": {
+        "key": "books",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "books"
+        ]
+    },
+    "jam": {
+        "key": "jam",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "jam"
+        ]
+    },
+    "moon": {
+        "key": "moon",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "moon"
+        ]
+    },
+    "apple_half": {
+        "key": "apple_half",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "apple_half"
+        ]
+    },
+    "tree_leaf": {
+        "key": "tree_leaf",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "tree_leaf"
+        ]
+    },
+    "glass": {
+        "key": "glass",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "glass"
+        ]
+    },
+    "boy_full_1": {
+        "key": "boy_full_1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "boy_full_1"
+        ]
+    },
+    "siblings6": {
+        "key": "siblings6",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings6"
+        ]
+    },
+    "girl": {
+        "key": "girl",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "girl"
+        ]
+    },
+    "shopping_cart": {
+        "key": "shopping_cart",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "shopping_cart"
+        ]
+    },
+    "peanuts": {
+        "key": "peanuts",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "peanuts"
+        ]
+    },
+    "hair_brush": {
+        "key": "hair_brush",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hair_brush"
+        ]
+    },
+    "woman_hair_black": {
+        "key": "woman_hair_black",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_hair_black"
+        ]
+    },
+    "key": {
+        "key": "key",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "key"
+        ]
+    },
+    "coat_rack": {
+        "key": "coat_rack",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "coat_rack"
+        ]
+    },
+    "glue": {
+        "key": "glue",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "glue"
+        ]
+    },
+    "water_bottle": {
+        "key": "water_bottle",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "water_bottle"
+        ]
+    },
+    "flag_jordan": {
+        "key": "flag_jordan",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "flag_jordan"
+        ]
+    },
+    "kiwi": {
+        "key": "kiwi",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "kiwi"
+        ]
+    },
+    "boy_full_4": {
+        "key": "boy_full_4",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "boy_full_4"
+        ]
+    },
+    "box_closed": {
+        "key": "box_closed",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "box_closed"
+        ]
+    },
+    "door_red_closed": {
+        "key": "door_red_closed",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "door_red_closed"
+        ]
+    },
+    "honeymelon": {
+        "key": "honeymelon",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "honeymelon"
+        ]
+    },
+    "Adanna": {
+        "key": "Adanna",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "Adanna"
+        ]
+    },
+    "pot_tree": {
+        "key": "pot_tree",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pot_tree"
+        ]
+    },
+    "boy_full_2": {
+        "key": "boy_full_2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "boy_full_2"
+        ]
+    },
+    "truck": {
+        "key": "truck",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "truck"
+        ]
+    },
+    "kufiyyeh": {
+        "key": "kufiyyeh",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "kufiyyeh"
+        ]
+    },
+    "toy1": {
+        "key": "toy1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "toy1"
+        ]
+    },
+    "woman_semi_1": {
+        "key": "woman_semi_1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_semi_1"
+        ]
+    },
+    "hand_pull": {
+        "key": "hand_pull",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hand_pull"
+        ]
+    },
+    "peanuts_peeled": {
+        "key": "peanuts_peeled",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "peanuts_peeled"
+        ]
+    },
+    "feather": {
+        "key": "feather",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "feather"
+        ]
+    },
+    "lamp_ceiling": {
+        "key": "lamp_ceiling",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "lamp_ceiling"
+        ]
+    },
+    "hammer": {
+        "key": "hammer",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "hammer"
+        ]
+    },
+    "kite": {
+        "key": "kite",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "kite"
+        ]
+    },
+    "melon_whole": {
+        "key": "melon_whole",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "melon_whole"
+        ]
+    },
+    "family1": {
+        "key": "family1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "family1"
+        ]
+    },
+    "cat_brown": {
+        "key": "cat_brown",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cat_brown"
+        ]
+    },
+    "toilet": {
+        "key": "toilet",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "toilet"
+        ]
+    },
+    "table": {
+        "key": "table",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "table"
+        ]
+    },
+    "box_opened": {
+        "key": "box_opened",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "box_opened"
+        ]
+    },
+    "pillow": {
+        "key": "pillow",
+        "capabilities": [
+            [
+                "put-in-bedding",
+                0
+            ]
+        ],
+        "affordances": [],
+        "things": [
+            "pillow"
+        ]
+    },
+    "mango_cut": {
+        "key": "mango_cut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "mango_cut"
+        ]
+    },
+    "family5": {
+        "key": "family5",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "family5"
+        ]
+    },
+    "melon_cut": {
+        "key": "melon_cut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "melon_cut"
+        ]
+    },
+    "woman_full_basket": {
+        "key": "woman_full_basket",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_full_basket"
+        ]
+    },
+    "towels_folded": {
+        "key": "towels_folded",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "towels_folded"
+        ]
+    },
+    "sisters3": {
+        "key": "sisters3",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "sisters3"
+        ]
+    },
+    "vase": {
+        "key": "vase",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "vase"
+        ]
+    },
+    "cap_beanie": {
+        "key": "cap_beanie",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cap_beanie"
+        ]
+    },
+    "bg_pot": {
+        "key": "bg_pot",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bg_pot"
+        ]
+    },
+    "honeymelon_cut": {
+        "key": "honeymelon_cut",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "honeymelon_cut"
+        ]
+    },
+    "jeans_blue_light": {
+        "key": "jeans_blue_light",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "jeans_blue_light"
+        ]
+    },
+    "brothers2": {
+        "key": "brothers2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "brothers2"
+        ]
+    },
+    "melon_piece": {
+        "key": "melon_piece",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "melon_piece"
+        ]
+    },
+    "bus_blue": {
+        "key": "bus_blue",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bus_blue"
+        ]
+    },
+    "fan": {
+        "key": "fan",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "fan"
+        ]
+    },
+    "bowl": {
+        "key": "bowl",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bowl"
+        ]
+    },
+    "woman_semi_2": {
+        "key": "woman_semi_2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_semi_2"
+        ]
+    },
+    "drum": {
+        "key": "drum",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "drum"
+        ]
+    },
+    "broccoli_half": {
+        "key": "broccoli_half",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "broccoli_half"
+        ]
+    },
+    "pear": {
+        "key": "pear",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pear"
+        ]
+    },
+    "radishes": {
+        "key": "radishes",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "radishes"
+        ]
+    },
+    "bike": {
+        "key": "bike",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bike"
+        ]
+    },
+    "window": {
+        "key": "window",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "window"
+        ]
+    },
+    "woman_hair_brunette": {
+        "key": "woman_hair_brunette",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_hair_brunette"
+        ]
+    },
+    "train": {
+        "key": "train",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "train"
+        ]
+    },
+    "flower": {
+        "key": "flower",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "flower"
+        ]
+    },
+    "cupboard_2": {
+        "key": "cupboard_2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cupboard_2"
+        ]
+    },
+    "bg_tree": {
+        "key": "bg_tree",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bg_tree"
+        ]
+    },
+    "mustang_closed": {
+        "key": "mustang_closed",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "mustang_closed"
+        ]
+    },
+    "toddler2": {
+        "key": "toddler2",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "toddler2"
+        ]
+    },
+    "ball": {
+        "key": "ball",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "ball"
+        ]
+    },
+    "toddler1": {
+        "key": "toddler1",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "toddler1"
+        ]
+    },
+    "bread": {
+        "key": "bread",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bread"
+        ]
+    },
+    "flag_eg": {
+        "key": "flag_eg",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "flag_eg"
+        ]
+    },
+    "cat_alt": {
+        "key": "cat_alt",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cat_alt"
+        ]
+    },
+    "car_keys": {
+        "key": "car_keys",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "car_keys"
+        ]
+    },
+    "boy_full_3": {
+        "key": "boy_full_3",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "boy_full_3"
+        ]
+    },
+    "washing_machine": {
+        "key": "washing_machine",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "washing_machine"
+        ]
+    },
+    "flag_germany": {
+        "key": "flag_germany",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "flag_germany"
+        ]
+    },
+    "screwdriver": {
+        "key": "screwdriver",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "screwdriver"
+        ]
+    },
+    "acorn": {
+        "key": "acorn",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "acorn"
+        ]
+    },
+    "boy": {
+        "key": "boy",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "boy"
+        ]
+    },
+    "brothers3": {
+        "key": "brothers3",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "brothers3"
+        ]
+    },
+    "mango": {
+        "key": "mango",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "mango"
+        ]
+    },
+    "siblings4b": {
+        "key": "siblings4b",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings4b"
+        ]
+    },
+    "bus_big": {
+        "key": "bus_big",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bus_big"
+        ]
+    },
+    "shroom": {
+        "key": "shroom",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "shroom"
+        ]
+    }
+}

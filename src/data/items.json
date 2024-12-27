@@ -1,35 +1,4 @@
-export enum CapabilityReaction {
-    Disappear,
-    Return
-}
-
-export enum AffordanceReaction {
-    Disappear,
-    DoNothing,
-    ChangeTo,
-    AddImage
-}
-
-
-export type Item = {
-    key: string,
-    img: string,
-    props: Record<string, string>,
-    affordances: AffordanceInfo[],
-    capabilities: CapabilityInfo[]
-
-}
-
-type CapabilityInfo = [
-    string, CapabilityReaction, string?
-]
-
-type AffordanceInfo = [
-    string, AffordanceReaction, string?
-]
-
-
-export const items: Item[] = [
+[
     {
         "img": "backpack_blue",
         "props": {
@@ -481,6 +450,67 @@ export const items: Item[] = [
         "capabilities": [
             [
                 "get_in",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "teddy",
+        "props": {},
+        "key": "teddy",
+        "capabilities": [
+            [
+                "put-in-bedding",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "bed",
+        "props": {},
+        "key": "bed",
+        "capabilities": [],
+        "affordances": [
+            [
+                "put-in-bedding",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "broccoli",
+        "props": {},
+        "key": "broccoli",
+        "capabilities": [],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "broccoli_half"
+            ]
+        ]
+    },
+    {
+        "img": "knife",
+        "props": {},
+        "key": "knife",
+        "capabilities": [
+            [
+                "cut",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "pillow",
+        "props": {},
+        "key": "pillow",
+        "capabilities": [
+            [
+                "put-in-bedding",
                 0
             ]
         ],
