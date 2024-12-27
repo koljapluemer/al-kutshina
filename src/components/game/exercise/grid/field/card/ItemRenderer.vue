@@ -15,7 +15,7 @@ const props = defineProps<{
 
 
 function filePath(): string {
-    return '/assets/items/' + props.item.key + '.webp'
+    return '/assets/items/' + props.item.img + '.webp'
 }
 
 </script>

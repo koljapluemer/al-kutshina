@@ -1,6 +1,6 @@
 import type { Item } from "./data/items"
 
-export type Coordinate = {row:number, col:number}
+export type Coordinate = { row: number, col: number }
 
 export type Card = {
     item: Item,
@@ -8,7 +8,8 @@ export type Card = {
 
 export type Field = {
     itemId: string,
-    extraImage?:ExtraImage
+    extraImage?: ExtraImage,
+    coordinate: Coordinate
 }
 
 export type Grid = Field[][]
@@ -20,4 +21,11 @@ export type ExtraImage = {
     scale: number
     offset: [number, number]
     rotation: number
-  }
+}
+
+export type Exercise = {
+    grid: Grid,
+    quest: string,
+    collections: string[],
+    disallowShuffle?: boolean
+}

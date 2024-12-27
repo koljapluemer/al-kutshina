@@ -1,14 +1,17 @@
-import type { Exercise } from "../data/exercises";
 import { AffordanceReaction, CapabilityReaction, items, type Item } from "../data/items";
-import { gameDataStore } from "../stores/gameData";
-import type { ExtraImage, Field, Grid, ItemNameGrid } from "../types";
+import type { Exercise, ExtraImage, Field, Grid, ItemNameGrid } from "../types";
 import { pickRandom, shuffleArray } from "../utils/arrayUtils";
 
 // handles the stuff that encompasses interactions, affordances, capabilities
 export class GameHelper {
+
+    public static getItemById(id:string) {
+        return items.find(item => item.img === id)
+    }
+
     public static getInteractionsBetweenFields(sender: Field, receiver: Field): string[] {
-        const senderItem = gameDataStore.getItemById(sender.itemId)
-        const receiverItem = gameDataStore.getItemById(receiver.itemId)
+        const senderItem = this.getItemById(sender.itemId)
+        const receiverItem = this.getItemById(receiver.itemId)
         console.log('sender item, rec item', senderItem, receiverItem)
         if (!senderItem || !receiverItem) return []
 
@@ -21,7 +24,7 @@ export class GameHelper {
     }
 
     public static getFieldAfterCapabilityTriggered(field: Field, capabilityKey: string): Field {
-        const relevantItem = gameDataStore.getItemById(field.itemId)
+        const relevantItem = this.getItemById(field.itemId)
         const itemCapabilityData = relevantItem?.capabilities
         if (!itemCapabilityData) return field
         const relevantCapabilityData = itemCapabilityData.find(aff => aff[0] === capabilityKey)
@@ -41,7 +44,7 @@ export class GameHelper {
     }
 
     public static getFieldAfterAffordanceTriggered(sender: Field, receiver: Field, affordanceKey: string): Field {
-        const relevantItem = gameDataStore.getItemById(receiver.itemId)
+        const relevantItem = this.getItemById(receiver.itemId)
         const itemAffordanceData = relevantItem?.affordances
         if (!itemAffordanceData) return receiver
         const relevantAffordanceData = itemAffordanceData.find(aff => aff[0] === affordanceKey)
@@ -74,22 +77,6 @@ export class GameHelper {
                 receiver.extraImage = extraImage
         }
         return receiver
-    }
-
-    public static createGameGrid(exercise: Exercise): Grid {
-        let grid: Grid = exercise.grid.map((row, rowIndex) =>
-            row.map((itemId, colIndex) => ({
-                itemId,
-                coordinate: { row: rowIndex, col: colIndex },
-            }))
-        );
-        if (!exercise.disallowShuffle) {
-            grid = this.shuffleGrid(grid)
-            return grid
-        } else {
-            return grid
-
-        }
     }
 
     private static shuffleGrid(grid: Grid): Grid {
@@ -137,16 +124,30 @@ export class GameHelper {
         return [itemA, itemB]
     }
 
-    public static generateRandomGrid(): string[][] {
+    public static generateRandomExercise(): Exercise {
         const items = this.getTwoRandomMatchingItems()
-        const grid: string[][] = [
+        // TODO: bring back shuffling
+        const grid: Grid = [
             [
-                items[0].key,
-                items[1].key
+                {
+                    itemId: items[0].img,
+                    coordinate: {row:0, col:0}
+                },
+                {
+                    itemId: items[1].img,
+                    coordinate: {row:0, col:1}
+
+                }
             ]
         ]
 
-        return grid
+        const exercise:Exercise = {
+            grid: grid,
+            quest: "hi",
+            collections: []
+        }
+
+        return exercise
     }
 
 

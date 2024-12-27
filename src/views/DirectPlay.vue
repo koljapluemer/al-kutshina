@@ -5,8 +5,8 @@
 <script setup lang="ts">
 import { onMounted, ref, watch } from 'vue';
 import ExerciseRenderer from '../components/game/ExerciseRenderer.vue';
-import type { Exercise } from '../data/exercises';
 import { GameHelper } from '../classes/GameHelper';
+import type { Exercise } from '../types';
 
 const currentExercise = ref(undefined as (Exercise | undefined))
 
@@ -22,12 +22,7 @@ function handleExerciseDone() {
 }
 
 function startNextExercise() {
-    const grid:string[][] = GameHelper.generateRandomGrid()
-    currentExercise.value = {
-        grid: grid,
-        quest: "hi",
-        collections: []
-    }
+    currentExercise.value = GameHelper.generateRandomExercise()
 }
 
 

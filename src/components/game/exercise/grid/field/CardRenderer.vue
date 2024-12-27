@@ -14,8 +14,8 @@ import { onMounted, ref } from 'vue';
 import type { Card, Field, } from '../../../../../types';
 import ItemRenderer from './card/ItemRenderer.vue';
 import type { Item } from '../../../../../data/items';
-import { gameDataStore } from '../../../../../stores/gameData';
 import ExtraImageRenderer from './card/ExtraImageRenderer.vue';
+import { GameHelper } from '../../../../../classes/GameHelper';
 
 
 const item = ref(undefined as (Item | undefined))
@@ -31,7 +31,7 @@ const isBeingDragged = ref(false)
 
 onMounted(() => {
     console.log('getting item', props.parentField.itemId)
-    item.value = gameDataStore.getItemById(props.parentField.itemId)
+    item.value = GameHelper.getItemById(props.parentField.itemId)
 })
 
 
