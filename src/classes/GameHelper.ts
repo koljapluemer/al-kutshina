@@ -111,21 +111,21 @@ export class GameHelper {
         // Extract affordance and capability names from the target item
         const targetAffordanceNames = targetItem.affordances.map((aff) => aff[0]);
         const targetCapabilityNames = targetItem.capabilities.map((cap) => cap[0]);
-      
+
         return itemList.filter((item) => {
-          // Check if the item has any matching capabilities with the target affordances
-          const hasMatchingCapabilities = item.capabilities.some((cap) =>
-            targetAffordanceNames.includes(cap[0])
-          );
-      
-          // Check if the item has any matching affordances with the target capabilities
-          const hasMatchingAffordances = item.affordances.some((aff) =>
-            targetCapabilityNames.includes(aff[0])
-          );
-      
-          return hasMatchingCapabilities || hasMatchingAffordances;
+            // Check if the item has any matching capabilities with the target affordances
+            const hasMatchingCapabilities = item.capabilities.some((cap) =>
+                targetAffordanceNames.includes(cap[0])
+            );
+
+            // Check if the item has any matching affordances with the target capabilities
+            const hasMatchingAffordances = item.affordances.some((aff) =>
+                targetCapabilityNames.includes(aff[0])
+            );
+
+            return hasMatchingCapabilities || hasMatchingAffordances;
         });
-      }
+    }
 
     public static getRandomItem(): Item {
         return pickRandom(items)!
@@ -135,6 +135,18 @@ export class GameHelper {
         const itemA = this.getRandomItem()
         const itemB = pickRandom(this.findRelatedItems(itemA, items))!
         return [itemA, itemB]
+    }
+
+    public static generateRandomGrid(): string[][] {
+        const items = this.getTwoRandomMatchingItems()
+        const grid: string[][] = [
+            [
+                items[0].key,
+                items[1].key
+            ]
+        ]
+
+        return grid
     }
 
 
