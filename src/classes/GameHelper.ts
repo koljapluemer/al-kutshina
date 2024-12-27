@@ -32,11 +32,9 @@ export class GameHelper {
 
         switch (relevantCapabilityData[1]) {
             case CapabilityReaction.Disappear:
-                console.log('disappear')
                 field.itemId = ""
                 break
             case CapabilityReaction.Return:
-                console.log('return')
                 break
         }
         return field
@@ -58,7 +56,6 @@ export class GameHelper {
             case AffordanceReaction.DoNothing:
                 break
             case AffordanceReaction.ChangeTo:
-                console.log('changing...')
                 if (relevantAffordanceData[2]) {
                     // grid[receiver.coordinate[0]][receiver.coordinate[1]] = relevantAffordanceData[2]
                     receiver.itemId = relevantAffordanceData[2]
@@ -131,29 +128,53 @@ export class GameHelper {
         return [itemA, itemB]
     }
 
+    private static getDistractor(otherFields:Field[]): Item | undefined {
+        const itemsThatCouldBeDistractors = items.filter(item => {
+            let couldBeValidDistractor = true
+            otherFields.forEach(field => {
+                if (this.getPossibleQuestKeysForItem(item).includes(field.key)) {
+                    couldBeValidDistractor = false
+                }
+            })
+            return couldBeValidDistractor
+        }) 
+        return pickRandom(itemsThatCouldBeDistractors)
+
+    }
+
     public static generateRandomExercise(): Exercise {
         const items = this.getTwoRandomMatchingItems()
         const itemAString = pickRandom(this.getPossibleQuestKeysForItem(items[0]))!
         const itemBString = pickRandom(this.getPossibleQuestKeysForItem(items[1]))!
 
+
         const fieldA: Field = {
             itemId: items[0].img,
-            coordinate: { row: 0, col: 0 },
             key: itemAString
         }
         const fieldB: Field = {
             itemId: items[1].img,
-            coordinate: { row: 0, col: 1 },
             key: itemBString
 
         }
+
+        const fields = [fieldA, fieldB]
+
+        const distractorForA = this.getDistractor(fields)
+        if (distractorForA) {
+            fields.push({
+                itemId: distractorForA.img,
+                key: this.getPossibleQuestKeysForItem(distractorForA)[0],
+            })
+        }
+
+        // const shuffledFields = shuffleArray(fields)
+        const shuffledFields = fields
+
         // TODO: bring back shuffling
         // TODO: don't code the coords into the types, that's silly
         const grid: Grid = [
-            [
-                fieldA, fieldB
-
-            ]
+            shuffledFields
         ]
 
         let quest = ""

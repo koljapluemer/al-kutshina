@@ -10,7 +10,6 @@ export type Field = {
     itemId: string,
     key: string,
     extraImage?: ExtraImage,
-    coordinate: Coordinate
 }
 
 export type Grid = Field[][]
