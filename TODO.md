@@ -1,8 +1,1 @@
-- game state ownership is not clear. have one reactive managing the field, the changes to it, etc.
-- decide how much this state should bleed into smaller components
-    - there is really two choices:
-        - 1) make a much more complex data type structure, aka fields know their extra items, in fact Field isn't just strings, but the actual items. maybe that's best, actually
-            - I think that's what should be done. Check `dragDropState` carefully, and see especially how the *drag and drop* will be handled, but apart from that, give probably `CollectionPlay` ownership of a more complex `SmartGrid` or whatever (it has to know when quests are fulfilled, anyways).
-                - Or maybe screw global state, and just make components emit upwards. after all, it's literally two events: drag start and drag end
-                - in this context, check out provide/inject
-        - 2) make components down the tree ask a global state reactive what's up
+- start testing function, maybe by coverage

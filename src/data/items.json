@@ -461,7 +461,7 @@
         "key": "teddy",
         "capabilities": [
             [
-                "put-in-bedding",
+                "put_in_bedding",
                 0
             ]
         ],
@@ -474,7 +474,7 @@
         "capabilities": [],
         "affordances": [
             [
-                "put-in-bedding",
+                "put_in_bedding",
                 3
             ]
         ]
@@ -510,7 +510,7 @@
         "key": "pillow",
         "capabilities": [
             [
-                "put-in-bedding",
+                "put_in_bedding",
                 0
             ]
         ],
