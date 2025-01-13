@@ -157,6 +157,10 @@ export class GameHelper {
 
     public static generateRandomExercise(): Exercise {
         const items = this.getTwoRandomMatchingItems()
+        if (items[0] === undefined || items[1] === undefined) {
+            console.error('items incomplete:', items)
+            return this.generateRandomExercise()
+        }
         const itemAString = pickRandom(this.getPossibleQuestKeysForItem(items[0]))!
         const itemBString = pickRandom(this.getPossibleQuestKeysForItem(items[1]))!
 

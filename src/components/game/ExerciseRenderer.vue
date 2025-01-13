@@ -3,7 +3,7 @@
         <Alert :type="feedbackForAction?.type" :msg="feedbackForAction?.message" v-if="feedbackForAction" />
         <GridRenderer :grid="exercise.grid" @interactionHappened="onInteractionHappened" />
 
-        <QuestDisplay :questKey="exercise.quest" />
+        <QuestDisplay :questKey="exercise.quest" @exerciseHasNoTranslation="skipExercise" />
     </div>
 </template>
 
@@ -48,13 +48,17 @@ function onInteractionHappened(interaction: string) {
         }
     }
     emitExerciseOverWithDelay()
-    
+
 }
 
 function emitExerciseOverWithDelay() {
     setTimeout(() => {
         emit('exerciseOver')
     }, 800)
+}
+
+function skipExercise() {
+    emit('exerciseOver')
 }
 
 </script>

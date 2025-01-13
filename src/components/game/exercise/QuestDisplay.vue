@@ -2,9 +2,6 @@
     <div class="text-center mt-10 text-4xl">
         {{ TranslationHelper.getTranslationForKey(questKey) }}
     </div>
-    <!-- <center>
-        {{ questKey }}
-    </center> -->
 
 </template>
 
@@ -18,6 +15,8 @@ const props = defineProps<{
     questKey: string
 }>();
 
+const emit = defineEmits(['exerciseHasNoTranslation'])
+
 onMounted(() => {
     setTimeout(() => {
         playQuestSound()
@@ -29,6 +28,13 @@ function playQuestSound() {
     audio.autoplay = true;
     audio.play();
 }
+
+if (!TranslationHelper.getTranslationForKey(props.questKey) || !TranslationHelper.getAudioPathForKey(props.questKey)) {
+    console.error('no translation found for key', props.questKey)
+    emit('exerciseHasNoTranslation')
+}
+
+
 
 
 </script>
