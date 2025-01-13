@@ -121,6 +121,10 @@
             [
                 "store_medium",
                 0
+            ],
+            [
+                "wash",
+                0
             ]
         ],
         "affordances": [],
@@ -156,7 +160,12 @@
     "suitcase": {
         "key": "suitcase",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "store_small",
+                1
+            ]
+        ],
         "things": [
             "suitcas2",
             "suitcase1"
@@ -164,7 +173,12 @@
     },
     "umbrella": {
         "key": "umbrella",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
         "affordances": [],
         "things": [
             "umbrella"
@@ -176,6 +190,14 @@
             [
                 "get_in",
                 0
+            ],
+            [
+                "go_to",
+                0
+            ],
+            [
+                "comb",
+                1
             ]
         ],
         "affordances": [],
@@ -193,7 +215,12 @@
     },
     "cat_white": {
         "key": "cat_white",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "feed",
+                1
+            ]
+        ],
         "affordances": [],
         "things": [
             "cat_white"
@@ -210,7 +237,12 @@
     "house_front": {
         "key": "house_front",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "go_in",
+                1
+            ]
+        ],
         "things": [
             "house_front"
         ]
@@ -314,7 +346,12 @@
     "cat_eyes_green": {
         "key": "cat_eyes_green",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "feed",
+                1
+            ]
+        ],
         "things": [
             "cat_eyes_green"
         ]
@@ -338,7 +375,12 @@
     "hut": {
         "key": "hut",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "go_in",
+                1
+            ]
+        ],
         "things": [
             "hut"
         ]
@@ -409,7 +451,12 @@
     },
     "cat_food": {
         "key": "cat_food",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "feed",
+                0
+            ]
+        ],
         "affordances": [],
         "things": [
             "cat_food"
@@ -510,7 +557,12 @@
     },
     "cup_coffee": {
         "key": "cup_coffee",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "drink",
+                0
+            ]
+        ],
         "affordances": [],
         "things": [
             "cup_coffee"
@@ -542,7 +594,10 @@
     },
     "camera": {
         "key": "camera",
-        "capabilities": [],
+        "capabilities": [
+            "take_photo",
+            1
+        ],
         "affordances": [],
         "things": [
             "camera"
@@ -551,7 +606,12 @@
     "tuktuk": {
         "key": "tuktuk",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ],
         "things": [
             "tuktuk"
         ]
@@ -567,7 +627,12 @@
     "plane": {
         "key": "plane",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ],
         "things": [
             "plane"
         ]
@@ -590,7 +655,12 @@
     },
     "comb": {
         "key": "comb",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "comb",
+                1
+            ]
+        ],
         "affordances": [],
         "things": [
             "comb"
@@ -598,7 +668,12 @@
     },
     "mosque": {
         "key": "mosque",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "go_to",
+                3
+            ]
+        ],
         "affordances": [],
         "things": [
             "mosque"
@@ -631,7 +706,12 @@
     "tortoise": {
         "key": "tortoise",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "take_photo",
+                1
+            ]
+        ],
         "things": [
             "tortoise"
         ]
@@ -647,7 +727,12 @@
     "house": {
         "key": "house",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "go_to",
+                3
+            ]
+        ],
         "things": [
             "house"
         ]
@@ -679,7 +764,12 @@
     "taxi": {
         "key": "taxi",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ],
         "things": [
             "taxi"
         ]
@@ -783,7 +873,12 @@
     "giraffe": {
         "key": "giraffe",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "take_photo",
+                1
+            ]
+        ],
         "things": [
             "giraffe"
         ]
@@ -798,7 +893,12 @@
     },
     "gelato": {
         "key": "gelato",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "eat",
+                0
+            ]
+        ],
         "affordances": [],
         "things": [
             "gelato"
@@ -911,7 +1011,12 @@
     "tractor": {
         "key": "tractor",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ],
         "things": [
             "tractor"
         ]
@@ -1093,7 +1198,11 @@
         "key": "broccoli",
         "capabilities": [],
         "affordances": [
-            ["cut", 2, "broccoli_half"]
+            [
+                "cut",
+                2,
+                "broccoli_half"
+            ]
         ],
         "things": [
             "broccoli"
@@ -1102,7 +1211,10 @@
     "knife": {
         "key": "knife",
         "capabilities": [
-            ["cut", 1]
+            [
+                "cut",
+                1
+            ]
         ],
         "affordances": [],
         "things": [
@@ -1127,7 +1239,20 @@
     },
     "Amisha": {
         "key": "Amisha",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "get_in",
+                0
+            ],
+            [
+                "go_to",
+                0
+            ],
+            [
+                "comb",
+                1
+            ]
+        ],
         "affordances": [],
         "things": [
             "Amisha"
@@ -1588,7 +1713,12 @@
     },
     "mango_cut": {
         "key": "mango_cut",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "eat",
+                0
+            ]
+        ],
         "affordances": [],
         "things": [
             "mango_cut"
@@ -1885,7 +2015,12 @@
     "washing_machine": {
         "key": "washing_machine",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "wash",
+                1
+            ]
+        ],
         "things": [
             "washing_machine"
         ]

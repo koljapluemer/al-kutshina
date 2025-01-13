@@ -1313,5 +1313,10 @@
         "img": "peanuts_peeled",
         "item": "peanuts_peeled",
         "props": {}
+    },
+    {
+        "img": "apartment",
+        "item": "apartment",
+        "props": {}
     }
 ]
