@@ -423,6 +423,10 @@
             [
                 "store_medium",
                 0
+            ],
+            [
+                "wash",
+                0
             ]
         ],
         "affordances": []
@@ -444,12 +448,120 @@
         "affordances": []
     },
     {
+        "img": "suitcas2",
+        "props": {
+            "color": "white"
+        },
+        "key": "suitcase",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_small",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "suitcase1",
+        "props": {
+            "color": "blue"
+        },
+        "key": "suitcase",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_small",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "umbrella",
+        "props": {},
+        "key": "umbrella",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
         "img": "you",
         "props": {},
         "key": "you",
         "capabilities": [
             [
                 "get_in",
+                0
+            ],
+            [
+                "go_to",
+                0
+            ],
+            [
+                "comb",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "cat_white",
+        "props": {},
+        "key": "cat_white",
+        "capabilities": [
+            [
+                "feed",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "house_front",
+        "props": {},
+        "key": "house_front",
+        "capabilities": [],
+        "affordances": [
+            [
+                "go_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "cat_eyes_green",
+        "props": {},
+        "key": "cat_eyes_green",
+        "capabilities": [],
+        "affordances": [
+            [
+                "feed",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "hut",
+        "props": {},
+        "key": "hut",
+        "capabilities": [],
+        "affordances": [
+            [
+                "go_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "cat_food",
+        "props": {},
+        "key": "cat_food",
+        "capabilities": [
+            [
+                "feed",
                 0
             ]
         ],
@@ -466,6 +578,148 @@
             ]
         ],
         "affordances": []
+    },
+    {
+        "img": "cup_coffee",
+        "props": {},
+        "key": "cup_coffee",
+        "capabilities": [
+            [
+                "drink",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "camera",
+        "props": {},
+        "key": "camera",
+        "capabilities": [
+            "take_photo",
+            1
+        ],
+        "affordances": []
+    },
+    {
+        "img": "tuktuk",
+        "props": {},
+        "key": "tuktuk",
+        "capabilities": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "plane",
+        "props": {},
+        "key": "plane",
+        "capabilities": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "comb",
+        "props": {},
+        "key": "comb",
+        "capabilities": [
+            [
+                "comb",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "mosque",
+        "props": {},
+        "key": "mosque",
+        "capabilities": [
+            [
+                "go_to",
+                3
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "tortoise",
+        "props": {},
+        "key": "tortoise",
+        "capabilities": [],
+        "affordances": [
+            [
+                "take_photo",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "house",
+        "props": {},
+        "key": "house",
+        "capabilities": [],
+        "affordances": [
+            [
+                "go_to",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "taxi",
+        "props": {},
+        "key": "taxi",
+        "capabilities": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "giraffe",
+        "props": {},
+        "key": "giraffe",
+        "capabilities": [],
+        "affordances": [
+            [
+                "take_photo",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "gelato",
+        "props": {},
+        "key": "gelato",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "tractor",
+        "props": {},
+        "key": "tractor",
+        "capabilities": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
     },
     {
         "img": "bed",
@@ -505,6 +759,26 @@
         "affordances": []
     },
     {
+        "img": "Amisha",
+        "props": {},
+        "key": "Amisha",
+        "capabilities": [
+            [
+                "get_in",
+                0
+            ],
+            [
+                "go_to",
+                0
+            ],
+            [
+                "comb",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
         "img": "pillow",
         "props": {},
         "key": "pillow",
@@ -515,5 +789,29 @@
             ]
         ],
         "affordances": []
+    },
+    {
+        "img": "mango_cut",
+        "props": {},
+        "key": "mango_cut",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "washing_machine",
+        "props": {},
+        "key": "washing_machine",
+        "capabilities": [],
+        "affordances": [
+            [
+                "wash",
+                1
+            ]
+        ]
     }
 ]
