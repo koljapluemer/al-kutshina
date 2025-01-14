@@ -156,7 +156,27 @@ export class GameHelper {
     }
 
     public static getNarrowDistractorsBasedOnItemExerciseString(item:Item, exerciseString:string, items: Item[]): Item[] {
-        return []
+
+        // find items with
+        // a) same key, but chosen property different
+        // b) same property, but key different
+
+        const [key, prop, value] = exerciseString.split('__')
+        console.log('GOT VALUES', key, prop, value)
+        const distractors: Item[] = items.filter(otherItem => {
+            if (otherItem === item) return false
+            // check a)
+            if (otherItem.key === key && otherItem.props[prop] !== value && otherItem.props[prop] !== undefined) {
+                return true
+            }
+            // check b)
+            if (otherItem.props[prop] === value && otherItem.key !== key) {
+                return true
+            }
+            return false
+        })
+
+        return distractors
     }
 
     public static getNarrowDistractorsBasedOnInteractionString(item:Item, interactionString:string, items: Item[]): Item[] {
