@@ -15,6 +15,8 @@ import Alert from '../Alert.vue';
 import { GameHelper } from '../../classes/GameHelper';
 import type { Exercise, Grid } from '../../types';
 import { useFirestore } from '../../composables/useFireStore';
+import { useLocalStorage } from '../../composables/useLocalStorage';
+import { v4 as uuidv4 } from 'uuid';
 
 const props = defineProps<{
     exercise: Exercise
@@ -34,6 +36,8 @@ const feedbackForAction = ref(undefined as (undefined | Feedback))
 
 const store = useFirestore();
 
+const userID = useLocalStorage('user-id', uuidv4())
+
 function onInteractionHappened(interaction: string) {
     if (interaction === props.exercise.quest) {
         feedbackForAction.value = {
@@ -41,7 +45,7 @@ function onInteractionHappened(interaction: string) {
             message: 'nice!'
             // message: 'صـَلّـَح'
         }
-        store.writeToCollection('learning-data', { "data": { exercise: props.exercise.quest, solved: true, timestamp: new Date() } })
+        store.writeToCollection('learning-data', { "data": { user: userID.val.value, exercise: props.exercise.quest, solved: true, timestamp: new Date() } })
 
     } else {
         feedbackForAction.value = {
@@ -50,7 +54,7 @@ function onInteractionHappened(interaction: string) {
             // message: 'غـَلـَط'
         }
 
-        store.writeToCollection('learning-data', { "data": { exercise: props.exercise.quest, solved: false, timestamp: new Date() } })
+        store.writeToCollection('learning-data', { "data": { user: userID.val.value, exercise: props.exercise.quest, solved: false, timestamp: new Date() } })
 
     }
     emitExerciseOverWithDelay()
