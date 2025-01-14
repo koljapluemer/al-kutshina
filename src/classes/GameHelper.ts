@@ -1,5 +1,5 @@
 import { AffordanceReaction, CapabilityReaction, type Item, type Exercise, type ExtraImage, type Field, type Grid, type ItemNameGrid } from "../types";
-import { pickRandom, shuffleArray } from "../utils/arrayUtils";
+import { pickRandom, pickRandomN, shuffleArray } from "../utils/arrayUtils";
 
 import rawItems from '../data/items.json';
 
@@ -141,21 +141,24 @@ export class GameHelper {
         return [itemA, itemB]
     }
 
-    private static getDistractor(otherFields: Field[]): Item | undefined {
+    private static getBroadDistractors(otherFields: Field[]): Item[] {
         const itemsThatCouldBeDistractors = items.filter(item => {
             let couldBeValidDistractor = true
             otherFields.forEach(field => {
                 if (this.getPossibleQuestKeysForItem(item).includes(field.key)) {
                     couldBeValidDistractor = false
                 }
+                if (field.itemId === item.key) {
+                    couldBeValidDistractor = false
+                }
             })
             return couldBeValidDistractor
         })
-        return pickRandom(itemsThatCouldBeDistractors)
+        return itemsThatCouldBeDistractors
 
     }
 
-    public static getNarrowDistractorsBasedOnItemExerciseString(item:Item, exerciseString:string, items: Item[]): Item[] {
+    public static getNarrowDistractorsBasedOnItemExerciseString(item: Item, exerciseString: string, items: Item[]): Item[] {
 
         // find items with
         // a) same key, but chosen property different
@@ -202,19 +205,24 @@ export class GameHelper {
 
         const fields = [fieldA, fieldB]
 
-        const distractorForA = this.getDistractor(fields)
-        if (distractorForA) {
+        const broadDistractors = this.getBroadDistractors(fields)
+        const narrowDistractorsForA = this.getNarrowDistractorsBasedOnItemExerciseString(items[0], itemAString, broadDistractors)
+        const narrowDistractorsForB = this.getNarrowDistractorsBasedOnItemExerciseString(items[1], itemBString, broadDistractors)
+
+        const allDistractors = narrowDistractorsForA.concat(narrowDistractorsForB).concat(broadDistractors)
+
+        const distractors = pickRandomN(allDistractors, 3)
+        distractors.forEach(distractor => {
             fields.push({
-                itemId: distractorForA.img,
-                key: this.getPossibleQuestKeysForItem(distractorForA)[0],
+                itemId: distractor.img,
+                key: this.getPossibleQuestKeysForItem(distractor)[0],
             })
         }
+        )
 
-        // const shuffledFields = shuffleArray(fields)
-        const shuffledFields = fields
+        const shuffledFields = shuffleArray(fields)
+        // const shuffledFields = fields
 
-        // TODO: bring back shuffling
-        // TODO: don't code the coords into the types, that's silly
         const grid: Grid = [
             shuffledFields
         ]
