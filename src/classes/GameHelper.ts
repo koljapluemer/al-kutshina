@@ -179,9 +179,6 @@ export class GameHelper {
         return distractors
     }
 
-    public static getNarrowDistractorsBasedOnInteractionString(item:Item, interactionString:string, items: Item[]): Item[] {
-        return []
-    }
 
     public static generateRandomExercise(): Exercise {
         const items = this.getTwoRandomMatchingItems()
