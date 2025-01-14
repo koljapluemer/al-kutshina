@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, watchEffect } from 'vue';
 import GridRenderer from './exercise/GridRenderer.vue';
 import QuestDisplay from './exercise/QuestDisplay.vue';
 import Alert from '../Alert.vue';
@@ -17,6 +17,7 @@ import type { Exercise, Grid } from '../../types';
 import { useFirestore } from '../../composables/useFireStore';
 import { useLocalStorage } from '../../composables/useLocalStorage';
 import { v4 as uuidv4 } from 'uuid';
+import { useIndexedDB } from '../../composables/useIndexedDB';
 
 const props = defineProps<{
     exercise: Exercise
@@ -37,24 +38,29 @@ const feedbackForAction = ref(undefined as (undefined | Feedback))
 const store = useFirestore();
 
 const userID = useLocalStorage('user-id', uuidv4())
+const { addLog } = useIndexedDB('LearningLogDB', 'learning-logs');
+
+
 
 function onInteractionHappened(interaction: string) {
     if (interaction === props.exercise.quest) {
         feedbackForAction.value = {
             type: 'success',
-            message: 'nice!'
-            // message: 'صـَلّـَح'
+            message: 'صـَلّـَح'
         }
-        store.writeToCollection('learning-data', { "data": { user: userID.val.value, exercise: props.exercise.quest, solved: true, timestamp: new Date() } })
+        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: true, timestamp: new Date() }
+        store.writeToCollection('learning-data', { "data": logObject })
+        addLog(logObject)
 
     } else {
         feedbackForAction.value = {
             type: 'warning',
-            message: 'incorrect.'
-            // message: 'غـَلـَط'
+            message: 'غـَلـَط'
         }
 
-        store.writeToCollection('learning-data', { "data": { user: userID.val.value, exercise: props.exercise.quest, solved: false, timestamp: new Date() } })
+        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: false, timestamp: new Date() }
+        store.writeToCollection('learning-data', { "data": logObject })
+        addLog(logObject)
 
     }
     emitExerciseOverWithDelay()
