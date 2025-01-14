@@ -30,7 +30,6 @@ const isBeingDragged = ref(false)
 
 
 onMounted(() => {
-    console.log('getting item', props.parentField.itemId)
     item.value = GameHelper.getItemById(props.parentField.itemId)
 })
 

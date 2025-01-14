@@ -30,10 +30,7 @@ const emit = defineEmits(['interactionHappened'])
 
 
 function onDragStarted(coord: Coordinate) {
-    // console.log('got data', toRaw(toRaw(coord.row)))
-    console.log('got data', coord, coord.row, coord.col)
     sendingFieldCoord.value = coord
-    console.log('sending field now', sendingFieldCoord.value.col)
 }
 
 function onDropHappened(receivingFieldCoord: Coordinate) {
