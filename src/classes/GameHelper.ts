@@ -155,6 +155,14 @@ export class GameHelper {
 
     }
 
+    public static getDistractorsBasedOnItemExerciseString(exerciseString:string, items: Item[]): Item[] {
+        return []
+    }
+
+    public static getDistractorsBasedOnInteractionString(interactionString:string, items: Item[]): Item[] {
+        return []
+    }
+
     public static generateRandomExercise(): Exercise {
         const items = this.getTwoRandomMatchingItems()
         if (items[0] === undefined || items[1] === undefined) {
