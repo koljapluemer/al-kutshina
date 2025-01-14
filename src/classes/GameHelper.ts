@@ -155,11 +155,11 @@ export class GameHelper {
 
     }
 
-    public static getDistractorsBasedOnItemExerciseString(exerciseString:string, items: Item[]): Item[] {
+    public static getNarrowDistractorsBasedOnItemExerciseString(item:Item, exerciseString:string, items: Item[]): Item[] {
         return []
     }
 
-    public static getDistractorsBasedOnInteractionString(interactionString:string, items: Item[]): Item[] {
+    public static getNarrowDistractorsBasedOnInteractionString(item:Item, interactionString:string, items: Item[]): Item[] {
         return []
     }
 
