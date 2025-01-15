@@ -210,8 +210,9 @@ export class GameHelper {
         const narrowDistractorsForB = this.getNarrowDistractorsBasedOnItemExerciseString(items[1], itemBString, broadDistractors)
 
         const allDistractors = narrowDistractorsForA.concat(narrowDistractorsForB).concat(broadDistractors)
+        const nrOfDistractors = Math.floor(Math.random() * 4) 
 
-        const distractors = pickRandomN(allDistractors, 3)
+        const distractors = pickRandomN(allDistractors, nrOfDistractors)
         distractors.forEach(distractor => {
             fields.push({
                 itemId: distractor.img,

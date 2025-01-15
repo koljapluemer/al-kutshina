@@ -18,11 +18,13 @@ export function useCellSize(horizontalCells: number, verticalCells: number) {
   });
 
   const cellSize = computed(() => {
-    let size = 300; // Default size
-    const maxWidth = (screenWidth.value / horizontalCells) * 0.85;
-    const maxHeight = (screenHeight.value / verticalCells) - 170 * 0.7;
+    let size = 200; // Default size
+    console.log('horizontalCells', horizontalCells, 'verticalCells', verticalCells);
+    const maxWidth = (screenWidth.value / verticalCells) * 0.8;
+    const maxHeight = (screenHeight.value / horizontalCells) - 170 * 0.7;
 
     size = Math.min(size, maxWidth, maxHeight);
+    console.log('cell size', size);
     return `${size}px`;
   });
 
