@@ -1,7 +1,8 @@
 <template>
     <div>
         <Alert :type="feedbackForAction?.type" :msg="feedbackForAction?.message" v-if="feedbackForAction" />
-        <GridRenderer :grid="exercise.grid" @interactionHappened="onInteractionHappened" />
+        <GridRenderer :grid="exercise.grid" @interactionHappened="onInteractionHappened"
+            @drag-started="onDragStarted" />
 
         <QuestDisplay :questKey="exercise.quest" @exerciseHasNoTranslation="skipExercise" />
     </div>
@@ -43,12 +44,13 @@ const { addLog } = useIndexedDB('LearningLogDB', 'learning-logs');
 
 
 function onInteractionHappened(interaction: string) {
+    console.log('drags so far', dragsAttempted.value)
     if (interaction === props.exercise.quest) {
         feedbackForAction.value = {
             type: 'success',
             message: 'صـَلّـَح'
         }
-        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: true, timestamp: new Date() }
+        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: true, timestamp: new Date(), drags: dragsAttempted.value }
         store.writeToCollection('learning-data', { "data": logObject })
         addLog(logObject)
 
@@ -58,7 +60,7 @@ function onInteractionHappened(interaction: string) {
             message: 'غـَلـَط'
         }
 
-        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: false, timestamp: new Date() }
+        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: false, timestamp: new Date(), dragsAttempted: dragsAttempted.value }
         store.writeToCollection('learning-data', { "data": logObject })
         addLog(logObject)
 
@@ -75,6 +77,11 @@ function emitExerciseOverWithDelay() {
 
 function skipExercise() {
     emit('exerciseOver')
+}
+
+const dragsAttempted = ref(0)
+function onDragStarted() {
+    dragsAttempted.value++
 }
 
 </script>

@@ -11,9 +11,8 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import type { Card, Field, } from '../../../../../types';
+import type { Card, Field, Item, } from '../../../../../types';
 import ItemRenderer from './card/ItemRenderer.vue';
-import type { Item } from '../../../../../data/items';
 import ExtraImageRenderer from './card/ExtraImageRenderer.vue';
 import { GameHelper } from '../../../../../classes/GameHelper';
 

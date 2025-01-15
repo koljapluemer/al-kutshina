@@ -26,10 +26,11 @@ const { cellSize } = useCellSize(rows.value, cols.value);
 
 const sendingFieldCoord = ref(undefined as (undefined | Coordinate))
 
-const emit = defineEmits(['interactionHappened'])
+const emit = defineEmits(['interactionHappened', 'dragStarted'])
 
 
 function onDragStarted(coord: Coordinate) {
+    emit('dragStarted')
     sendingFieldCoord.value = coord
 }
 
