@@ -222,11 +222,20 @@ export class GameHelper {
         )
 
         const shuffledFields = shuffleArray(fields)
-        // const shuffledFields = fields
 
-        const grid: Grid = [
-            shuffledFields
-        ]
+
+        // split long grids into rows
+        let grid:Grid;
+        if (shuffledFields.length > 2) {
+            grid = [
+                shuffledFields.slice(0, 2),
+                shuffledFields.slice(2)
+            ]
+        } else {
+            grid = [
+                shuffledFields
+            ]
+        }
 
         let quest = ""
         let interactions = this.getInteractionsBetweenFields(fieldA, fieldB)
