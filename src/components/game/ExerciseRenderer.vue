@@ -32,8 +32,6 @@ type Feedback = {
 }
 
 
-const grid = ref(undefined as (Grid | undefined))
-
 const feedbackForAction = ref(undefined as (undefined | Feedback))
 
 const store = useFirestore();
@@ -45,12 +43,13 @@ const { addLog } = useIndexedDB('LearningLogDB', 'learning-logs');
 
 function onInteractionHappened(interaction: string) {
     console.log('drags so far', dragsAttempted.value)
+    const gridSize = props.exercise.grid.length * props.exercise.grid[0].length
     if (interaction === props.exercise.quest) {
         feedbackForAction.value = {
             type: 'success',
             message: 'صـَلّـَح'
         }
-        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: true, timestamp: new Date(), drags: dragsAttempted.value }
+        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: true, timestamp: new Date(), drags: dragsAttempted.value, gridSize: gridSize }
         store.writeToCollection('learning-data', { "data": logObject })
         addLog(logObject)
 
@@ -60,7 +59,7 @@ function onInteractionHappened(interaction: string) {
             message: 'غـَلـَط'
         }
 
-        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: false, timestamp: new Date(), dragsAttempted: dragsAttempted.value }
+        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: false, timestamp: new Date(), dragsAttempted: dragsAttempted.value, gridSize: gridSize }
         store.writeToCollection('learning-data', { "data": logObject })
         addLog(logObject)
 
