@@ -88,20 +88,6 @@ export class GameHelper {
         return receiver
     }
 
-    private static shuffleGrid(grid: Grid): Grid {
-        const copiedGrid = JSON.parse(JSON.stringify(grid))
-        const flattenedGrid: Field[] = copiedGrid.flat();
-        const shuffledFields = shuffleArray(flattenedGrid)
-
-        const nrRows = copiedGrid.length
-        const nrCols = copiedGrid[0].length
-
-        const shuffledGrid: Grid = []
-        for (let i = 0; i < nrRows; i++) {
-            shuffledGrid.push(shuffledFields.slice(i * nrCols, (i + 1) * nrCols))
-        }
-        return shuffledGrid
-    }
 
     public static findRelatedItems(targetItem: Item, itemList: Item[]): Item[] {
         // Extract affordance and capability names from the target item
