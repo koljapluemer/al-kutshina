@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from './views/Home.vue'
 import DirectPlay from './views/DirectPlay.vue'
 import Boxes from './views/Boxes.vue'
+import BoxPlay from './views/BoxPlay.vue'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,6 +20,11 @@ const router = createRouter({
         {
             path: '/boxes',
             component: Boxes
+        },
+        {
+            path: '/box/:box',
+            component: BoxPlay,
+            name: 'box-play'
         }
     ],
 })
