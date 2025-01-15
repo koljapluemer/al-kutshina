@@ -127,6 +127,12 @@ export class GameHelper {
         return [itemA, itemB]
     }
 
+    public static getTwoRandomMatchingItemsWithBox(box: string): [Item, Item] {
+        const itemA = this.getRandomItemWithBox(box)
+        const itemB = pickRandom(this.findRelatedItems(itemA, items))!
+        return [itemA, itemB]
+    }
+
     private static getBroadDistractors(otherFields: Field[]): Item[] {
         const itemsThatCouldBeDistractors = items.filter(item => {
             let couldBeValidDistractor = true
