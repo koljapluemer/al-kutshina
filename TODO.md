@@ -1,2 +1,1 @@
-- add enough content to ship
-    - backwards plan (?)
+- adapt to take django export
