@@ -1,5 +1,8 @@
 import rawObjects from '../data/admin/objects.json';
 
+// probably going nowhere
+// anyways, the idea of this class was to support "boxes" (aka topics, tags) from the iguanodo idea
+// so that boxes can get listed, and user can practice a specific box, like "kitchen" or "packing things"
 export class BoxesHelper {
     static getBoxes(): string[] {
         // an object in objects.json may have an boxes: str[] property
