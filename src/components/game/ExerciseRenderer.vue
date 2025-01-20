@@ -49,9 +49,9 @@ onMounted(() => {
 })
 
 function onInteractionHappened(interaction: string) {
-    console.log('drags so far', dragsAttempted.value)
     const gridSize = props.exercise.grid.length * props.exercise.grid[0].length
     if (interaction === props.exercise.quest) {
+        playSuccessSound()
         feedbackForAction.value = {
             type: 'success',
             message: 'صـَلّـَح'
@@ -88,6 +88,15 @@ function skipExercise() {
 const dragsAttempted = ref(0)
 function onDragStarted() {
     dragsAttempted.value++
+}
+
+
+function playSuccessSound() {
+  const audio = new Audio('/assets/sounds/success_short.mp3');
+  audio.volume = 0.2;
+  audio.play().catch((err) => {
+    console.error("Failed to play the sound:", err);
+  });
 }
 
 </script>

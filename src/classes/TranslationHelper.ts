@@ -2,7 +2,6 @@ import translations from "../data/translations.json";
 
 export class TranslationHelper {
     public static getTranslationForKey(language: string, key: string): string | undefined {
-        console.log('language', language)
         if (language === 'de') {
             return translations.find(translation => translation.key === key)?.de
         } else if (language === 'ar') {

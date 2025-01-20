@@ -5,13 +5,16 @@
       <h2 class="font-bold text-2xl">الكـُتشينـَة</h2>
     </router-link>
   </header>
-  <main class="m-auto max-w-screen-lg">
+  <main class="m-auto max-w-screen-lg grow ">
     <RouterView></RouterView>
   </main>
-  <footer class="footer">
-    <p class="text-center m-auto mt-4 text-xs">Anonymous learning data is collected for research and to make this game
+  <footer class="m-auto mt-4 text-xs p-4 flex flex-col items-center gap-1">
+    <p class="text-center">Anonymous learning data is collected for research and to make this game
       better. No personal data and no
       device-related data is saved.</p>
+      <p class="text-center">
+        Made by <a href="https://koljapluemer.com/" class="link" target="_blank">Kolja Sam Pluemer</a>.
+      </p>
   </footer>
 
 </template>

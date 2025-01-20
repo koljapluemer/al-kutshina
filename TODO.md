@@ -1,1 +1,5 @@
-- adapt to take django export
+- (difficulty adjust)
+- tutorial
+- publish
+- touch
+- replace toast

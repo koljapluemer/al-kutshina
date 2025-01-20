@@ -153,7 +153,6 @@ export class GameHelper {
         // b) same property, but key different
 
         const [key, prop, value] = exerciseString.split('__')
-        console.log('GOT VALUES', key, prop, value)
         const distractors: Item[] = items.filter(otherItem => {
             if (otherItem === item) return false
             // check a)
