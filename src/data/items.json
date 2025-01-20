@@ -1,11 +1,123 @@
 [
     {
+        "img": "apartment",
+        "props": {},
+        "key": "apartment",
+        "capabilities": [],
+        "affordances": [
+            [
+                "move_furniture",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "apple",
+        "props": {},
+        "key": "apple",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "apple_half"
+            ]
+        ]
+    },
+    {
+        "img": "apple_half",
+        "props": {},
+        "key": "apple_half",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ],
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "avocado",
+        "props": {},
+        "key": "avocado",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "avocado_cut"
+            ]
+        ]
+    },
+    {
+        "img": "avocado_cut",
+        "props": {},
+        "key": "avocado_cut",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
         "img": "backpack_blue",
         "props": {
             "color": "blue"
         },
         "key": "backpack",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "boxes": [
+            "packing things"
+        ],
         "affordances": [
             [
                 "store_small",
@@ -19,13 +131,124 @@
             "color": "red"
         },
         "key": "backpack",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "boxes": [
+            "packing things"
+        ],
         "affordances": [
             [
                 "store_small",
                 1
             ]
         ]
+    },
+    {
+        "img": "ball",
+        "props": {},
+        "key": "ball",
+        "capabilities": [
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "banana",
+        "props": {},
+        "key": "banana",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "peel",
+                2,
+                "banana_peeled"
+            ]
+        ]
+    },
+    {
+        "img": "banana_peeled",
+        "props": {},
+        "key": "banana_peeled",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "cap_beanie",
+        "props": {},
+        "key": "beanie",
+        "capabilities": [
+            [
+                "interact_clothes",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "bed",
+        "props": {},
+        "key": "bed",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "put_in_bedding",
+                3
+            ],
+            [
+                "put_child",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "books",
+        "props": {},
+        "key": "books",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ]
+        ],
+        "affordances": []
     },
     {
         "img": "bottle_1",
@@ -60,12 +283,329 @@
         "affordances": []
     },
     {
+        "img": "bowl",
+        "props": {},
+        "boxes": [
+            "kitchen"
+        ],
+        "key": "bowl",
+        "capabilities": [],
+        "affordances": [
+            [
+                "put_in_bowl",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "box_closed",
+        "props": {},
+        "key": "box_closed",
+        "capabilities": [
+            [
+                "store_big",
+                1
+            ],
+            [
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "pull",
+                2,
+                "box_opened"
+            ]
+        ]
+    },
+    {
+        "img": "box_opened",
+        "props": {},
+        "key": "box_opened",
+        "capabilities": [
+            [
+                "store_big",
+                1
+            ]
+        ],
+        "affordances": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "push",
+                2,
+                "box_closed"
+            ]
+        ]
+    },
+    {
+        "img": "boy",
+        "props": {},
+        "key": "boy",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "bread",
+        "props": {},
+        "key": "bread",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "broccoli",
+        "props": {},
+        "key": "broccoli",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "broccoli_half"
+            ]
+        ]
+    },
+    {
+        "img": "broccoli_half",
+        "props": {},
+        "key": "broccoli_half",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "brothers3",
+        "props": {},
+        "key": "brothers",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "brothers2",
+        "props": {},
+        "key": "brothers",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "brothers1",
+        "props": {},
+        "key": "brothers",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "brush",
+        "props": {},
+        "key": "brush",
+        "capabilities": [
+            [
+                "paint_in",
+                1
+            ],
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_small",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "bus_front",
+        "props": {},
+        "key": "bus",
+        "capabilities": [
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "bus_big",
+        "props": {
+            "size": "big"
+        },
+        "key": "bus",
+        "capabilities": [
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "bus_blue",
+        "props": {
+            "color": "blue"
+        },
+        "key": "bus",
+        "capabilities": [
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "bus_mid_size",
+        "props": {},
+        "key": "bus",
+        "capabilities": [
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "cake",
+        "props": {},
+        "key": "cake",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "camera",
+        "props": {},
+        "key": "camera",
+        "capabilities": [
+            [
+                "take_photo",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "candle",
+        "props": {},
+        "key": "candle",
+        "capabilities": [],
+        "affordances": [
+            [
+                "light",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "cap",
+        "props": {},
+        "key": "cap",
+        "capabilities": [
+            [
+                "interact_clothes",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
         "img": "car__col__black",
         "props": {
             "color": "black"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -83,7 +623,19 @@
             "color": "blue"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -101,7 +653,19 @@
             "color": "blue"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -119,7 +683,19 @@
             "color": "blue"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -137,7 +713,19 @@
             "color": "green"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -155,7 +743,19 @@
             "color": "orange"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -173,7 +773,19 @@
             "color": "pink"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -191,7 +803,19 @@
             "color": "purple"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -209,7 +833,19 @@
             "color": "red"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -227,7 +863,19 @@
             "color": "red"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -245,7 +893,19 @@
             "color": "red"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -263,7 +923,19 @@
             "color": "silver"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -281,7 +953,19 @@
             "color": "silver"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -299,7 +983,19 @@
             "color": "silver"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -317,7 +1013,19 @@
             "color": "white"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -336,7 +1044,19 @@
             "age": "new"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -355,7 +1075,19 @@
             "age": "old"
         },
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -368,189 +1100,148 @@
         ]
     },
     {
-        "img": "dog",
-        "props": {
-            "size": "big"
-        },
-        "key": "dog",
-        "capabilities": [
-            [
-                "store_medium",
-                0
-            ]
-        ],
-        "affordances": []
-    },
-    {
-        "img": "dog_small",
-        "props": {
-            "size": "small"
-        },
-        "key": "dog",
-        "capabilities": [
-            [
-                "store_medium",
-                0
-            ]
-        ],
-        "affordances": []
-    },
-    {
-        "img": "notebook",
+        "img": "car_key",
         "props": {},
-        "key": "notebook",
+        "key": "car_key",
         "capabilities": [
             [
-                "store_small",
+                "give",
                 0
             ],
             [
-                "store_medium",
+                "put_in_bowl",
                 0
             ]
         ],
         "affordances": []
     },
     {
-        "img": "shirt",
+        "img": "car_keys",
         "props": {},
-        "key": "shirt",
+        "key": "car_keys",
         "capabilities": [
             [
-                "store_small",
+                "give",
                 0
             ],
             [
-                "store_medium",
-                0
-            ],
-            [
-                "wash",
+                "put_in_bowl",
                 0
             ]
         ],
         "affordances": []
     },
     {
-        "img": "shoes",
-        "props": {},
-        "key": "shoes",
-        "capabilities": [
-            [
-                "store_small",
-                0
-            ],
-            [
-                "store_medium",
-                0
-            ]
-        ],
-        "affordances": []
-    },
-    {
-        "img": "suitcas2",
+        "img": "cat_grey",
         "props": {
-            "color": "white"
+            "color": "grey"
         },
-        "key": "suitcase",
-        "capabilities": [],
+        "key": "cat",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
         "affordances": [
-            [
-                "store_small",
-                1
-            ]
-        ]
-    },
-    {
-        "img": "suitcase1",
-        "props": {
-            "color": "blue"
-        },
-        "key": "suitcase",
-        "capabilities": [],
-        "affordances": [
-            [
-                "store_small",
-                1
-            ]
-        ]
-    },
-    {
-        "img": "umbrella",
-        "props": {},
-        "key": "umbrella",
-        "capabilities": [
-            [
-                "store_medium",
-                0
-            ]
-        ],
-        "affordances": []
-    },
-    {
-        "img": "you",
-        "props": {},
-        "key": "you",
-        "capabilities": [
-            [
-                "get_in",
-                0
-            ],
-            [
-                "go_to",
-                0
-            ],
-            [
-                "comb",
-                1
-            ]
-        ],
-        "affordances": []
-    },
-    {
-        "img": "cat_white",
-        "props": {},
-        "key": "cat_white",
-        "capabilities": [
             [
                 "feed",
                 1
+            ],
+            [
+                "pet",
+                1
             ]
-        ],
-        "affordances": []
+        ]
     },
     {
-        "img": "house_front",
-        "props": {},
-        "key": "house_front",
-        "capabilities": [],
+        "img": "cat_alt",
+        "props": {
+            "color": "brown"
+        },
+        "key": "cat",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
         "affordances": [
             [
-                "go_in",
+                "feed",
+                1
+            ],
+            [
+                "pet",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "cat_white",
+        "props": {
+            "color": "white"
+        },
+        "key": "cat",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "feed",
+                1
+            ],
+            [
+                "pet",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "cat_brown",
+        "props": {
+            "color": "brown"
+        },
+        "key": "cat",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "feed",
+                1
+            ],
+            [
+                "pet",
                 1
             ]
         ]
     },
     {
         "img": "cat_eyes_green",
-        "props": {},
-        "key": "cat_eyes_green",
-        "capabilities": [],
+        "props": {
+            "color": "black_white"
+        },
+        "key": "cat",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
         "affordances": [
             [
                 "feed",
                 1
-            ]
-        ]
-    },
-    {
-        "img": "hut",
-        "props": {},
-        "key": "hut",
-        "capabilities": [],
-        "affordances": [
+            ],
             [
-                "go_in",
+                "pet",
                 1
             ]
         ]
@@ -568,12 +1259,156 @@
         "affordances": []
     },
     {
-        "img": "teddy",
+        "img": "church",
         "props": {},
-        "key": "teddy",
+        "key": "church",
+        "capabilities": [],
+        "affordances": [
+            [
+                "drive_to",
+                1
+            ],
+            [
+                "go_to",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "clock",
+        "props": {},
+        "key": "clock",
         "capabilities": [
             [
-                "put_in_bedding",
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "clothes_line",
+        "props": {},
+        "key": "clothes_line",
+        "capabilities": [],
+        "affordances": [
+            [
+                "interact_clothes",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "coat_hanging",
+        "props": {},
+        "key": "coat_hanging",
+        "capabilities": [
+            [
+                "interact_clothes",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "coat_rack",
+        "props": {},
+        "key": "coat_rack",
+        "capabilities": [],
+        "affordances": [
+            [
+                "interact_clothes",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "coconut",
+        "props": {},
+        "key": "coconut",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ],
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "comb",
+        "props": {},
+        "key": "comb",
+        "capabilities": [
+            [
+                "comb",
+                1
+            ],
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "couple1",
+        "props": {},
+        "key": "couple",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "couple3",
+        "props": {},
+        "key": "couple",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "couple2",
+        "props": {},
+        "key": "couple",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "cucumber_piece",
+        "props": {},
+        "key": "cucumber_piece",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ],
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
                 0
             ]
         ],
@@ -592,79 +1427,270 @@
         "affordances": []
     },
     {
-        "img": "camera",
+        "img": "cupboard_1",
         "props": {},
-        "key": "camera",
+        "key": "cupboard",
         "capabilities": [
-            "take_photo",
-            1
+            [
+                "move_furniture",
+                0
+            ]
         ],
-        "affordances": []
-    },
-    {
-        "img": "tuktuk",
-        "props": {},
-        "key": "tuktuk",
-        "capabilities": [],
         "affordances": [
             [
-                "get_in",
+                "store_small",
                 1
             ]
         ]
     },
     {
-        "img": "plane",
+        "img": "cupboard_2",
         "props": {},
-        "key": "plane",
-        "capabilities": [],
+        "key": "cupboard",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
+            ]
+        ],
         "affordances": [
             [
-                "get_in",
+                "store_small",
                 1
             ]
         ]
     },
     {
-        "img": "comb",
-        "props": {},
-        "key": "comb",
+        "img": "dog",
+        "props": {
+            "size": "big"
+        },
+        "key": "dog",
+        "boxes": [
+            "pets"
+        ],
         "capabilities": [
             [
-                "comb",
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "feed",
                 1
+            ],
+            [
+                "pet",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "dog_small",
+        "props": {
+            "size": "small"
+        },
+        "key": "dog",
+        "boxes": [
+            "pets"
+        ],
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "feed",
+                1
+            ],
+            [
+                "pet",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "doll",
+        "props": {},
+        "key": "doll",
+        "capabilities": [
+            [
+                "give",
+                0
             ]
         ],
         "affordances": []
     },
     {
-        "img": "mosque",
+        "img": "door_red_closed",
         "props": {},
-        "key": "mosque",
+        "key": "door_red_closed",
+        "capabilities": [],
+        "affordances": [
+            [
+                "push_open",
+                2,
+                "door_red_open"
+            ]
+        ]
+    },
+    {
+        "img": "door_red_open",
+        "props": {},
+        "key": "door_red_open",
+        "capabilities": [],
+        "affordances": [
+            [
+                "pull",
+                2,
+                "door_red_open"
+            ]
+        ]
+    },
+    {
+        "img": "dress",
+        "props": {},
+        "key": "dress",
         "capabilities": [
+            [
+                "interact_clothes",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "family4",
+        "props": {},
+        "key": "family",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "family3",
+        "props": {},
+        "key": "family",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "family2",
+        "props": {},
+        "key": "family",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "family5",
+        "props": {},
+        "key": "family",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "family1",
+        "props": {},
+        "key": "family",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "fan",
+        "props": {},
+        "key": "fan",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ],
+            [
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "father_son",
+        "props": {},
+        "key": "father_son",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "flag_eg",
+        "props": {},
+        "key": "flag_egypt",
+        "capabilities": [],
+        "affordances": [
             [
                 "go_to",
                 3
             ]
-        ],
-        "affordances": []
-    },
-    {
-        "img": "tortoise",
-        "props": {},
-        "key": "tortoise",
-        "capabilities": [],
-        "affordances": [
-            [
-                "take_photo",
-                1
-            ]
         ]
     },
     {
-        "img": "house",
+        "img": "flag_germany",
         "props": {},
-        "key": "house",
+        "key": "flag_germany",
         "capabilities": [],
         "affordances": [
             [
@@ -674,28 +1700,28 @@
         ]
     },
     {
-        "img": "taxi",
+        "img": "flag_jordan",
         "props": {},
-        "key": "taxi",
+        "key": "flag_jordan",
         "capabilities": [],
         "affordances": [
             [
-                "get_in",
-                1
+                "go_to",
+                3
             ]
         ]
     },
     {
-        "img": "giraffe",
+        "img": "flower",
         "props": {},
-        "key": "giraffe",
-        "capabilities": [],
-        "affordances": [
+        "key": "flower",
+        "capabilities": [
             [
-                "take_photo",
-                1
+                "give",
+                0
             ]
-        ]
+        ],
+        "affordances": []
     },
     {
         "img": "gelato",
@@ -710,70 +1736,735 @@
         "affordances": []
     },
     {
-        "img": "tractor",
+        "img": "giraffe",
         "props": {},
-        "key": "tractor",
+        "key": "giraffe",
         "capabilities": [],
         "affordances": [
             [
-                "get_in",
+                "take_photo",
                 1
             ]
         ]
     },
     {
-        "img": "bed",
+        "img": "glass",
         "props": {},
-        "key": "bed",
-        "capabilities": [],
-        "affordances": [
-            [
-                "put_in_bedding",
-                3
-            ]
-        ]
-    },
-    {
-        "img": "broccoli",
-        "props": {},
-        "key": "broccoli",
-        "capabilities": [],
-        "affordances": [
-            [
-                "cut",
-                2,
-                "broccoli_half"
-            ]
-        ]
-    },
-    {
-        "img": "knife",
-        "props": {},
-        "key": "knife",
+        "key": "glass",
         "capabilities": [
             [
-                "cut",
+                "store_small",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "glasses",
+        "props": {},
+        "key": "glasses",
+        "capabilities": [
+            [
+                "put_on_accessoire",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "globe",
+        "props": {},
+        "key": "globe",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "hair_brush",
+        "props": {},
+        "key": "hair_brush",
+        "capabilities": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "store_small",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "hair_dryer",
+        "props": {},
+        "key": "hair_dryer",
+        "capabilities": [
+            [
+                "dry_hair",
+                1
+            ],
+            [
+                "store_small",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "hammer",
+        "props": {},
+        "key": "hammer",
+        "capabilities": [
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "hand_pull",
+        "props": {},
+        "key": "hand_pull",
+        "capabilities": [
+            [
+                "peel",
+                1
+            ],
+            [
+                "pull",
+                1
+            ],
+            [
+                "pet",
                 1
             ]
         ],
         "affordances": []
     },
     {
-        "img": "Amisha",
+        "img": "hand_push",
         "props": {},
-        "key": "Amisha",
+        "key": "hand_push",
         "capabilities": [
             [
-                "get_in",
+                "push_open",
+                1
+            ],
+            [
+                "push",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "hat",
+        "props": {},
+        "key": "hat",
+        "capabilities": [
+            [
+                "store_medium",
                 0
             ],
             [
-                "go_to",
+                "interact_clothes",
                 0
+            ],
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "honeymelon",
+        "props": {},
+        "key": "honeymelon",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "honeymelon_cut"
+            ]
+        ]
+    },
+    {
+        "img": "honeymelon_cut",
+        "props": {},
+        "key": "honeymelon_cut",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "house",
+        "props": {},
+        "key": "house",
+        "capabilities": [],
+        "affordances": [
+            [
+                "go_to",
+                3
+            ],
+            [
+                "drive_to",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "jam",
+        "props": {},
+        "key": "jam",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "jeans_blue_dark",
+        "props": {
+            "color": "dark_blue"
+        },
+        "key": "jeans",
+        "capabilities": [
+            [
+                "interact_clothes",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "jeans_blue_light",
+        "props": {
+            "color": "light_blue"
+        },
+        "key": "jeans",
+        "capabilities": [
+            [
+                "interact_clothes",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "key",
+        "props": {},
+        "key": "key",
+        "capabilities": [
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "kiwi",
+        "props": {},
+        "key": "kiwi",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "kiwi_cut"
+            ]
+        ]
+    },
+    {
+        "img": "kiwi_cut",
+        "props": {},
+        "key": "kiwi_cut",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "knife",
+        "props": {},
+        "key": "knife",
+        "boxes": [
+            "kitchen"
+        ],
+        "capabilities": [
+            [
+                "cut",
+                1
+            ],
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "kufiyyeh",
+        "props": {},
+        "key": "kufiyyeh",
+        "capabilities": [
+            [
+                "interact_clothes",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "laptop",
+        "props": {},
+        "key": "laptop",
+        "capabilities": [
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "lemon",
+        "props": {},
+        "key": "lemon",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "lemon_cut"
+            ]
+        ]
+    },
+    {
+        "img": "lemon_cut",
+        "props": {},
+        "key": "lemon_cut",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "man_semi_1",
+        "props": {},
+        "key": "man",
+        "capabilities": [],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "dry_hair",
+                1
             ],
             [
                 "comb",
                 1
+            ],
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "man_full_1",
+        "props": {},
+        "key": "man",
+        "capabilities": [],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "dry_hair",
+                1
+            ],
+            [
+                "comb",
+                1
+            ],
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "mango",
+        "props": {},
+        "key": "mango",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "lemon_cut"
+            ]
+        ]
+    },
+    {
+        "img": "mango_cut",
+        "props": {},
+        "key": "mango_cut",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "melon_cut",
+        "props": {},
+        "key": "melon_cut",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "melon_whole",
+        "props": {},
+        "key": "melon_whole",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "melon_cut"
+            ]
+        ]
+    },
+    {
+        "img": "mosque",
+        "props": {},
+        "key": "mosque",
+        "capabilities": [
+            [
+                "go_to",
+                3
+            ],
+            [
+                "drive_to",
+                3
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "mustang_closed",
+        "props": {},
+        "key": "mustang_closed",
+        "capabilities": [],
+        "affordances": [
+            [
+                "pull",
+                2,
+                "mustang_open"
+            ]
+        ]
+    },
+    {
+        "img": "mustang_open",
+        "props": {},
+        "key": "mustang_open",
+        "capabilities": [],
+        "affordances": [
+            [
+                "push",
+                2,
+                "mustang_closed"
+            ]
+        ]
+    },
+    {
+        "img": "notebook",
+        "props": {},
+        "key": "notebook",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "write",
+                1
+            ],
+            [
+                "paint_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "nutcracker",
+        "props": {},
+        "key": "nutcracker",
+        "capabilities": [
+            [
+                "crack_nut",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "onion",
+        "props": {},
+        "key": "onion",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "cut",
+                2,
+                "onion_cut"
+            ]
+        ]
+    },
+    {
+        "img": "onion_cut",
+        "props": {},
+        "key": "onion_cut",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ],
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "parking_lot",
+        "props": {},
+        "key": "parking_lot",
+        "capabilities": [],
+        "affordances": [
+            [
+                "drive_to",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "pear",
+        "props": {},
+        "key": "pear",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ],
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "pencil_colored",
+        "props": {},
+        "key": "pencil",
+        "capabilities": [
+            [
+                "write",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "phone",
+        "props": {},
+        "key": "phone",
+        "capabilities": [
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "piano",
+        "props": {},
+        "key": "piano",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
             ]
         ],
         "affordances": []
@@ -791,12 +2482,562 @@
         "affordances": []
     },
     {
-        "img": "mango_cut",
+        "img": "pineapple",
         "props": {},
-        "key": "mango_cut",
+        "key": "pineapple",
         "capabilities": [
             [
                 "eat",
+                0
+            ],
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "pizza",
+        "props": {},
+        "key": "pizza",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "plane",
+        "props": {},
+        "key": "plane",
+        "capabilities": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "pot_cactus",
+        "props": {},
+        "key": "pot_cactus",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "pot_flower",
+        "props": {},
+        "key": "pot_flower",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "pot_plant",
+        "props": {},
+        "key": "pot_plant",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "ring",
+        "props": {},
+        "key": "ring",
+        "capabilities": [
+            [
+                "put_on_accessoire",
+                0
+            ],
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "sakko",
+        "props": {},
+        "key": "sakko",
+        "capabilities": [
+            [
+                "interact_clothes",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "saw",
+        "props": {},
+        "key": "saw",
+        "capabilities": [
+            [
+                "saw",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "shirt",
+        "props": {},
+        "key": "shirt",
+        "boxes": [
+            "clothes"
+        ],
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ],
+            [
+                "interact_clothes",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "shoes",
+        "props": {},
+        "key": "shoes",
+        "boxes": [
+            "clothes"
+        ],
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "store_medium",
+                0
+            ],
+            [
+                "put_on_accessoire",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "shopping_cart",
+        "props": {},
+        "key": "shopping_cart",
+        "capabilities": [],
+        "affordances": [
+            [
+                "store_small",
+                3
+            ]
+        ]
+    },
+    {
+        "img": "siblings4",
+        "props": {},
+        "key": "siblings",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "siblings1",
+        "props": {},
+        "key": "siblings",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "siblings3",
+        "props": {},
+        "key": "siblings",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "siblings4b",
+        "props": {},
+        "key": "siblings",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "siblings2",
+        "props": {},
+        "key": "siblings",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "sisters1",
+        "props": {},
+        "key": "sisters",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "sisters3",
+        "props": {},
+        "key": "sisters",
+        "capabilities": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "snake",
+        "props": {},
+        "key": "snake",
+        "capabilities": [],
+        "affordances": [
+            [
+                "take_photo",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "stool",
+        "props": {},
+        "key": "stool",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "stroller",
+        "props": {},
+        "key": "stroller",
+        "capabilities": [],
+        "affordances": [
+            [
+                "put_child",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "suitcas2",
+        "props": {
+            "color": "white"
+        },
+        "key": "suitcase",
+        "boxes": [
+            "packing things"
+        ],
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "store_small",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "suitcase1",
+        "props": {
+            "color": "blue"
+        },
+        "key": "suitcase",
+        "boxes": [
+            "packing things"
+        ],
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "store_small",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "table",
+        "props": {},
+        "key": "table",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "taxi",
+        "props": {},
+        "key": "taxi",
+        "capabilities": [],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "teddy",
+        "props": {},
+        "key": "teddy",
+        "capabilities": [
+            [
+                "put_in_bedding",
+                0
+            ],
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "toddler1",
+        "props": {},
+        "key": "toddler",
+        "capabilities": [
+            [
+                "put_child",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "toddler2",
+        "props": {},
+        "key": "toddler",
+        "capabilities": [
+            [
+                "put_child",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "tortoise",
+        "props": {},
+        "key": "tortoise",
+        "capabilities": [],
+        "affordances": [
+            [
+                "take_photo",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "towels_folded",
+        "props": {},
+        "key": "towels_folded",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "toy1",
+        "props": {},
+        "key": "toy",
+        "capabilities": [
+            [
+                "give",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "tractor",
+        "props": {},
+        "key": "tractor",
+        "capabilities": [
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "train",
+        "props": {},
+        "key": "train",
+        "capabilities": [
+            [
+                "get_in",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "truck",
+        "props": {},
+        "key": "truck",
+        "capabilities": [
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "tuktuk",
+        "props": {},
+        "key": "tuktuk",
+        "capabilities": [
+            [
+                "drive_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "get_in",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "umbrella",
+        "props": {},
+        "key": "umbrella",
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "vase",
+        "props": {},
+        "key": "vase",
+        "capabilities": [
+            [
+                "move_furniture",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "walnut",
+        "props": {},
+        "key": "walnut",
+        "capabilities": [
+            [
+                "put_in_bowl",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "crack_nut",
+                2,
+                "walnut_half"
+            ]
+        ]
+    },
+    {
+        "img": "walnut_half",
+        "props": {},
+        "key": "walnut_half",
+        "capabilities": [
+            [
+                "eat",
+                0
+            ],
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
                 0
             ]
         ],
@@ -809,7 +3050,329 @@
         "capabilities": [],
         "affordances": [
             [
-                "wash",
+                "interact_clothes",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "watch",
+        "props": {},
+        "key": "watch",
+        "capabilities": [
+            [
+                "put_on_accessoire",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "water_bottle",
+        "props": {},
+        "key": "water_bottle",
+        "capabilities": [
+            [
+                "drink",
+                1
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "wedding_ring",
+        "props": {},
+        "key": "wedding_ring",
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ]
+        ],
+        "affordances": []
+    },
+    {
+        "img": "woman_full_basket",
+        "props": {
+            "position": "standing"
+        },
+        "key": "woman",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "dry",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "woman_semi_3",
+        "props": {},
+        "key": "woman",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "dry",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "woman_semi_2",
+        "props": {},
+        "key": "woman",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "dry",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "woman_full_sitting_2",
+        "props": {
+            "position": "sitting"
+        },
+        "key": "woman",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "dry",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "woman_full_sittin_1",
+        "props": {
+            "position": "sitting"
+        },
+        "key": "woman",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "dry",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "woman_hair_brunette",
+        "props": {
+            "hair": "brunette"
+        },
+        "key": "woman",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "dry",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "woman_hair_blonde",
+        "props": {
+            "hair": "blonde"
+        },
+        "key": "woman",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "dry",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "woman_hair_black",
+        "props": {
+            "hair": "black"
+        },
+        "key": "woman",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "dry",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "woman_semi_1",
+        "props": {},
+        "key": "woman",
+        "capabilities": [
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "brush",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "dry",
+                1
+            ]
+        ]
+    },
+    {
+        "img": "you",
+        "props": {},
+        "key": "you",
+        "capabilities": [
+            [
+                "get_in",
+                0
+            ],
+            [
+                "go_to",
+                0
+            ]
+        ],
+        "affordances": [
+            [
+                "comb",
+                1
+            ],
+            [
+                "brush",
+                1
+            ],
+            [
+                "eat",
+                1
+            ],
+            [
+                "drink",
+                1
+            ],
+            [
+                "give",
+                1
+            ],
+            [
+                "interact_clothes",
+                1
+            ],
+            [
+                "put_on_accessoire",
+                1
+            ],
+            [
+                "dry",
                 1
             ]
         ]
