@@ -16,7 +16,6 @@ import Alert from '../Alert.vue';
 import { GameHelper } from '../../classes/GameHelper';
 import type { Exercise, Grid } from '../../types';
 import { useFirestore } from '../../composables/useFireStore';
-import { useLocalStorage } from '../../composables/useLocalStorage';
 import { v4 as uuidv4 } from 'uuid';
 import { useIndexedDB } from '../../composables/useIndexedDB';
 
@@ -37,10 +36,17 @@ const feedbackForAction = ref(undefined as (undefined | Feedback))
 
 const store = useFirestore();
 
-const userID = useLocalStorage('user-id', uuidv4())
 const { addLog } = useIndexedDB('LearningLogDB', 'learning-logs');
 
+// check if 'user-id' is set in localstorage, otherwise generate uuidv4 and save it
+const userID = ref('')
 
+onMounted(() => {
+    if (!localStorage.getItem('user-id')) {
+        localStorage.setItem('user-id', uuidv4())
+    }
+    userID.value = localStorage.getItem('user-id')!
+})
 
 function onInteractionHappened(interaction: string) {
     console.log('drags so far', dragsAttempted.value)
@@ -50,7 +56,7 @@ function onInteractionHappened(interaction: string) {
             type: 'success',
             message: 'صـَلّـَح'
         }
-        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: true, timestamp: new Date(), drags: dragsAttempted.value, gridSize: gridSize }
+        const logObject = { user: userID.value, exercise: props.exercise.quest, solved: true, timestamp: new Date(), drags: dragsAttempted.value, gridSize: gridSize }
         store.writeToCollection('learning-data', { "data": logObject })
         addLog(logObject)
 
@@ -60,7 +66,7 @@ function onInteractionHappened(interaction: string) {
             message: 'غـَلـَط'
         }
 
-        const logObject = { user: userID.val.value, exercise: props.exercise.quest, solved: false, timestamp: new Date(), dragsAttempted: dragsAttempted.value, gridSize: gridSize }
+        const logObject = { user: userID.value, exercise: props.exercise.quest, solved: false, timestamp: new Date(), dragsAttempted: dragsAttempted.value, gridSize: gridSize }
         store.writeToCollection('learning-data', { "data": logObject })
         addLog(logObject)
 
