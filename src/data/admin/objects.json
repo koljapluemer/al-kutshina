@@ -2,7 +2,9 @@
     "backpack": {
         "key": "backpack",
         "capabilities": [],
-        "boxes": ["packing things"],
+        "boxes": [
+            "packing things"
+        ],
         "affordances": [
             [
                 "store_small",
@@ -35,7 +37,9 @@
     "car": {
         "key": "car",
         "capabilities": [],
-        "boxes": ["vehicles"],
+        "boxes": [
+            "vehicles"
+        ],
         "affordances": [
             [
                 "store_medium",
@@ -68,7 +72,9 @@
     },
     "dog": {
         "key": "dog",
-        "boxes": ["pets"],
+        "boxes": [
+            "pets"
+        ],
         "capabilities": [
             [
                 "store_medium",
@@ -116,7 +122,9 @@
     },
     "shirt": {
         "key": "shirt",
-        "boxes": ["clothes"],
+        "boxes": [
+            "clothes"
+        ],
         "capabilities": [
             [
                 "store_small",
@@ -138,7 +146,9 @@
     },
     "shoes": {
         "key": "shoes",
-        "boxes": ["clothes"],
+        "boxes": [
+            "clothes"
+        ],
         "capabilities": [
             [
                 "store_small",
@@ -164,7 +174,9 @@
     },
     "suitcase": {
         "key": "suitcase",
-        "boxes": ["packing things"],
+        "boxes": [
+            "packing things"
+        ],
         "capabilities": [],
         "affordances": [
             [
@@ -219,39 +231,12 @@
             "brush"
         ]
     },
-    "cat_white": {
-        "boxes": ["pets"],
-        "key": "cat_white",
-        "capabilities": [
-            [
-                "feed",
-                1
-            ]
-        ],
-        "affordances": [],
-        "things": [
-            "cat_white"
-        ]
-    },
     "instrument": {
         "key": "instrument",
         "capabilities": [],
         "affordances": [],
         "things": [
             "instrument"
-        ]
-    },
-    "house_front": {
-        "key": "house_front",
-        "capabilities": [],
-        "affordances": [
-            [
-                "go_in",
-                1
-            ]
-        ],
-        "things": [
-            "house_front"
         ]
     },
     "father_son": {
@@ -276,14 +261,6 @@
         "affordances": [],
         "things": [
             "banana_peeled"
-        ]
-    },
-    "sisters1": {
-        "key": "sisters1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "sisters1"
         ]
     },
     "avocado_cut": {
@@ -334,41 +311,12 @@
             "snake"
         ]
     },
-    "siblings2": {
-        "key": "siblings2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings2"
-        ]
-    },
     "pizza": {
         "key": "pizza",
         "capabilities": [],
         "affordances": [],
         "things": [
             "pizza"
-        ]
-    },
-    "cat_eyes_green": {
-        "key": "cat_eyes_green",
-        "capabilities": [],
-        "affordances": [
-            [
-                "feed",
-                1
-            ]
-        ],
-        "things": [
-            "cat_eyes_green"
-        ]
-    },
-    "siblings1": {
-        "key": "siblings1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings1"
         ]
     },
     "walnut_half": {
@@ -379,19 +327,6 @@
             "walnut_half"
         ]
     },
-    "hut": {
-        "key": "hut",
-        "capabilities": [],
-        "affordances": [
-            [
-                "go_in",
-                1
-            ]
-        ],
-        "things": [
-            "hut"
-        ]
-    },
     "onion_cut": {
         "key": "onion_cut",
         "capabilities": [],
@@ -400,28 +335,12 @@
             "onion_cut"
         ]
     },
-    "woman_hair_blonde": {
-        "key": "woman_hair_blonde",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "woman_hair_blonde"
-        ]
-    },
     "cup_plastic": {
         "key": "cup_plastic",
         "capabilities": [],
         "affordances": [],
         "things": [
             "cup_plastic"
-        ]
-    },
-    "vase2": {
-        "key": "vase2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "vase2"
         ]
     },
     "garlic": {
@@ -469,14 +388,6 @@
             "cat_food"
         ]
     },
-    "couple1": {
-        "key": "couple1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "couple1"
-        ]
-    },
     "ring": {
         "key": "ring",
         "capabilities": [],
@@ -493,14 +404,6 @@
             "motor_bike"
         ]
     },
-    "cupboard_1": {
-        "key": "cupboard_1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "cupboard_1"
-        ]
-    },
     "nutcracker": {
         "key": "nutcracker",
         "capabilities": [],
@@ -515,14 +418,6 @@
         "affordances": [],
         "things": [
             "lemon_cut"
-        ]
-    },
-    "couple3": {
-        "key": "couple3",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "couple3"
         ]
     },
     "box": {
@@ -554,14 +449,6 @@
             "saw"
         ]
     },
-    "car_mustang_ajar": {
-        "key": "car_mustang_ajar",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "car_mustang_ajar"
-        ]
-    },
     "cup_coffee": {
         "key": "cup_coffee",
         "capabilities": [
@@ -573,30 +460,6 @@
         "affordances": [],
         "things": [
             "cup_coffee"
-        ]
-    },
-    "anchor": {
-        "key": "anchor",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "anchor"
-        ]
-    },
-    "siblings1_brother": {
-        "key": "siblings1_brother",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings1_brother"
-        ]
-    },
-    "bus_front": {
-        "key": "bus_front",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "bus_front"
         ]
     },
     "camera": {
@@ -686,28 +549,12 @@
             "mosque"
         ]
     },
-    "man_full_1": {
-        "key": "man_full_1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "man_full_1"
-        ]
-    },
     "avocado": {
         "key": "avocado",
         "capabilities": [],
         "affordances": [],
         "things": [
             "avocado"
-        ]
-    },
-    "pencil_colored": {
-        "key": "pencil_colored",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "pencil_colored"
         ]
     },
     "tortoise": {
@@ -752,22 +599,6 @@
             "banana"
         ]
     },
-    "glasses2": {
-        "key": "glasses2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "glasses2"
-        ]
-    },
-    "taxi_old": {
-        "key": "taxi_old",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "taxi_old"
-        ]
-    },
     "taxi": {
         "key": "taxi",
         "capabilities": [],
@@ -781,14 +612,6 @@
             "taxi"
         ]
     },
-    "woman_full_sitting_2": {
-        "key": "woman_full_sitting_2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "woman_full_sitting_2"
-        ]
-    },
     "scissors": {
         "key": "scissors",
         "capabilities": [],
@@ -797,36 +620,12 @@
             "scissors"
         ]
     },
-    "man_semi_1": {
-        "key": "man_semi_1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "man_semi_1"
-        ]
-    },
-    "siblings8": {
-        "key": "siblings8",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings8"
-        ]
-    },
     "lemon": {
         "key": "lemon",
         "capabilities": [],
         "affordances": [],
         "things": [
             "lemon"
-        ]
-    },
-    "siblings3": {
-        "key": "siblings3",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings3"
         ]
     },
     "cable": {
@@ -927,14 +726,6 @@
             "phone"
         ]
     },
-    "woman_full_sittin_1": {
-        "key": "woman_full_sittin_1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "woman_full_sittin_1"
-        ]
-    },
     "parking_lot": {
         "key": "parking_lot",
         "capabilities": [],
@@ -959,14 +750,6 @@
             "lock"
         ]
     },
-    "house_rot": {
-        "key": "house_rot",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "house_rot"
-        ]
-    },
     "egg": {
         "key": "egg",
         "capabilities": [],
@@ -981,14 +764,6 @@
         "affordances": [],
         "things": [
             "clothes_line"
-        ]
-    },
-    "woman_semi_3": {
-        "key": "woman_semi_3",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "woman_semi_3"
         ]
     },
     "clock": {
@@ -1044,22 +819,6 @@
             "car_key"
         ]
     },
-    "parking_lot_2": {
-        "key": "parking_lot_2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "parking_lot_2"
-        ]
-    },
-    "hut_no_bg": {
-        "key": "hut_no_bg",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "hut_no_bg"
-        ]
-    },
     "cucumber_piece": {
         "key": "cucumber_piece",
         "capabilities": [],
@@ -1068,45 +827,12 @@
             "cucumber_piece"
         ]
     },
-    "cat_grey": {
-        "key": "cat_grey",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "cat_grey"
-        ]
-    },
-    "brothers1": {
-        "key": "brothers1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "brothers1"
-        ]
-    },
-    "siblings1_sister": {
-        "key": "siblings1_sister",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings1_sister"
-        ]
-    },
     "coat_hanging": {
         "key": "coat_hanging",
         "capabilities": [],
         "affordances": [],
         "things": [
             "coat_hanging"
-        ]
-    },
-    "bowl_2": {
-        "boxes": ["kitchen"],
-        "key": "bowl_2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "bowl_2"
         ]
     },
     "piano": {
@@ -1125,44 +851,12 @@
             "pot_plant"
         ]
     },
-    "jeans_blue_dark": {
-        "key": "jeans_blue_dark",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "jeans_blue_dark"
-        ]
-    },
-    "hair_girls_straight": {
-        "key": "hair_girls_straight",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "hair_girls_straight"
-        ]
-    },
     "church": {
         "key": "church",
         "capabilities": [],
         "affordances": [],
         "things": [
             "church"
-        ]
-    },
-    "family3": {
-        "key": "family3",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "family3"
-        ]
-    },
-    "family4": {
-        "key": "family4",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "family4"
         ]
     },
     "sakko": {
@@ -1179,14 +873,6 @@
         "affordances": [],
         "things": [
             "globe"
-        ]
-    },
-    "couple2": {
-        "key": "couple2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "couple2"
         ]
     },
     "bed": {
@@ -1218,7 +904,9 @@
     },
     "knife": {
         "key": "knife",
-        "boxes": ["kitchen"],
+        "boxes": [
+            "kitchen"
+        ],
         "capabilities": [
             [
                 "cut",
@@ -1230,73 +918,12 @@
             "knife"
         ]
     },
-    "hair_girls_curly": {
-        "key": "hair_girls_curly",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "hair_girls_curly"
-        ]
-    },
-    "door_red_ajar": {
-        "key": "door_red_ajar",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "door_red_ajar"
-        ]
-    },
-    "Amisha": {
-        "key": "Amisha",
-        "capabilities": [
-            [
-                "get_in",
-                0
-            ],
-            [
-                "go_to",
-                0
-            ],
-            [
-                "comb",
-                1
-            ]
-        ],
-        "affordances": [],
-        "things": [
-            "Amisha"
-        ]
-    },
-    "siblings7": {
-        "key": "siblings7",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings7"
-        ]
-    },
-    "siblings4": {
-        "key": "siblings4",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings4"
-        ]
-    },
     "shell": {
         "key": "shell",
         "capabilities": [],
         "affordances": [],
         "things": [
             "shell"
-        ]
-    },
-    "siblings5": {
-        "key": "siblings5",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings5"
         ]
     },
     "apple": {
@@ -1315,29 +942,12 @@
             "coconut"
         ]
     },
-    "bus_mid_size": {
-        "key": "bus_mid_size",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "bus_mid_size"
-        ]
-    },
     "basket_cherries": {
         "key": "basket_cherries",
         "capabilities": [],
         "affordances": [],
         "things": [
             "basket_cherries"
-        ]
-    },
-    "bowl_3": {
-        "boxes": ["kitchen"],
-        "key": "bowl_3",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "bowl_3"
         ]
     },
     "door_red_open": {
@@ -1362,14 +972,6 @@
         "affordances": [],
         "things": [
             "pineapple"
-        ]
-    },
-    "family2": {
-        "key": "family2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "family2"
         ]
     },
     "books": {
@@ -1420,22 +1022,6 @@
             "glass"
         ]
     },
-    "boy_full_1": {
-        "key": "boy_full_1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "boy_full_1"
-        ]
-    },
-    "siblings6": {
-        "key": "siblings6",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "siblings6"
-        ]
-    },
     "girl": {
         "key": "girl",
         "capabilities": [],
@@ -1466,14 +1052,6 @@
         "affordances": [],
         "things": [
             "hair_brush"
-        ]
-    },
-    "woman_hair_black": {
-        "key": "woman_hair_black",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "woman_hair_black"
         ]
     },
     "key": {
@@ -1524,14 +1102,6 @@
             "kiwi"
         ]
     },
-    "boy_full_4": {
-        "key": "boy_full_4",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "boy_full_4"
-        ]
-    },
     "box_closed": {
         "key": "box_closed",
         "capabilities": [],
@@ -1556,30 +1126,6 @@
             "honeymelon"
         ]
     },
-    "Adanna": {
-        "key": "Adanna",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "Adanna"
-        ]
-    },
-    "pot_tree": {
-        "key": "pot_tree",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "pot_tree"
-        ]
-    },
-    "boy_full_2": {
-        "key": "boy_full_2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "boy_full_2"
-        ]
-    },
     "truck": {
         "key": "truck",
         "capabilities": [],
@@ -1594,22 +1140,6 @@
         "affordances": [],
         "things": [
             "kufiyyeh"
-        ]
-    },
-    "toy1": {
-        "key": "toy1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "toy1"
-        ]
-    },
-    "woman_semi_1": {
-        "key": "woman_semi_1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "woman_semi_1"
         ]
     },
     "hand_pull": {
@@ -1652,36 +1182,12 @@
             "hammer"
         ]
     },
-    "kite": {
-        "key": "kite",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "kite"
-        ]
-    },
     "melon_whole": {
         "key": "melon_whole",
         "capabilities": [],
         "affordances": [],
         "things": [
             "melon_whole"
-        ]
-    },
-    "family1": {
-        "key": "family1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "family1"
-        ]
-    },
-    "cat_brown": {
-        "key": "cat_brown",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "cat_brown"
         ]
     },
     "toilet": {
@@ -1734,28 +1240,12 @@
             "mango_cut"
         ]
     },
-    "family5": {
-        "key": "family5",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "family5"
-        ]
-    },
     "melon_cut": {
         "key": "melon_cut",
         "capabilities": [],
         "affordances": [],
         "things": [
             "melon_cut"
-        ]
-    },
-    "woman_full_basket": {
-        "key": "woman_full_basket",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "woman_full_basket"
         ]
     },
     "towels_folded": {
@@ -1766,36 +1256,12 @@
             "towels_folded"
         ]
     },
-    "sisters3": {
-        "key": "sisters3",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "sisters3"
-        ]
-    },
     "vase": {
         "key": "vase",
         "capabilities": [],
         "affordances": [],
         "things": [
             "vase"
-        ]
-    },
-    "cap_beanie": {
-        "key": "cap_beanie",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "cap_beanie"
-        ]
-    },
-    "bg_pot": {
-        "key": "bg_pot",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "bg_pot"
         ]
     },
     "honeymelon_cut": {
@@ -1806,36 +1272,12 @@
             "honeymelon_cut"
         ]
     },
-    "jeans_blue_light": {
-        "key": "jeans_blue_light",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "jeans_blue_light"
-        ]
-    },
-    "brothers2": {
-        "key": "brothers2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "brothers2"
-        ]
-    },
     "melon_piece": {
         "key": "melon_piece",
         "capabilities": [],
         "affordances": [],
         "things": [
             "melon_piece"
-        ]
-    },
-    "bus_blue": {
-        "key": "bus_blue",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "bus_blue"
         ]
     },
     "fan": {
@@ -1847,20 +1289,14 @@
         ]
     },
     "bowl": {
-        "boxes": ["kitchen"],
+        "boxes": [
+            "kitchen"
+        ],
         "key": "bowl",
         "capabilities": [],
         "affordances": [],
         "things": [
             "bowl"
-        ]
-    },
-    "woman_semi_2": {
-        "key": "woman_semi_2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "woman_semi_2"
         ]
     },
     "drum": {
@@ -1911,14 +1347,6 @@
             "window"
         ]
     },
-    "woman_hair_brunette": {
-        "key": "woman_hair_brunette",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "woman_hair_brunette"
-        ]
-    },
     "train": {
         "key": "train",
         "capabilities": [],
@@ -1935,36 +1363,12 @@
             "flower"
         ]
     },
-    "cupboard_2": {
-        "key": "cupboard_2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "cupboard_2"
-        ]
-    },
-    "bg_tree": {
-        "key": "bg_tree",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "bg_tree"
-        ]
-    },
     "mustang_closed": {
         "key": "mustang_closed",
         "capabilities": [],
         "affordances": [],
         "things": [
             "mustang_closed"
-        ]
-    },
-    "toddler2": {
-        "key": "toddler2",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "toddler2"
         ]
     },
     "ball": {
@@ -1975,14 +1379,6 @@
             "ball"
         ]
     },
-    "toddler1": {
-        "key": "toddler1",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "toddler1"
-        ]
-    },
     "bread": {
         "key": "bread",
         "capabilities": [],
@@ -1991,36 +1387,12 @@
             "bread"
         ]
     },
-    "flag_eg": {
-        "key": "flag_eg",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "flag_eg"
-        ]
-    },
-    "cat_alt": {
-        "key": "cat_alt",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "cat_alt"
-        ]
-    },
     "car_keys": {
         "key": "car_keys",
         "capabilities": [],
         "affordances": [],
         "things": [
             "car_keys"
-        ]
-    },
-    "boy_full_3": {
-        "key": "boy_full_3",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "boy_full_3"
         ]
     },
     "washing_machine": {
@@ -2068,14 +1440,6 @@
             "boy"
         ]
     },
-    "brothers3": {
-        "key": "brothers3",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "brothers3"
-        ]
-    },
     "mango": {
         "key": "mango",
         "capabilities": [],
@@ -2084,28 +1448,204 @@
             "mango"
         ]
     },
-    "siblings4b": {
-        "key": "siblings4b",
+    "toddler": {
+        "key": "toddler",
         "capabilities": [],
         "affordances": [],
         "things": [
-            "siblings4b"
+            "toddler1",
+            "toddler2"
         ]
     },
-    "bus_big": {
-        "key": "bus_big",
+    "toy": {
+        "key": "toy",
         "capabilities": [],
         "affordances": [],
         "things": [
-            "bus_big"
+            "toy1"
         ]
     },
-    "shroom": {
-        "key": "shroom",
+    "put_bush": {
+        "key": "put_bush",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bg_pot"
+        ]
+    },
+    "sisters": {
+        "key": "sisters",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "sisters1",
+            "sisters3"
+        ]
+    },
+    "jeans": {
+        "key": "jeans",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "jeans_blue_dark",
+            "jeans_blue_light"
+        ]
+    },
+    "mushroom": {
+        "key": "mushroom",
         "capabilities": [],
         "affordances": [],
         "things": [
             "shroom"
+        ]
+    },
+    "siblings": {
+        "key": "siblings",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "siblings4",
+            "siblings1",
+            "siblings3",
+            "siblings4b",
+            "siblings2"
+        ]
+    },
+    "flag_egypt": {
+        "key": "flag_egypt",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "flag_eg"
+        ]
+    },
+    "cat": {
+        "key": "cat",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cat_grey",
+            "cat_alt",
+            "cat_white",
+            "cat_brown",
+            "cat_eyes_green"
+        ]
+    },
+    "pencil": {
+        "key": "pencil",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pencil_colored"
+        ]
+    },
+    "apartment": {
+        "key": "apartment",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "apartment"
+        ]
+    },
+    "cupboard": {
+        "key": "cupboard",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cupboard_1",
+            "cupboard_2"
+        ]
+    },
+    "tree": {
+        "key": "tree",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bg_tree"
+        ]
+    },
+    "couple": {
+        "key": "couple",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "couple1",
+            "couple3",
+            "couple2"
+        ]
+    },
+    "beanie": {
+        "key": "beanie",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "cap_beanie"
+        ]
+    },
+    "woman": {
+        "key": "woman",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "woman_full_basket",
+            "woman_semi_3",
+            "woman_semi_2",
+            "woman_full_sitting_2",
+            "woman_full_sittin_1",
+            "woman_hair_brunette",
+            "woman_hair_blonde",
+            "woman_hair_black",
+            "woman_semi_1"
+        ]
+    },
+    "brothers": {
+        "key": "brothers",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "brothers3",
+            "brothers2",
+            "brothers1"
+        ]
+    },
+    "family": {
+        "key": "family",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "family4",
+            "family3",
+            "family2",
+            "family5",
+            "family1"
+        ]
+    },
+    "bus": {
+        "key": "bus",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "bus_front",
+            "bus_big",
+            "bus_blue",
+            "bus_mid_size"
+        ]
+    },
+    "potted_tree": {
+        "key": "potted_tree",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "pot_tree"
+        ]
+    },
+    "man": {
+        "key": "man",
+        "capabilities": [],
+        "affordances": [],
+        "things": [
+            "man_semi_1",
+            "man_full_1"
         ]
     }
 }
