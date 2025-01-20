@@ -2,1411 +2,2587 @@
     {
         "key": "bottle-store_small-backpack",
         "en": "Put the bottle in the backpack.",
-        "ar": "ضع الزجاجة في حقيبة الظهر."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631.",
+        "de": "Lege die Flasche in den Rucksack."
     },
     {
         "key": "bottle-store_small-backpack__color__blue",
         "en": "Put the bottle in the blue backpack.",
-        "ar": "ضع الزجاجة في حقيبة الظهر الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege die Flasche in den blauen Rucksack."
     },
     {
         "key": "bottle-store_small-backpack__color__red",
         "en": "Put the bottle in the red backpack.",
-        "ar": "ضع الزجاجة في حقيبة الظهر الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege die Flasche in den roten Rucksack."
     },
     {
         "key": "bottle-store_medium-car",
         "en": "Put the bottle in the car.",
-        "ar": "ضع الزجاجة في السيارة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Lege die Flasche in das Auto."
     },
     {
         "key": "bottle-store_medium-car__color__black",
         "en": "Put the bottle in the black car.",
-        "ar": "ضع الزجاجة في السيارة السوداء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege die Flasche in das schwarze Auto."
     },
     {
         "key": "bottle-store_medium-car__color__blue",
         "en": "Put the bottle in the blue car.",
-        "ar": "ضع الزجاجة في السيارة الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege die Flasche in das blaue Auto."
     },
     {
         "key": "bottle-store_medium-car__color__green",
         "en": "Put the bottle in the green car.",
-        "ar": "ضع الزجاجة في السيارة الخضراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Lege die Flasche in das gr\u00fcne Auto."
     },
     {
         "key": "bottle-store_medium-car__color__orange",
         "en": "Put the bottle in the orange car.",
-        "ar": "ضع الزجاجة في السيارة البرتقالية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Lege die Flasche in das orangefarbene Auto."
     },
     {
         "key": "bottle-store_medium-car__color__pink",
         "en": "Put the bottle in the pink car.",
-        "ar": "ضع الزجاجة في السيارة الوردية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Lege die Flasche in das rosa Auto."
     },
     {
         "key": "bottle-store_medium-car__color__purple",
         "en": "Put the bottle in the purple car.",
-        "ar": "ضع الزجاجة في السيارة البنفسجية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege die Flasche in das lila Auto."
     },
     {
         "key": "bottle-store_medium-car__color__red",
         "en": "Put the bottle in the red car.",
-        "ar": "ضع الزجاجة في السيارة الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege die Flasche in das rote Auto."
     },
     {
         "key": "bottle-store_medium-car__color__silver",
         "en": "Put the bottle in the silver car.",
-        "ar": "ضع الزجاجة في السيارة الفضية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Lege die Flasche in das silberne Auto."
     },
     {
         "key": "bottle-store_medium-car__color__white",
         "en": "Put the bottle in the white car.",
-        "ar": "ضع الزجاجة في السيارة البيضاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Lege die Flasche in das wei\u00dfe Auto."
     },
     {
         "key": "bottle-store_medium-car__color__yellow",
         "en": "Put the bottle in the yellow car.",
-        "ar": "ضع الزجاجة في السيارة الصفراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Lege die Flasche in das gelbe Auto."
     },
     {
         "key": "bottle-store_medium-car__age__new",
         "en": "Put the bottle in the new car.",
-        "ar": "ضع الزجاجة في السيارة الجديدة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Lege die Flasche in das neue Auto."
     },
     {
         "key": "bottle-store_medium-car__age__old",
         "en": "Put the bottle in the old car.",
-        "ar": "ضع الزجاجة في السيارة القديمة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Lege die Flasche in das alte Auto."
     },
     {
         "key": "dog-store_medium-car",
         "en": "Put the dog in the car.",
-        "ar": "ضع الكلب في السيارة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Lege den Hund in das Auto."
     },
     {
         "key": "dog-store_medium-car__color__black",
         "en": "Put the dog in the black car.",
-        "ar": "ضع الكلب في السيارة السوداء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege den Hund in das schwarze Auto."
     },
     {
         "key": "dog__size__big-store_medium-car",
         "en": "Put the big dog in the car.",
-        "ar": "ضع الكلب الكبير في السيارة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Setze den gro\u00dfen Hund in das Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__black",
         "en": "Put the big dog in the black car.",
-        "ar": "ضع الكلب الكبير في السيارة السوداء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Setze den gro\u00dfen Hund in das schwarze Auto."
     },
     {
         "key": "dog-store_medium-car__color__blue",
         "en": "Put the dog in the blue car.",
-        "ar": "ضع الكلب في السيارة الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Setze den Hund in das blaue Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__blue",
         "en": "Put the big dog in the blue car.",
-        "ar": "ضع الكلب الكبير في السيارة الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Setze den gro\u00dfen Hund in das blaue Auto."
     },
     {
         "key": "dog-store_medium-car__color__green",
         "en": "Put the dog in the green car.",
-        "ar": "ضع الكلب في السيارة الخضراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Setze den Hund in das gr\u00fcne Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__green",
         "en": "Put the big dog in the green car.",
-        "ar": "ضع الكلب الكبير في السيارة الخضراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Setze den gro\u00dfen Hund in das gr\u00fcne Auto."
     },
     {
         "key": "dog-store_medium-car__color__orange",
         "en": "Put the dog in the orange car.",
-        "ar": "ضع الكلب في السيارة البرتقالية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Setze den Hund in das orangefarbene Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__orange",
         "en": "Put the big dog in the orange car.",
-        "ar": "ضع الكلب الكبير في السيارة البرتقالية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Setze den gro\u00dfen Hund in das orangefarbene Auto."
     },
     {
         "key": "dog-store_medium-car__color__pink",
         "en": "Put the dog in the pink car.",
-        "ar": "ضع الكلب في السيارة الوردية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Setze den Hund in das rosa Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__pink",
         "en": "Put the big dog in the pink car.",
-        "ar": "ضع الكلب الكبير في السيارة الوردية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Setze den gro\u00dfen Hund in das rosa Auto."
     },
     {
         "key": "dog-store_medium-car__color__purple",
         "en": "Put the dog in the purple car.",
-        "ar": "ضع الكلب في السيارة الأرجوانية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0623\u0631\u062c\u0648\u0627\u0646\u064a\u0629.",
+        "de": "Setze den Hund in das lila Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__purple",
         "en": "Put the big dog in the purple car.",
-        "ar": "ضع الكلب الكبير في السيارة الأرجوانية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0623\u0631\u062c\u0648\u0627\u0646\u064a\u0629.",
+        "de": "Setze den gro\u00dfen Hund in das lila Auto."
     },
     {
         "key": "dog-store_medium-car__color__red",
         "en": "Put the dog in the red car.",
-        "ar": "ضع الكلب في السيارة الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Setze den Hund in das rote Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__red",
         "en": "Put the big dog in the red car.",
-        "ar": "ضع الكلب الكبير في السيارة الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Setze den gro\u00dfen Hund in das rote Auto."
     },
     {
         "key": "dog-store_medium-car__color__silver",
         "en": "Put the dog in the silver car.",
-        "ar": "ضع الكلب في السيارة الفضية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Setze den Hund in das silberne Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__silver",
         "en": "Put the big dog in the silver car.",
-        "ar": "ضع الكلب الكبير في السيارة الفضية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Setze den gro\u00dfen Hund in das silberne Auto."
     },
     {
         "key": "dog-store_medium-car__color__white",
         "en": "Put the dog in the white car.",
-        "ar": "ضع الكلب في السيارة البيضاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Setze den Hund in das wei\u00dfe Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__white",
         "en": "Put the big dog in the white car.",
-        "ar": "ضع الكلب الكبير في السيارة البيضاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Setze den gro\u00dfen Hund in das wei\u00dfe Auto."
     },
     {
         "key": "dog-store_medium-car__color__yellow",
         "en": "Put the dog in the yellow car.",
-        "ar": "ضع الكلب في السيارة الصفراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Setze den Hund in das gelbe Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__color__yellow",
         "en": "Put the big dog in the yellow car.",
-        "ar": "ضع الكلب الكبير في السيارة الصفراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Setze den gro\u00dfen Hund in das gelbe Auto."
     },
     {
         "key": "dog-store_medium-car__age__new",
         "en": "Put the dog in the new car.",
-        "ar": "ضع الكلب في السيارة الجديدة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Setze den Hund in das neue Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__age__new",
         "en": "Put the big dog in the new car.",
-        "ar": "ضع الكلب الكبير في السيارة الجديدة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Setze den gro\u00dfen Hund in das neue Auto."
     },
     {
         "key": "dog-store_medium-car__age__old",
         "en": "Put the dog in the old car.",
-        "ar": "ضع الكلب في السيارة القديمة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Setze den Hund in das alte Auto."
     },
     {
         "key": "dog__size__big-store_medium-car__age__old",
         "en": "Put the big dog in the old car.",
-        "ar": "ضع الكلب الكبير في السيارة القديمة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Setze den gro\u00dfen Hund in das alte Auto."
     },
     {
         "key": "dog__size__small-store_medium-car",
         "en": "Put the small dog in the car.",
-        "ar": "ضع الكلب الصغير في السيارة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Setze den kleinen Hund in das Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__black",
         "en": "Put the small dog in the black car.",
-        "ar": "ضع الكلب الصغير في السيارة السوداء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Setze den kleinen Hund in das schwarze Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__blue",
         "en": "Put the small dog in the blue car.",
-        "ar": "ضع الكلب الصغير في السيارة الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Setze den kleinen Hund in das blaue Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__green",
         "en": "Put the small dog in the green car.",
-        "ar": "ضع الكلب الصغير في السيارة الخضراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Setze den kleinen Hund in das gr\u00fcne Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__orange",
         "en": "Put the small dog in the orange car.",
-        "ar": "ضع الكلب الصغير في السيارة البرتقالية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Setze den kleinen Hund in das orangefarbene Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__pink",
         "en": "Put the small dog in the pink car.",
-        "ar": "ضع الكلب الصغير في السيارة الوردية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Setze den kleinen Hund in das rosa Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__purple",
         "en": "Put the small dog in the purple car.",
-        "ar": "ضع الكلب الصغير في السيارة البنفسجية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Setze den kleinen Hund in das lila Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__red",
         "en": "Put the small dog in the red car.",
-        "ar": "ضع الكلب الصغير في السيارة الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Setze den kleinen Hund in das rote Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__silver",
         "en": "Put the small dog in the silver car.",
-        "ar": "ضع الكلب الصغير في السيارة الفضية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Setze den kleinen Hund in das silberne Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__white",
         "en": "Put the small dog in the white car.",
-        "ar": "ضع الكلب الصغير في السيارة البيضاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Setze den kleinen Hund in das wei\u00dfe Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__color__yellow",
         "en": "Put the small dog in the yellow car.",
-        "ar": "ضع الكلب الصغير في السيارة الصفراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Setze den kleinen Hund in das gelbe Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__age__new",
         "en": "Put the small dog in the new car.",
-        "ar": "ضع الكلب الصغير في السيارة الجديدة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Setze den kleinen Hund in das neue Auto."
     },
     {
         "key": "dog__size__small-store_medium-car__age__old",
         "en": "Put the small dog in the old car.",
-        "ar": "ضع الكلب الصغير في السيارة القديمة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Setze den kleinen Hund in das alte Auto."
     },
     {
         "key": "notebook-store_small-backpack",
         "en": "Put the notebook in the backpack.",
-        "ar": "ضع الدفتر في حقيبة الظهر."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631.",
+        "de": "Lege das Notizbuch in den Rucksack."
     },
     {
         "key": "notebook-store_small-backpack__color__blue",
         "en": "Put the notebook in the blue backpack.",
-        "ar": "ضع الدفتر في حقيبة الظهر الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege das Notizbuch in den blauen Rucksack."
     },
     {
         "key": "notebook-store_small-backpack__color__red",
         "en": "Put the notebook in the red backpack.",
-        "ar": "ضع الدفتر في حقيبة الظهر الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Legen Sie das Notizbuch in den roten Rucksack."
     },
     {
         "key": "notebook-store_medium-car",
         "en": "Put the notebook in the car.",
-        "ar": "ضع الدفتر في السيارة."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Legen Sie das Notizbuch in das Auto."
     },
     {
         "key": "notebook-store_medium-car__color__black",
         "en": "Put the notebook in the black car.",
-        "ar": "ضع الدفتر في السيارة السوداء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege das Notizbuch in das schwarze Auto."
     },
     {
         "key": "notebook-store_medium-car__color__blue",
         "en": "Put the notebook in the blue car.",
-        "ar": "ضع الدفتر في السيارة الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege das Notizbuch in das blaue Auto."
     },
     {
         "key": "notebook-store_medium-car__color__green",
         "en": "Put the notebook in the green car.",
-        "ar": "ضع الدفتر في السيارة الخضراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Lege das Notizbuch in das gr\u00fcne Auto."
     },
     {
         "key": "notebook-store_medium-car__color__orange",
         "en": "Put the notebook in the orange car.",
-        "ar": "ضع الدفتر في السيارة البرتقالية."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Lege das Notizbuch in das orangefarbene Auto."
     },
     {
         "key": "notebook-store_medium-car__color__pink",
         "en": "Put the notebook in the pink car.",
-        "ar": "ضع الدفتر في السيارة الوردية."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Lege das Notizbuch in das rosa Auto."
     },
     {
         "key": "notebook-store_medium-car__color__purple",
         "en": "Put the notebook in the purple car.",
-        "ar": "ضع الدفتر في السيارة البنفسجية."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege das Notizbuch in das lila Auto."
     },
     {
         "key": "notebook-store_medium-car__color__red",
         "en": "Put the notebook in the red car.",
-        "ar": "ضع الدفتر في السيارة الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege das Notizbuch in das rote Auto."
     },
     {
         "key": "notebook-store_medium-car__color__silver",
         "en": "Put the notebook in the silver car.",
-        "ar": "ضع الدفتر في السيارة الفضية."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Legen Sie das Notizbuch in das silberne Auto."
     },
     {
         "key": "notebook-store_medium-car__color__white",
         "en": "Put the notebook in the white car.",
-        "ar": "ضع الدفتر في السيارة البيضاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Legen Sie das Notizbuch in das wei\u00dfe Auto."
     },
     {
         "key": "notebook-store_medium-car__color__yellow",
         "en": "Put the notebook in the yellow car.",
-        "ar": "ضع الدفتر في السيارة الصفراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Legen Sie das Notizbuch in das gelbe Auto."
     },
     {
         "key": "notebook-store_medium-car__age__new",
         "en": "Put the notebook in the new car.",
-        "ar": "ضع الدفتر في السيارة الجديدة."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Legen Sie das Notizbuch in das neue Auto."
     },
     {
         "key": "notebook-store_medium-car__age__old",
         "en": "Put the notebook in the old car.",
-        "ar": "ضع الدفتر في السيارة القديمة."
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Legen Sie das Notizbuch in das alte Auto."
     },
     {
         "key": "shirt-store_small-backpack__color__red",
         "en": "Put the shirt in the red backpack.",
-        "ar": "ضع القميص في الحقيبة الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege das Hemd in den roten Rucksack."
     },
     {
         "key": "shirt-store_medium-car",
         "en": "Put the shirt in the car.",
-        "ar": "ضع القميص في السيارة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Lege das Hemd in das Auto."
     },
     {
         "key": "shirt-store_medium-car__color__black",
         "en": "Put the shirt in the black car.",
-        "ar": "ضع القميص في السيارة السوداء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege das Hemd in das schwarze Auto."
     },
     {
         "key": "shirt-store_medium-car__color__blue",
         "en": "Put the shirt in the blue car.",
-        "ar": "ضع القميص في السيارة الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege das Hemd in das blaue Auto."
     },
     {
         "key": "shirt-store_medium-car__color__green",
         "en": "Put the shirt in the green car.",
-        "ar": "ضع القميص في السيارة الخضراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Lege das Hemd in das gr\u00fcne Auto."
     },
     {
         "key": "shirt-store_medium-car__color__orange",
         "en": "Put the shirt in the orange car.",
-        "ar": "ضع القميص في السيارة البرتقالية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Lege das Hemd in das orangefarbene Auto."
     },
     {
         "key": "shirt-store_medium-car__color__pink",
         "en": "Put the shirt in the pink car.",
-        "ar": "ضع القميص في السيارة الوردية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Legen Sie das Hemd in das rosa Auto."
     },
     {
         "key": "shirt-store_medium-car__color__purple",
         "en": "Put the shirt in the purple car.",
-        "ar": "ضع القميص في السيارة البنفسجية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Legen Sie das Hemd in das lila Auto."
     },
     {
         "key": "shirt-store_medium-car__color__red",
         "en": "Put the shirt in the red car.",
-        "ar": "ضع القميص في السيارة الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Legen Sie das Hemd in das rote Auto."
     },
     {
         "key": "shirt-store_medium-car__color__silver",
         "en": "Put the shirt in the silver car.",
-        "ar": "ضع القميص في السيارة الفضية."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Legen Sie das Hemd in das silberne Auto."
     },
     {
         "key": "shirt-store_medium-car__color__white",
         "en": "Put the shirt in the white car.",
-        "ar": "ضع القميص في السيارة البيضاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Legen Sie das Hemd in das wei\u00dfe Auto."
     },
     {
         "key": "shirt-store_medium-car__color__yellow",
         "en": "Put the shirt in the yellow car.",
-        "ar": "ضع القميص في السيارة الصفراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Legen Sie das Hemd in das gelbe Auto."
     },
     {
         "key": "shirt-store_medium-car__age__new",
         "en": "Put the shirt in the new car.",
-        "ar": "ضع القميص في السيارة الجديدة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Lege das Hemd in das neue Auto."
     },
     {
         "key": "shirt-store_medium-car__age__old",
         "en": "Put the shirt in the old car.",
-        "ar": "ضع القميص في السيارة القديمة."
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Legen Sie das Hemd in das alte Auto."
     },
     {
         "key": "shoes-store_small-backpack",
         "en": "Put the shoes in the backpack.",
-        "ar": "ضع الحذاء في حقيبة الظهر."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631.",
+        "de": "Lege die Schuhe in den Rucksack."
     },
     {
         "key": "shoes-store_small-backpack__color__blue",
         "en": "Put the shoes in the blue backpack.",
-        "ar": "ضع الحذاء في حقيبة الظهر الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Legen Sie die Schuhe in den blauen Rucksack."
     },
     {
         "key": "shoes-store_small-backpack__color__red",
         "en": "Put the shoes in the red backpack.",
-        "ar": "ضع الحذاء في حقيبة الظهر الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Legen Sie die Schuhe in den roten Rucksack."
     },
     {
         "key": "shoes-store_medium-car",
         "en": "Put the shoes in the car.",
-        "ar": "ضع الحذاء في السيارة."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Legen Sie die Schuhe in das Auto."
     },
     {
         "key": "shoes-store_medium-car__color__black",
         "en": "Put the shoes in the black car.",
-        "ar": "ضع الحذاء في السيارة السوداء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege die Schuhe in das schwarze Auto."
     },
     {
         "key": "shoes-store_medium-car__color__blue",
         "en": "Put the shoes in the blue car.",
-        "ar": "ضع الحذاء في السيارة الزرقاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege die Schuhe in das blaue Auto."
     },
     {
         "key": "shoes-store_medium-car__color__green",
         "en": "Put the shoes in the green car.",
-        "ar": "ضع الحذاء في السيارة الخضراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Lege die Schuhe in das gr\u00fcne Auto."
     },
     {
         "key": "shoes-store_medium-car__color__orange",
         "en": "Put the shoes in the orange car.",
-        "ar": "ضع الحذاء في السيارة البرتقالية."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Lege die Schuhe in das orangefarbene Auto."
     },
     {
         "key": "shoes-store_medium-car__color__pink",
         "en": "Put the shoes in the pink car.",
-        "ar": "ضع الحذاء في السيارة الوردية."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Lege die Schuhe in das rosa Auto."
     },
     {
         "key": "shoes-store_medium-car__color__purple",
         "en": "Put the shoes in the purple car.",
-        "ar": "ضع الحذاء في السيارة البنفسجية."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege die Schuhe in das lila Auto."
     },
     {
         "key": "shoes-store_medium-car__color__red",
         "en": "Put the shoes in the red car.",
-        "ar": "ضع الحذاء في السيارة الحمراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege die Schuhe in das rote Auto."
     },
     {
         "key": "shoes-store_medium-car__color__silver",
         "en": "Put the shoes in the silver car.",
-        "ar": "ضع الحذاء في السيارة الفضية."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Lege die Schuhe in das silberne Auto."
     },
     {
         "key": "shoes-store_medium-car__color__white",
         "en": "Put the shoes in the white car.",
-        "ar": "ضع الحذاء في السيارة البيضاء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Lege die Schuhe in das wei\u00dfe Auto."
     },
     {
         "key": "shoes-store_medium-car__color__yellow",
         "en": "Put the shoes in the yellow car.",
-        "ar": "ضع الحذاء في السيارة الصفراء."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Legen Sie die Schuhe in das gelbe Auto."
     },
     {
         "key": "shoes-store_medium-car__age__new",
         "en": "Put the shoes in the new car.",
-        "ar": "ضع الحذاء في السيارة الجديدة."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Legen Sie die Schuhe in das neue Auto."
     },
     {
         "key": "shoes-store_medium-car__age__old",
         "en": "Put the shoes in the old car.",
-        "ar": "ضع الحذاء في السيارة القديمة."
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Legen Sie die Schuhe in das alte Auto."
     },
     {
         "key": "you-get_in-car__color__blue",
         "en": "Get in the blue car.",
-        "ar": "اركب السيارة الزرقاء."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Steigen Sie in das blaue Auto."
     },
     {
         "key": "you-get_in-car__color__green",
         "en": "Get in the green car.",
-        "ar": "اركب السيارة الخضراء."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Steigen Sie in das gr\u00fcne Auto."
     },
     {
         "key": "you-get_in-car__color__orange",
         "en": "Get in the orange car.",
-        "ar": "اركب السيارة البرتقالية."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Steig in das orangefarbene Auto."
     },
     {
         "key": "you-get_in-car__color__pink",
         "en": "Get in the pink car.",
-        "ar": "اركب السيارة الوردية."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Steig in das rosa Auto."
     },
     {
         "key": "you-get_in-car__color__purple",
         "en": "Get in the purple car.",
-        "ar": "اركب السيارة البنفسجية."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Steig in das lila Auto."
     },
     {
         "key": "you-get_in-car__color__red",
         "en": "Get in the red car.",
-        "ar": "اركب السيارة الحمراء."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Steigen Sie in das rote Auto."
     },
     {
         "key": "you-get_in-car__color__silver",
         "en": "Get in the silver car.",
-        "ar": "اركب السيارة الفضية."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Steig in das silberne Auto."
     },
     {
         "key": "you-get_in-car__color__white",
         "en": "Get in the white car.",
-        "ar": "اركب السيارة البيضاء."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Steig in das wei\u00dfe Auto."
     },
     {
         "key": "you-get_in-car__color__yellow",
         "en": "Get in the yellow car.",
-        "ar": "اركب السيارة الصفراء."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Steigen Sie in das gelbe Auto."
     },
     {
         "key": "you-get_in-car__age__old",
         "en": "Get in the old car.",
-        "ar": "اركب السيارة القديمة."
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Steig in das alte Auto."
     },
     {
-        "key": "bottle-store_small-backpack",
-        "en": "Put the bottle in the backpack.",
-        "ar": "ضع الزجاجة في حقيبة الظهر."
+        "key": "apple-put_in_bowl-bowl",
+        "en": "Put the apple in the bowl.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062a\u0641\u0627\u062d\u0629 \u0641\u064a \u0627\u0644\u0648\u0639\u0627\u0621.",
+        "de": "Lege den Apfel in die Sch\u00fcssel."
     },
     {
-        "key": "bottle-store_small-backpack__color__blue",
-        "en": "Put the bottle in the blue backpack.",
-        "ar": "ضع الزجاجة في حقيبة الظهر الزرقاء."
+        "key": "apple-store_small-shopping_cart",
+        "en": "Put the apple in the shopping cart.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062a\u0641\u0627\u062d\u0629 \u0641\u064a \u0639\u0631\u0628\u0629 \u0627\u0644\u062a\u0633\u0648\u0642.",
+        "de": "Lege den Apfel in den Einkaufswagen."
     },
     {
-        "key": "bottle-store_small-backpack__color__red",
-        "en": "Put the bottle in the red backpack.",
-        "ar": "ضع الزجاجة في حقيبة الظهر الحمراء."
+        "key": "apple-eat-you",
+        "en": "Eat the apple.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u062a\u0641\u0627\u062d\u0629.",
+        "de": "Iss den Apfel."
     },
     {
-        "key": "bottle-store_medium-car",
-        "en": "Put the bottle in the car.",
-        "ar": "ضع الزجاجة في السيارة."
+        "key": "avocado-put_in_bowl-bowl",
+        "en": "Put the avocado in the bowl.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0623\u0641\u0648\u0643\u0627\u062f\u0648 \u0641\u064a \u0627\u0644\u0648\u0639\u0627\u0621.",
+        "de": "Lege die Avocado in die Sch\u00fcssel."
     },
     {
-        "key": "bottle-store_medium-car__color__black",
-        "en": "Put the bottle in the black car.",
-        "ar": "ضع الزجاجة في السيارة السوداء."
+        "key": "avocado-store_small-shopping_cart",
+        "en": "Put the avocado in the shopping cart.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0623\u0641\u0648\u0643\u0627\u062f\u0648 \u0641\u064a \u0639\u0631\u0628\u0629 \u0627\u0644\u062a\u0633\u0648\u0642.",
+        "de": "Legen Sie die Avocado in den Einkaufswagen."
     },
     {
-        "key": "bottle-store_medium-car__color__blue",
-        "en": "Put the bottle in the blue car.",
-        "ar": "ضع الزجاجة في السيارة الزرقاء."
+        "key": "avocado-eat-you",
+        "en": "Eat the avocado.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0623\u0641\u0648\u0643\u0627\u062f\u0648.",
+        "de": "Iss die Avocado."
     },
     {
-        "key": "bottle-store_medium-car__color__green",
-        "en": "Put the bottle in the green car.",
-        "ar": "ضع الزجاجة في السيارة الخضراء."
+        "key": "backpack-store_medium-car",
+        "en": "Put the backpack in the car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Lege den Rucksack in das Auto."
     },
     {
-        "key": "bottle-store_medium-car__color__orange",
-        "en": "Put the bottle in the orange car.",
-        "ar": "ضع الزجاجة في السيارة البرتقالية."
+        "key": "backpack-store_medium-car__color__black",
+        "en": "Put the backpack in the black car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege den Rucksack in das schwarze Auto."
     },
     {
-        "key": "bottle-store_medium-car__color__pink",
-        "en": "Put the bottle in the pink car.",
-        "ar": "ضع الزجاجة في السيارة الوردية."
+        "key": "backpack__color__blue-store_medium-car",
+        "en": "Put the blue backpack in the car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Lege den blauen Rucksack in das Auto."
     },
     {
-        "key": "bottle-store_medium-car__color__purple",
-        "en": "Put the bottle in the purple car.",
-        "ar": "ضع الزجاجة في السيارة البنفسجية."
+        "key": "backpack__color__blue-store_medium-car__color__black",
+        "en": "Put the blue backpack in the black car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege den blauen Rucksack in das schwarze Auto."
     },
     {
-        "key": "bottle-store_medium-car__color__red",
-        "en": "Put the bottle in the red car.",
-        "ar": "ضع الزجاجة في السيارة الحمراء."
+        "key": "backpack-store_medium-car__color__blue",
+        "en": "Put the backpack in the blue car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege den Rucksack in das blaue Auto."
     },
     {
-        "key": "bottle-store_medium-car__color__silver",
-        "en": "Put the bottle in the silver car.",
-        "ar": "ضع الزجاجة في السيارة الفضية."
+        "key": "backpack__color__blue-store_medium-car__color__blue",
+        "en": "Put the blue backpack in the blue car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege den blauen Rucksack in das blaue Auto."
     },
     {
-        "key": "bottle-store_medium-car__color__white",
-        "en": "Put the bottle in the white car.",
-        "ar": "ضع الزجاجة في السيارة البيضاء."
+        "key": "backpack-store_medium-car__color__green",
+        "en": "Put the backpack in the green car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Lege den Rucksack in das gr\u00fcne Auto."
     },
     {
-        "key": "bottle-store_medium-car__color__yellow",
-        "en": "Put the bottle in the yellow car.",
-        "ar": "ضع الزجاجة في السيارة الصفراء."
+        "key": "backpack__color__blue-store_medium-car__color__green",
+        "en": "Put the blue backpack in the green car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Lege den blauen Rucksack in das gr\u00fcne Auto."
     },
     {
-        "key": "bottle-store_medium-car__age__new",
-        "en": "Put the bottle in the new car.",
-        "ar": "ضع الزجاجة في السيارة الجديدة."
+        "key": "backpack-store_medium-car__color__orange",
+        "en": "Put the backpack in the orange car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Lege den Rucksack in das orangefarbene Auto."
     },
     {
-        "key": "bottle-store_medium-car__age__old",
-        "en": "Put the bottle in the old car.",
-        "ar": "ضع الزجاجة في السيارة القديمة."
+        "key": "backpack__color__blue-store_medium-car__color__orange",
+        "en": "Put the blue backpack in the orange car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Lege den blauen Rucksack in das orangefarbene Auto."
     },
     {
-        "key": "bottle-store_small-suitcase",
-        "en": "Put the bottle in the suitcase.",
-        "ar": "ضع الزجاجة في الحقيبة."
+        "key": "backpack-store_medium-car__color__pink",
+        "en": "Put the backpack in the pink car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Lege den Rucksack in das rosa Auto."
     },
     {
-        "key": "bottle-store_small-suitcase__color__white",
-        "en": "Put the bottle in the white suitcase.",
-        "ar": "ضع الزجاجة في الحقيبة البيضاء."
+        "key": "backpack__color__blue-store_medium-car__color__pink",
+        "en": "Put the blue backpack in the pink car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Lege den blauen Rucksack in das rosa Auto."
     },
     {
-        "key": "bottle-store_small-suitcase__color__blue",
-        "en": "Put the bottle in the blue suitcase.",
-        "ar": "ضع الزجاجة في الحقيبة الزرقاء."
+        "key": "backpack-store_medium-car__color__purple",
+        "en": "Put the backpack in the purple car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege den Rucksack in das lila Auto."
     },
     {
-        "key": "dog-store_medium-car",
-        "en": "Put the dog in the car.",
-        "ar": "ضع الكلب في السيارة."
+        "key": "backpack__color__blue-store_medium-car__color__purple",
+        "en": "Put the blue backpack in the purple car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege den blauen Rucksack in das lila Auto."
     },
     {
-        "key": "dog-store_medium-car__color__black",
-        "en": "Put the dog in the black car.",
-        "ar": "ضع الكلب في السيارة السوداء."
+        "key": "backpack-store_medium-car__color__red",
+        "en": "Put the backpack in the red car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege den Rucksack in das rote Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car",
-        "en": "Put the big dog in the car.",
-        "ar": "ضع الكلب الكبير في السيارة."
+        "key": "backpack__color__blue-store_medium-car__color__red",
+        "en": "Put the blue backpack in the red car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege den blauen Rucksack in das rote Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__black",
-        "en": "Put the big dog in the black car.",
-        "ar": "ضع الكلب الكبير في السيارة السوداء."
+        "key": "backpack-store_medium-car__color__silver",
+        "en": "Put the backpack in the silver car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Lege den Rucksack in das silberne Auto."
     },
     {
-        "key": "dog-store_medium-car__color__blue",
-        "en": "Put the dog in the blue car.",
-        "ar": "ضع الكلب في السيارة الزرقاء."
+        "key": "backpack__color__blue-store_medium-car__color__silver",
+        "en": "Put the blue backpack in the silver car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Lege den blauen Rucksack in das silberne Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__blue",
-        "en": "Put the big dog in the blue car.",
-        "ar": "ضع الكلب الكبير في السيارة الزرقاء."
+        "key": "backpack-store_medium-car__color__white",
+        "en": "Put the backpack in the white car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Lege den Rucksack in das wei\u00dfe Auto."
     },
     {
-        "key": "dog-store_medium-car__color__green",
-        "en": "Put the dog in the green car.",
-        "ar": "ضع الكلب في السيارة الخضراء."
+        "key": "backpack__color__blue-store_medium-car__color__white",
+        "en": "Put the blue backpack in the white car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Lege den blauen Rucksack in das wei\u00dfe Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__green",
-        "en": "Put the big dog in the green car.",
-        "ar": "ضع الكلب الكبير في السيارة الخضراء."
+        "key": "backpack-store_medium-car__color__yellow",
+        "en": "Put the backpack in the yellow car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Lege den Rucksack in das gelbe Auto."
     },
     {
-        "key": "dog-store_medium-car__color__orange",
-        "en": "Put the dog in the orange car.",
-        "ar": "ضع الكلب في السيارة البرتقالية."
+        "key": "backpack-store_medium-car__age__new",
+        "en": "Put the backpack in the new car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Lege den Rucksack in das neue Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__orange",
-        "en": "Put the big dog in the orange car.",
-        "ar": "ضع الكلب الكبير في السيارة البرتقالية."
+        "key": "backpack__color__blue-store_medium-car__color__yellow",
+        "en": "Put the blue backpack in the yellow car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Lege den blauen Rucksack in das gelbe Auto."
     },
     {
-        "key": "dog-store_medium-car__color__pink",
-        "en": "Put the dog in the pink car.",
-        "ar": "ضع الكلب في السيارة الوردية."
+        "key": "backpack__color__blue-store_medium-car__age__new",
+        "en": "Put the blue backpack in the new car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Lege den blauen Rucksack in das neue Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__pink",
-        "en": "Put the big dog in the pink car.",
-        "ar": "ضع الكلب الكبير في السيارة الوردية."
+        "key": "backpack-store_medium-car__age__old",
+        "en": "Put the backpack in the old car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Lege den Rucksack in das alte Auto."
     },
     {
-        "key": "dog-store_medium-car__color__purple",
-        "en": "Put the dog in the purple car.",
-        "ar": "ضع الكلب في السيارة الأرجوانية."
+        "key": "backpack__color__blue-store_medium-car__age__old",
+        "en": "Put the blue backpack in the old car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Lege den blauen Rucksack in das alte Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__purple",
-        "en": "Put the big dog in the purple car.",
-        "ar": "ضع الكلب الكبير في السيارة الأرجوانية."
+        "key": "backpack__color__red-store_medium-car",
+        "en": "Put the red backpack in the car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Lege den roten Rucksack in das Auto."
     },
     {
-        "key": "dog-store_medium-car__color__red",
-        "en": "Put the dog in the red car.",
-        "ar": "ضع الكلب في السيارة الحمراء."
+        "key": "backpack__color__red-store_medium-car__color__black",
+        "en": "Put the red backpack in the black car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege den roten Rucksack in das schwarze Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__red",
-        "en": "Put the big dog in the red car.",
-        "ar": "ضع الكلب الكبير في السيارة الحمراء."
+        "key": "backpack__color__red-store_medium-car__color__blue",
+        "en": "Put the red backpack in the blue car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege den roten Rucksack in das blaue Auto."
     },
     {
-        "key": "dog-store_medium-car__color__silver",
-        "en": "Put the dog in the silver car.",
-        "ar": "ضع الكلب في السيارة الفضية."
+        "key": "backpack__color__red-store_medium-car__color__green",
+        "en": "Put the red backpack in the green car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Lege den roten Rucksack in das gr\u00fcne Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__silver",
-        "en": "Put the big dog in the silver car.",
-        "ar": "ضع الكلب الكبير في السيارة الفضية."
+        "key": "backpack__color__red-store_medium-car__color__orange",
+        "en": "Put the red backpack in the orange car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Lege den roten Rucksack in das orangefarbene Auto."
     },
     {
-        "key": "dog-store_medium-car__color__white",
-        "en": "Put the dog in the white car.",
-        "ar": "ضع الكلب في السيارة البيضاء."
+        "key": "backpack__color__red-store_medium-car__color__pink",
+        "en": "Put the red backpack in the pink car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Lege den roten Rucksack in das rosa Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__white",
-        "en": "Put the big dog in the white car.",
-        "ar": "ضع الكلب الكبير في السيارة البيضاء."
+        "key": "backpack__color__red-store_medium-car__color__purple",
+        "en": "Put the red backpack in the purple car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege den roten Rucksack in das lila Auto."
     },
     {
-        "key": "dog-store_medium-car__color__yellow",
-        "en": "Put the dog in the yellow car.",
-        "ar": "ضع الكلب في السيارة الصفراء."
+        "key": "backpack__color__red-store_medium-car__color__red",
+        "en": "Put the red backpack in the red car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege den roten Rucksack in das rote Auto."
     },
     {
-        "key": "dog-store_medium-car__age__new",
-        "en": "Put the dog in the new car.",
-        "ar": "ضع الكلب في السيارة الجديدة."
+        "key": "backpack__color__red-store_medium-car__color__silver",
+        "en": "Put the red backpack in the silver car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Lege den roten Rucksack in das silberne Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__color__yellow",
-        "en": "Put the big dog in the yellow car.",
-        "ar": "ضع الكلب الكبير في السيارة الصفراء."
+        "key": "backpack__color__red-store_medium-car__color__white",
+        "en": "Put the red backpack in the white car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Lege den roten Rucksack in das wei\u00dfe Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__age__new",
-        "en": "Put the big dog in the new car.",
-        "ar": "ضع الكلب الكبير في السيارة الجديدة."
+        "key": "backpack__color__red-store_medium-car__color__yellow",
+        "en": "Put the red backpack in the yellow car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Lege den roten Rucksack in das gelbe Auto."
     },
     {
-        "key": "dog-store_medium-car__age__old",
-        "en": "Put the dog in the old car.",
-        "ar": "ضع الكلب في السيارة القديمة."
+        "key": "backpack__color__red-store_medium-car__age__new",
+        "en": "Put the red backpack in the new car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Lege den roten Rucksack in das neue Auto."
     },
     {
-        "key": "dog__size__big-store_medium-car__age__old",
-        "en": "Put the big dog in the old car.",
-        "ar": "ضع الكلب الكبير في السيارة القديمة."
+        "key": "backpack__color__red-store_medium-car__age__old",
+        "en": "Put the red backpack in the old car.",
+        "ar": "\u0636\u0639 \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u062d\u0645\u0631\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Lege den roten Rucksack in das alte Auto."
     },
     {
-        "key": "dog__size__small-store_medium-car",
-        "en": "Put the small dog in the car.",
-        "ar": "ضع الكلب الصغير في السيارة."
+        "key": "ball-give-boy",
+        "en": "Give the ball to the boy.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0643\u0631\u0629 \u0644\u0644\u0635\u0628\u064a.",
+        "de": "Gib den Ball dem Jungen."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__black",
-        "en": "Put the small dog in the black car.",
-        "ar": "ضع الكلب الصغير في السيارة السوداء."
+        "key": "ball-give-brothers",
+        "en": "Give the ball to the brothers.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0643\u0631\u0629 \u0644\u0644\u0623\u062e\u0648\u064a\u0646.",
+        "de": "Gib den Ball den Br\u00fcdern."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__blue",
-        "en": "Put the small dog in the blue car.",
-        "ar": "ضع الكلب الصغير في السيارة الزرقاء."
+        "key": "ball-give-you",
+        "en": "Take the ball.",
+        "ar": "\u062e\u0630 \u0627\u0644\u0643\u0631\u0629.",
+        "de": "Nimm den Ball."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__green",
-        "en": "Put the small dog in the green car.",
-        "ar": "ضع الكلب الصغير في السيارة الخضراء."
+        "key": "banana-put_in_bowl-bowl",
+        "en": "Put the banana in the bowl.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0648\u0632\u0629 \u0641\u064a \u0627\u0644\u0648\u0639\u0627\u0621.",
+        "de": "Lege die Banane in die Sch\u00fcssel."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__orange",
-        "en": "Put the small dog in the orange car.",
-        "ar": "ضع الكلب الصغير في السيارة البرتقالية."
+        "key": "banana-eat-you",
+        "en": "Eat the banana.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0645\u0648\u0632\u0629.",
+        "de": "Iss die Banane."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__pink",
-        "en": "Put the small dog in the pink car.",
-        "ar": "ضع الكلب الصغير في السيارة الوردية."
+        "key": "banana_peeled-eat-you",
+        "en": "Eat the peeled banana.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0645\u0648\u0632\u0629 \u0627\u0644\u0645\u0642\u0634\u0631\u0629.",
+        "de": "Iss die gesch\u00e4lte Banane."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__purple",
-        "en": "Put the small dog in the purple car.",
-        "ar": "ضع الكلب الصغير في السيارة البنفسجية."
+        "key": "beanie-interact_clothes-clothes_line",
+        "en": "Hang the beanie on the clothesline.",
+        "ar": "\u0639\u0644\u0651\u0642 \u0627\u0644\u0642\u0628\u0639\u0629 \u0627\u0644\u0635\u063a\u064a\u0631\u0629 \u0639\u0644\u0649 \u062d\u0628\u0644 \u0627\u0644\u063a\u0633\u064a\u0644.",
+        "de": "H\u00e4nge die M\u00fctze auf die W\u00e4scheleine."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__red",
-        "en": "Put the small dog in the red car.",
-        "ar": "ضع الكلب الصغير في السيارة الحمراء."
+        "key": "beanie-interact_clothes-washing_machine",
+        "en": "Wash the beanie.",
+        "ar": "\u0627\u063a\u0633\u0644 \u0627\u0644\u0642\u0628\u0639\u0629 \u0627\u0644\u0635\u063a\u064a\u0631\u0629.",
+        "de": "Wasche die M\u00fctze."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__silver",
-        "en": "Put the small dog in the silver car.",
-        "ar": "ضع الكلب الصغير في السيارة الفضية."
+        "key": "beanie-interact_clothes-you",
+        "en": "Put on the beanie.",
+        "ar": "\u0627\u0631\u062a\u062f\u064a \u0627\u0644\u0642\u0628\u0639\u0629 \u0627\u0644\u0635\u063a\u064a\u0631\u0629.",
+        "de": "Ziehe die M\u00fctze an."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__white",
-        "en": "Put the small dog in the white car.",
-        "ar": "ضع الكلب الصغير في السيارة البيضاء."
+        "key": "bed-move_furniture-apartment",
+        "en": "Move the bed into the apartment.",
+        "ar": "\u0627\u0646\u0642\u0644 \u0627\u0644\u0633\u0631\u064a\u0631 \u0625\u0644\u0649 \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Bringe das Bett in die Wohnung."
     },
     {
-        "key": "dog__size__small-store_medium-car__color__yellow",
-        "en": "Put the small dog in the yellow car.",
-        "ar": "ضع الكلب الصغير في السيارة الصفراء."
+        "key": "books-store_small-backpack",
+        "en": "Put the books in the backpack.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u062a\u0628 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631.",
+        "de": "Packe die B\u00fccher in den Rucksack."
     },
     {
-        "key": "dog__size__small-store_medium-car__age__new",
-        "en": "Put the small dog in the new car.",
-        "ar": "ضع الكلب الصغير في السيارة الجديدة."
+        "key": "books-store_small-backpack__color__blue",
+        "en": "Put the books in the blue backpack.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u062a\u0628 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege die B\u00fccher in den blauen Rucksack."
     },
     {
-        "key": "dog__size__small-store_medium-car__age__old",
-        "en": "Put the small dog in the old car.",
-        "ar": "ضع الكلب الصغير في السيارة القديمة."
+        "key": "books-store_small-box_opened",
+        "en": "Put the books in the box.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u062a\u0628 \u0641\u064a \u0627\u0644\u0635\u0646\u062f\u0648\u0642.",
+        "de": "Lege die B\u00fccher in die Schachtel."
     },
     {
-        "key": "notebook-store_small-backpack",
-        "en": "Put the notebook in the backpack.",
-        "ar": "ضع الدفتر في حقيبة الظهر."
+        "key": "bottle-store_small-cupboard",
+        "en": "Put the bottle in the cabinet.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u062c\u0627\u062c\u0629 \u0641\u064a \u0627\u0644\u062e\u0632\u0627\u0646\u0629.",
+        "de": "Lege die Flasche in den Schrank."
     },
     {
-        "key": "notebook-store_small-backpack__color__blue",
-        "en": "Put the notebook in the blue backpack.",
-        "ar": "ضع الدفتر في حقيبة الظهر الزرقاء."
+        "key": "box_closed-move_furniture-apartment",
+        "en": "Put the box into the apartment.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0635\u0646\u062f\u0648\u0642 \u0641\u064a \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Bringe die Kiste in die Wohnung."
     },
     {
-        "key": "notebook-store_small-backpack__color__red",
-        "en": "Put the notebook in the red backpack.",
-        "ar": "ضع الدفتر في حقيبة الظهر الحمراء."
+        "key": "bread-eat-you",
+        "en": "Eat the bread.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u062e\u0628\u0632.",
+        "de": "Essen Sie das Brot."
     },
     {
-        "key": "notebook-store_medium-car",
-        "en": "Put the notebook in the car.",
-        "ar": "ضع الدفتر في السيارة."
+        "key": "broccoli-put_in_bowl-bowl",
+        "en": "Put the broccoli in the bowl.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0628\u0631\u0648\u0643\u0644\u064a \u0641\u064a \u0627\u0644\u0648\u0639\u0627\u0621.",
+        "de": "Gib den Brokkoli in die Sch\u00fcssel."
     },
     {
-        "key": "notebook-store_medium-car__color__black",
-        "en": "Put the notebook in the black car.",
-        "ar": "ضع الدفتر في السيارة السوداء."
+        "key": "broccoli-eat-you",
+        "en": "Eat the broccoli.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0628\u0631\u0648\u0643\u0644\u064a.",
+        "de": "Iss den Brokkoli."
     },
     {
-        "key": "notebook-store_medium-car__color__blue",
-        "en": "Put the notebook in the blue car.",
-        "ar": "ضع الدفتر في السيارة الزرقاء."
+        "key": "brush-paint_in-notebook",
+        "en": "Paint in the notebook.",
+        "ar": "\u0627\u0631\u0633\u0645 \u0641\u064a \u0627\u0644\u062f\u0641\u062a\u0631.",
+        "de": "Male in das Notizbuch."
     },
     {
-        "key": "notebook-store_medium-car__color__green",
-        "en": "Put the notebook in the green car.",
-        "ar": "ضع الدفتر في السيارة الخضراء."
+        "key": "brush-store_small-suitcase",
+        "en": "Put the brush in the suitcase.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0641\u0631\u0634\u0627\u0629 \u0641\u064a \u0627\u0644\u062d\u0642\u064a\u0628\u0629.",
+        "de": "Lege den Pinsel in den Koffer."
     },
     {
-        "key": "notebook-store_medium-car__color__orange",
-        "en": "Put the notebook in the orange car.",
-        "ar": "ضع الدفتر في السيارة البرتقالية."
+        "key": "bus-drive_to-church",
+        "en": "The bus goes to the church.",
+        "ar": "\u062a\u0630\u0647\u0628 \u0627\u0644\u062d\u0627\u0641\u0644\u0629 \u0625\u0644\u0649 \u0627\u0644\u0643\u0646\u064a\u0633\u0629.",
+        "de": "Der Bus f\u00e4hrt zur Kirche."
     },
     {
-        "key": "notebook-store_medium-car__color__pink",
-        "en": "Put the notebook in the pink car.",
-        "ar": "ضع الدفتر في السيارة الوردية."
+        "key": "bus-drive_to-house",
+        "en": "The bus goes to the house.",
+        "ar": "\u062a\u0630\u0647\u0628 \u0627\u0644\u062d\u0627\u0641\u0644\u0629 \u0625\u0644\u0649 \u0627\u0644\u0645\u0646\u0632\u0644.",
+        "de": "Der Bus f\u00e4hrt zum Haus."
     },
     {
-        "key": "notebook-store_medium-car__color__purple",
-        "en": "Put the notebook in the purple car.",
-        "ar": "ضع الدفتر في السيارة البنفسجية."
+        "key": "cake-eat-you",
+        "en": "Eat the cake.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0643\u0639\u0643\u0629.",
+        "de": "Essen Sie den Kuchen."
     },
     {
-        "key": "notebook-store_medium-car__color__red",
-        "en": "Put the notebook in the red car.",
-        "ar": "ضع الدفتر في السيارة الحمراء."
+        "key": "camera-take_photo-giraffe",
+        "en": "Take a photo of the giraffe.",
+        "ar": "\u0627\u0644\u062a\u0642\u0637 \u0635\u0648\u0631\u0629 \u0644\u0644\u0632\u0631\u0627\u0641\u0629.",
+        "de": "Machen Sie ein Foto von der Giraffe."
     },
     {
-        "key": "notebook-store_medium-car__color__silver",
-        "en": "Put the notebook in the silver car.",
-        "ar": "ضع الدفتر في السيارة الفضية."
+        "key": "camera-take_photo-snake",
+        "en": "Take a photo of the snake.",
+        "ar": "\u0627\u0644\u062a\u0642\u0637 \u0635\u0648\u0631\u0629 \u0644\u0644\u062b\u0639\u0628\u0627\u0646.",
+        "de": "Machen Sie ein Foto von der Schlange."
     },
     {
-        "key": "notebook-store_medium-car__color__white",
-        "en": "Put the notebook in the white car.",
-        "ar": "ضع الدفتر في السيارة البيضاء."
+        "key": "camera-take_photo-tortoise",
+        "en": "Take a photo of the tortoise.",
+        "ar": "\u0627\u0644\u062a\u0642\u0637 \u0635\u0648\u0631\u0629 \u0644\u0644\u0633\u0644\u062d\u0641\u0627\u0629.",
+        "de": "Machen Sie ein Foto von der Schildkr\u00f6te."
     },
     {
-        "key": "notebook-store_medium-car__color__yellow",
-        "en": "Put the notebook in the yellow car.",
-        "ar": "ضع الدفتر في السيارة الصفراء."
+        "key": "cap-interact_clothes-you",
+        "en": "Put on the cap.",
+        "ar": "\u0627\u0631\u062a\u062f\u0650 \u0627\u0644\u0642\u0628\u0639\u0629.",
+        "de": "Setz die M\u00fctze auf."
     },
     {
-        "key": "notebook-store_medium-car__age__new",
-        "en": "Put the notebook in the new car.",
-        "ar": "ضع الدفتر في السيارة الجديدة."
+        "key": "car-drive_to-church",
+        "en": "Drive to the church.",
+        "ar": "\u0642\u064f\u062f \u0625\u0644\u0649 \u0627\u0644\u0643\u0646\u064a\u0633\u0629.",
+        "de": "Fahre zur Kirche."
     },
     {
-        "key": "notebook-store_medium-car__age__old",
-        "en": "Put the notebook in the old car.",
-        "ar": "ضع الدفتر في السيارة القديمة."
+        "key": "car-drive_to-house",
+        "en": "Drive to the house.",
+        "ar": "\u0642\u064f\u062f \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0625\u0644\u0649 \u0627\u0644\u0645\u0646\u0632\u0644.",
+        "de": "Fahren Sie zum Haus."
     },
     {
-        "key": "notebook-store_small-suitcase",
-        "en": "Put the notebook in the suitcase.",
-        "ar": "ضع الدفتر في الحقيبة."
+        "key": "car__color__black-drive_to-house",
+        "en": "Park the car.",
+        "ar": "\u0623\u0631\u0643\u0646 \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Parke das Auto."
     },
     {
-        "key": "notebook-store_small-suitcase__color__white",
-        "en": "Put the notebook in the white suitcase.",
-        "ar": "ضع الدفتر في الحقيبة البيضاء."
+        "key": "car_key-put_in_bowl-bowl",
+        "en": "Put the car key in the bowl.",
+        "ar": "\u0636\u0639 \u0645\u0641\u062a\u0627\u062d \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0641\u064a \u0627\u0644\u0648\u0639\u0627\u0621.",
+        "de": "Legen Sie den Autoschl\u00fcssel in die Schale."
     },
     {
-        "key": "notebook-store_small-suitcase__color__blue",
-        "en": "Put the notebook in the blue suitcase.",
-        "ar": "ضع الدفتر في الحقيبة الزرقاء."
+        "key": "car_key-give-man",
+        "en": "Give the car key to the man.",
+        "ar": "\u0623\u0639\u0637 \u0645\u0641\u062a\u0627\u062d \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0644\u0644\u0631\u062c\u0644.",
+        "de": "Geben Sie den Autoschl\u00fcssel dem Mann."
     },
     {
-        "key": "shirt-store_small-backpack",
-        "en": "Put the shirt in the backpack.",
-        "ar": "ضع القميص في حقيبة الظهر."
+        "key": "car_key-give-woman",
+        "en": "Give the car key to the woman.",
+        "ar": "\u0623\u0639\u0637 \u0645\u0641\u062a\u0627\u062d \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0644\u0644\u0645\u0631\u0623\u0629.",
+        "de": "Geben Sie den Autoschl\u00fcssel der Frau."
     },
     {
-        "key": "shirt-store_small-backpack__color__blue",
-        "en": "Put the shirt in the blue backpack.",
-        "ar": "ضع القميص في حقيبة الظهر الزرقاء."
+        "key": "car_key-give-you",
+        "en": "Take the keys.",
+        "ar": "\u062e\u0630 \u0627\u0644\u0645\u0641\u0627\u062a\u064a\u062d.",
+        "de": "Nimm die Schl\u00fcssel."
     },
     {
-        "key": "shirt-store_small-backpack__color__red",
-        "en": "Put the shirt in the red backpack.",
-        "ar": "ضع القميص في حقيبة الظهر الحمراء."
+        "key": "cat-store_medium-car",
+        "en": "Put the cat in the car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Setzen Sie die Katze in das Auto."
     },
     {
-        "key": "shirt-store_medium-car",
-        "en": "Put the shirt in the car.",
-        "ar": "ضع القميص في السيارة."
+        "key": "cat-store_medium-car__color__black",
+        "en": "Put the cat in the black car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Setze die Katze in das schwarze Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__black",
-        "en": "Put the shirt in the black car.",
-        "ar": "ضع القميص في السيارة السوداء."
+        "key": "cat__color__grey-store_medium-car",
+        "en": "Put the grey cat in the car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Setzen Sie die graue Katze in das Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__blue",
-        "en": "Put the shirt in the blue car.",
-        "ar": "ضع القميص في السيارة الزرقاء."
+        "key": "cat__color__grey-store_medium-car__color__black",
+        "en": "Put the grey cat in the black car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Setzen Sie die graue Katze in das schwarze Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__green",
-        "en": "Put the shirt in the green car.",
-        "ar": "ضع القميص في السيارة الخضراء."
+        "key": "cat-store_medium-car__color__blue",
+        "en": "Put the cat in the blue car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Setze die Katze in das blaue Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__orange",
-        "en": "Put the shirt in the orange car.",
-        "ar": "ضع القميص في السيارة البرتقالية."
+        "key": "cat__color__grey-store_medium-car__color__blue",
+        "en": "Put the grey cat in the blue car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Setze die graue Katze in das blaue Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__pink",
-        "en": "Put the shirt in the pink car.",
-        "ar": "ضع القميص في السيارة الوردية."
+        "key": "cat-store_medium-car__color__green",
+        "en": "Put the cat in the green car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Setze die Katze in das gr\u00fcne Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__purple",
-        "en": "Put the shirt in the purple car.",
-        "ar": "ضع القميص في السيارة البنفسجية."
+        "key": "cat__color__grey-store_medium-car__color__green",
+        "en": "Put the grey cat in the green car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Stecke die graue Katze in das gr\u00fcne Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__red",
-        "en": "Put the shirt in the red car.",
-        "ar": "ضع القميص في السيارة الحمراء."
+        "key": "cat-store_medium-car__color__orange",
+        "en": "Put the cat in the orange car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Stecke die Katze in das orangefarbene Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__silver",
-        "en": "Put the shirt in the silver car.",
-        "ar": "ضع القميص في السيارة الفضية."
+        "key": "cat__color__grey-store_medium-car__color__orange",
+        "en": "Put the grey cat in the orange car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Stecke die graue Katze in das orangefarbene Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__white",
-        "en": "Put the shirt in the white car.",
-        "ar": "ضع القميص في السيارة البيضاء."
+        "key": "cat-store_medium-car__color__pink",
+        "en": "Put the cat in the pink car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Stecke die Katze in das rosa Auto."
     },
     {
-        "key": "shirt-store_medium-car__color__yellow",
-        "en": "Put the shirt in the yellow car.",
-        "ar": "ضع القميص في السيارة الصفراء."
+        "key": "cat__color__grey-store_medium-car__color__pink",
+        "en": "Put the grey cat in the pink car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Stecke die graue Katze in das rosa Auto."
     },
     {
-        "key": "shirt-store_medium-car__age__new",
-        "en": "Put the shirt in the new car.",
-        "ar": "ضع القميص في السيارة الجديدة."
+        "key": "cat-store_medium-car__color__purple",
+        "en": "Put the cat in the purple car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0623\u0631\u062c\u0648\u0627\u0646\u064a\u0629.",
+        "de": "Stecke die Katze in das lila Auto."
     },
     {
-        "key": "shirt-store_medium-car__age__old",
-        "en": "Put the shirt in the old car.",
-        "ar": "ضع القميص في السيارة القديمة."
+        "key": "cat__color__grey-store_medium-car__color__purple",
+        "en": "Put the grey cat in the purple car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0623\u0631\u062c\u0648\u0627\u0646\u064a\u0629.",
+        "de": "Stecke die graue Katze in das lila Auto."
     },
     {
-        "key": "shirt-store_small-suitcase",
-        "en": "Put the shirt in the suitcase.",
-        "ar": "ضع القميص في الحقيبة."
+        "key": "cat-store_medium-car__color__red",
+        "en": "Put the cat in the red car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Stecke die Katze in das rote Auto."
     },
     {
-        "key": "shirt-store_small-suitcase__color__white",
-        "en": "Put the shirt in the white suitcase.",
-        "ar": "ضع القميص في الحقيبة البيضاء."
+        "key": "cat__color__grey-store_medium-car__color__red",
+        "en": "Put the grey cat in the red car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Stecke die graue Katze in das rote Auto."
     },
     {
-        "key": "shirt-store_small-suitcase__color__blue",
-        "en": "Put the shirt in the blue suitcase.",
-        "ar": "ضع القميص في الحقيبة الزرقاء."
+        "key": "cat-store_medium-car__color__silver",
+        "en": "Put the cat in the silver car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Setze die Katze in das silberne Auto."
     },
     {
-        "key": "shirt-wash-washing_machine",
-        "en": "Wash the shirt.",
-        "ar": "اغسل القميص."
+        "key": "cat__color__grey-store_medium-car__color__silver",
+        "en": "Put the grey cat in the silver car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Stecke die graue Katze in das silberne Auto."
     },
     {
-        "key": "shoes-store_small-backpack",
-        "en": "Put the shoes in the backpack.",
-        "ar": "ضع الحذاء في حقيبة الظهر."
+        "key": "cat-store_medium-car__color__white",
+        "en": "Put the cat in the white car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Stecke die Katze in das wei\u00dfe Auto."
     },
     {
-        "key": "shoes-store_small-backpack__color__blue",
-        "en": "Put the shoes in the blue backpack.",
-        "ar": "ضع الحذاء في حقيبة الظهر الزرقاء."
+        "key": "cat__color__grey-store_medium-car__color__white",
+        "en": "Put the grey cat in the white car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Stecke die graue Katze in das wei\u00dfe Auto."
     },
     {
-        "key": "shoes-store_small-backpack__color__red",
-        "en": "Put the shoes in the red backpack.",
-        "ar": "ضع الحذاء في حقيبة الظهر الحمراء."
+        "key": "cat-store_medium-car__color__yellow",
+        "en": "Put the cat in the yellow car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Stecke die Katze in das gelbe Auto."
     },
     {
-        "key": "shoes-store_medium-car",
-        "en": "Put the shoes in the car.",
-        "ar": "ضع الحذاء في السيارة."
+        "key": "cat__color__grey-store_medium-car__color__yellow",
+        "en": "Put the grey cat in the yellow car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Setze die graue Katze in das gelbe Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__black",
-        "en": "Put the shoes in the black car.",
-        "ar": "ضع الحذاء في السيارة السوداء."
+        "key": "cat__color__brown-store_medium-car",
+        "en": "Put the brown cat in the car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Setze die braune Katze in das Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__blue",
-        "en": "Put the shoes in the blue car.",
-        "ar": "ضع الحذاء في السيارة الزرقاء."
+        "key": "cat__color__brown-store_medium-car__color__black",
+        "en": "Put the brown cat in the black car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Setze die braune Katze in das schwarze Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__green",
-        "en": "Put the shoes in the green car.",
-        "ar": "ضع الحذاء في السيارة الخضراء."
+        "key": "cat__color__brown-store_medium-car__color__blue",
+        "en": "Put the brown cat in the blue car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Setze die braune Katze in das blaue Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__orange",
-        "en": "Put the shoes in the orange car.",
-        "ar": "ضع الحذاء في السيارة البرتقالية."
+        "key": "cat__color__brown-store_medium-car__color__green",
+        "en": "Put the brown cat in the green car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Stecke die braune Katze in das gr\u00fcne Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__pink",
-        "en": "Put the shoes in the pink car.",
-        "ar": "ضع الحذاء في السيارة الوردية."
+        "key": "cat__color__brown-store_medium-car__color__orange",
+        "en": "Put the brown cat in the orange car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Stecke die braune Katze in das orangefarbene Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__purple",
-        "en": "Put the shoes in the purple car.",
-        "ar": "ضع الحذاء في السيارة البنفسجية."
+        "key": "cat__color__brown-store_medium-car__color__pink",
+        "en": "Put the brown cat in the pink car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Stecke die braune Katze in das rosa Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__red",
-        "en": "Put the shoes in the red car.",
-        "ar": "ضع الحذاء في السيارة الحمراء."
+        "key": "cat__color__brown-store_medium-car__color__purple",
+        "en": "Put the brown cat in the purple car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Stecke die braune Katze in das lila Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__silver",
-        "en": "Put the shoes in the silver car.",
-        "ar": "ضع الحذاء في السيارة الفضية."
+        "key": "cat__color__brown-store_medium-car__color__red",
+        "en": "Put the brown cat in the red car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Stecke die braune Katze in das rote Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__white",
-        "en": "Put the shoes in the white car.",
-        "ar": "ضع الحذاء في السيارة البيضاء."
+        "key": "cat__color__brown-store_medium-car__color__silver",
+        "en": "Put the brown cat in the silver car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Stecke die braune Katze in das silberne Auto."
     },
     {
-        "key": "shoes-store_medium-car__color__yellow",
-        "en": "Put the shoes in the yellow car.",
-        "ar": "ضع الحذاء في السيارة الصفراء."
+        "key": "cat__color__brown-store_medium-car__color__white",
+        "en": "Put the brown cat in the white car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Stecke die braune Katze in das wei\u00dfe Auto."
     },
     {
-        "key": "shoes-store_medium-car__age__new",
-        "en": "Put the shoes in the new car.",
-        "ar": "ضع الحذاء في السيارة الجديدة."
+        "key": "cat__color__brown-store_medium-car__color__yellow",
+        "en": "Put the brown cat in the yellow car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Stecke die braune Katze in das gelbe Auto."
     },
     {
-        "key": "shoes-store_medium-car__age__old",
-        "en": "Put the shoes in the old car.",
-        "ar": "ضع الحذاء في السيارة القديمة."
+        "key": "cat__color__white-store_medium-car",
+        "en": "Put the white cat in the car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Stecke die wei\u00dfe Katze in das Auto."
     },
     {
-        "key": "shoes-store_small-suitcase",
-        "en": "Put the shoes in the suitcase.",
-        "ar": "ضع الحذاء في الحقيبة."
+        "key": "cat__color__white-store_medium-car__color__black",
+        "en": "Put the white cat in the black car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Stecke die wei\u00dfe Katze in das schwarze Auto."
     },
     {
-        "key": "shoes-store_small-suitcase__color__white",
-        "en": "Put the shoes in the white suitcase.",
-        "ar": "ضع الحذاء في الحقيبة البيضاء."
+        "key": "cat__color__white-store_medium-car__color__blue",
+        "en": "Put the white cat in the blue car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Stecke die wei\u00dfe Katze in das blaue Auto."
     },
     {
-        "key": "shoes-store_small-suitcase__color__blue",
-        "en": "Put the shoes in the blue suitcase.",
-        "ar": "ضع الحذاء في الحقيبة الزرقاء."
+        "key": "cat__color__white-store_medium-car__color__green",
+        "en": "Put the white cat in the green car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Stecke die wei\u00dfe Katze in das gr\u00fcne Auto."
     },
     {
-        "key": "umbrella-store_medium-car",
-        "en": "Put the umbrella in the car.",
-        "ar": "ضع المظلة في السيارة."
+        "key": "cat__color__white-store_medium-car__color__orange",
+        "en": "Put the white cat in the orange car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Stecke die wei\u00dfe Katze in das orangefarbene Auto."
     },
     {
-        "key": "umbrella-store_medium-car__color__black",
-        "en": "Put the umbrella in the black car.",
-        "ar": "ضع المظلة في السيارة السوداء."
+        "key": "cat__color__white-store_medium-car__color__pink",
+        "en": "Put the white cat in the pink car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Stecke die wei\u00dfe Katze in das rosa Auto."
     },
     {
-        "key": "umbrella-store_medium-car__color__blue",
-        "en": "Put the umbrella in the blue car.",
-        "ar": "ضع المظلة في السيارة الزرقاء."
+        "key": "cat__color__white-store_medium-car__color__purple",
+        "en": "Put the white cat in the purple car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Stecke die wei\u00dfe Katze in das lila Auto."
     },
     {
-        "key": "umbrella-store_medium-car__color__green",
-        "en": "Put the umbrella in the green car.",
-        "ar": "ضع المظلة في السيارة الخضراء."
+        "key": "cat__color__white-store_medium-car__color__red",
+        "en": "Put the white cat in the red car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Stecke die wei\u00dfe Katze in das rote Auto."
     },
     {
-        "key": "umbrella-store_medium-car__color__orange",
-        "en": "Put the umbrella in the orange car.",
-        "ar": "ضع المظلة في السيارة البرتقالية."
+        "key": "cat__color__white-store_medium-car__color__silver",
+        "en": "Put the white cat in the silver car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Stecke die wei\u00dfe Katze in das silberne Auto."
     },
     {
-        "key": "umbrella-store_medium-car__color__pink",
-        "en": "Put the umbrella in the pink car.",
-        "ar": "ضع المظلة في السيارة الوردية."
+        "key": "cat__color__white-store_medium-car__color__white",
+        "en": "Put the white cat in the white car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Stecke die wei\u00dfe Katze in das wei\u00dfe Auto."
     },
     {
-        "key": "umbrella-store_medium-car__color__purple",
-        "en": "Put the umbrella in the purple car.",
-        "ar": "ضع المظلة في السيارة البنفسجية."
+        "key": "cat__color__white-store_medium-car__color__yellow",
+        "en": "Put the white cat in the yellow car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Stecke die wei\u00dfe Katze in das gelbe Auto."
     },
     {
-        "key": "umbrella-store_medium-car__color__red",
-        "en": "Put the umbrella in the red car.",
-        "ar": "ضع المظلة في السيارة الحمراء."
+        "key": "cat_food-feed-cat",
+        "en": "Feed the cat.",
+        "ar": "\u0623\u0637\u0639\u0645 \u0627\u0644\u0642\u0637\u0629.",
+        "de": "F\u00fcttere die Katze."
     },
     {
-        "key": "umbrella-store_medium-car__color__silver",
-        "en": "Put the umbrella in the silver car.",
-        "ar": "ضع المظلة في السيارة الفضية."
+        "key": "cat_food-feed-cat__color__grey",
+        "en": "Feed the grey cat.",
+        "ar": "\u0623\u0637\u0639\u0645 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629.",
+        "de": "F\u00fcttere die graue Katze."
     },
     {
-        "key": "umbrella-store_medium-car__color__white",
-        "en": "Put the umbrella in the white car.",
-        "ar": "ضع المظلة في السيارة البيضاء."
+        "key": "cat_food-feed-cat__color__brown",
+        "en": "Feed the brown cat.",
+        "ar": "\u0623\u0637\u0639\u0645 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629.",
+        "de": "F\u00fcttere die braune Katze."
     },
     {
-        "key": "umbrella-store_medium-car__color__yellow",
-        "en": "Put the umbrella in the yellow car.",
-        "ar": "ضع المظلة في السيارة الصفراء."
+        "key": "cat_food-feed-cat__color__white",
+        "en": "Feed the white cat.",
+        "ar": "\u0623\u0637\u0639\u0645 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "F\u00fcttere die wei\u00dfe Katze."
     },
     {
-        "key": "umbrella-store_medium-car__age__new",
-        "en": "Put the umbrella in the new car.",
-        "ar": "ضع المظلة في السيارة الجديدة."
+        "key": "cat_food-feed-cat__color__black_white",
+        "en": "Feed the black and white cat.",
+        "ar": "\u0623\u0637\u0639\u0645 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621 \u0648\u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "F\u00fcttere die schwarz-wei\u00dfe Katze."
     },
     {
-        "key": "umbrella-store_medium-car__age__old",
-        "en": "Put the umbrella in the old car.",
-        "ar": "ضع المظلة في السيارة القديمة."
+        "key": "cat_food-feed-dog",
+        "en": "Feed the dog.",
+        "ar": "\u0623\u0637\u0639\u0645 \u0627\u0644\u0643\u0644\u0628.",
+        "de": "F\u00fcttere den Hund."
     },
     {
-        "key": "you-get_in-car",
-        "en": "Get in the car.",
-        "ar": "اركب السيارة."
+        "key": "cat_food-feed-dog__size__big",
+        "en": "Feed the big dog.",
+        "ar": "\u0623\u0637\u0639\u0645 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631.",
+        "de": "F\u00fcttere den gro\u00dfen Hund."
     },
     {
-        "key": "you-get_in-car__color__black",
-        "en": "Get in the black car.",
-        "ar": "اركب السيارة السوداء."
+        "key": "cat_food-feed-dog__size__small",
+        "en": "Feed the small dog.",
+        "ar": "\u0623\u0637\u0639\u0645 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631.",
+        "de": "F\u00fcttere den kleinen Hund."
     },
     {
-        "key": "you-get_in-car__color__blue",
-        "en": "Get in the blue car.",
-        "ar": "اركب السيارة الزرقاء."
+        "key": "clock-move_furniture-apartment",
+        "en": "Move the clock into the apartment.",
+        "ar": "\u0627\u0646\u0642\u0644 \u0627\u0644\u0633\u0627\u0639\u0629 \u0625\u0644\u0649 \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Bringe die Uhr in die Wohnung."
     },
     {
-        "key": "you-get_in-car__color__green",
-        "en": "Get in the green car.",
-        "ar": "اركب السيارة الخضراء."
+        "key": "coat_hanging-interact_clothes-coat_rack",
+        "en": "Hang up the coat.",
+        "ar": "\u0639\u0644\u0651\u0642 \u0627\u0644\u0645\u0639\u0637\u0641.",
+        "de": "H\u00e4nge den Mantel auf."
     },
     {
-        "key": "you-get_in-car__color__orange",
-        "en": "Get in the orange car.",
-        "ar": "اركب السيارة البرتقالية."
+        "key": "coat_hanging-interact_clothes-washing_machine",
+        "en": "Wash the coat.",
+        "ar": "\u0627\u063a\u0633\u0644 \u0627\u0644\u0645\u0639\u0637\u0641.",
+        "de": "Wasche den Mantel."
     },
     {
-        "key": "you-get_in-car__color__pink",
-        "en": "Get in the pink car.",
-        "ar": "اركب السيارة الوردية."
+        "key": "coconut-eat-you",
+        "en": "Eat the coconut.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u062c\u0648\u0632 \u0627\u0644\u0647\u0646\u062f.",
+        "de": "Iss die Kokosnuss."
     },
     {
-        "key": "you-get_in-car__color__purple",
-        "en": "Get in the purple car.",
-        "ar": "اركب السيارة البنفسجية."
+        "key": "comb-comb-you",
+        "en": "Comb your hair.",
+        "ar": "\u0645\u0634\u0637\u064a \u0634\u0639\u0631\u0643.",
+        "de": "K\u00e4mme dein Haar."
     },
     {
-        "key": "you-get_in-car__color__red",
-        "en": "Get in the red car.",
-        "ar": "اركب السيارة الحمراء."
+        "key": "cup_coffee-drink-you",
+        "en": "Drink the coffee.",
+        "ar": "\u0627\u0634\u0631\u0628 \u0627\u0644\u0642\u0647\u0648\u0629.",
+        "de": "Trinke den Kaffee."
     },
     {
-        "key": "you-get_in-car__color__silver",
-        "en": "Get in the silver car.",
-        "ar": "اركب السيارة الفضية."
+        "key": "cupboard-move_furniture-apartment",
+        "en": "Move the cabinet into the apartment.",
+        "ar": "\u0627\u0646\u0642\u0644 \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0625\u0644\u0649 \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Bringe den Schrank in die Wohnung."
     },
     {
-        "key": "you-get_in-car__color__white",
-        "en": "Get in the white car.",
-        "ar": "اركب السيارة البيضاء."
+        "key": "doll-give-boy",
+        "en": "Give the doll to the boy.",
+        "ar": "\u0623\u0639\u0637\u0650 \u0627\u0644\u062f\u0645\u064a\u0629 \u0644\u0644\u0635\u0628\u064a.",
+        "de": "Gib die Puppe dem Jungen."
     },
     {
-        "key": "you-get_in-car__color__yellow",
-        "en": "Get in the yellow car.",
-        "ar": "اركب السيارة الصفراء."
+        "key": "doll-give-sisters",
+        "en": "Give the doll to the sisters.",
+        "ar": "\u0623\u0639\u0637\u0650 \u0627\u0644\u062f\u0645\u064a\u0629 \u0644\u0644\u0623\u062e\u062a\u064a\u0646.",
+        "de": "Gib die Puppe den Schwestern."
     },
     {
-        "key": "you-get_in-car__age__new",
-        "en": "Get in the new car.",
-        "ar": "اركب السيارة الجديدة."
+        "key": "dress-interact_clothes-clothes_line",
+        "en": "Hang the dress on the clothesline.",
+        "ar": "\u0639\u0644\u0642\u064a \u0627\u0644\u0641\u0633\u062a\u0627\u0646 \u0639\u0644\u0649 \u062d\u0628\u0644 \u0627\u0644\u063a\u0633\u064a\u0644.",
+        "de": "H\u00e4ngen Sie das Kleid auf die W\u00e4scheleine."
     },
     {
-        "key": "you-get_in-car__age__old",
-        "en": "Get in the old car.",
-        "ar": "اركب السيارة القديمة."
+        "key": "dress-interact_clothes-washing_machine",
+        "en": "Wash the dress.",
+        "ar": "\u0627\u063a\u0633\u0644 \u0627\u0644\u0641\u0633\u062a\u0627\u0646.",
+        "de": "Waschen Sie das Kleid."
     },
     {
-        "key": "you-get_in-tuktuk",
-        "en": "Get in the tuktuk.",
-        "ar": "اركب التوكتوك."
+        "key": "family-go_to-house",
+        "en": "The family goes into the house.",
+        "ar": "\u062a\u0630\u0647\u0628 \u0627\u0644\u0639\u0627\u0626\u0644\u0629 \u0625\u0644\u0649 \u0627\u0644\u0645\u0646\u0632\u0644.",
+        "de": "Die Familie geht ins Haus."
     },
     {
-        "key": "you-get_in-plane",
-        "en": "Get in the plane.",
-        "ar": "اركب الطائرة."
+        "key": "fan-store_medium-car",
+        "en": "Put the fan in the car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0631\u0648\u062d\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Den Ventilator ins Auto stellen."
     },
     {
-        "key": "you-go_to-house",
-        "en": "Go to the house.",
-        "ar": "اذهب إلى المنزل."
+        "key": "gelato-eat-you",
+        "en": "Eat the ice cream.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0622\u064a\u0633 \u0643\u0631\u064a\u0645.",
+        "de": "Essen Sie das Eis."
     },
     {
-        "key": "you-get_in-taxi",
-        "en": "Get in the taxi.",
-        "ar": "اركب التاكسي."
+        "key": "glass-store_small-box_opened",
+        "en": "Put the glass in the box.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0623\u0633 \u0641\u064a \u0627\u0644\u0635\u0646\u062f\u0648\u0642.",
+        "de": "Stellen Sie das Glas in die Schachtel."
     },
     {
-        "key": "you-get_in-tractor",
-        "en": "Get in the tractor.",
-        "ar": "اركب الجرار."
+        "key": "glass-store_small-cupboard",
+        "en": "Put the glass in the cupboard.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0623\u0633 \u0641\u064a \u0627\u0644\u062e\u0632\u0627\u0646\u0629.",
+        "de": "Stellen Sie das Glas in den Schrank."
     },
     {
-        "key": "cat_white-feed-cat_eyes_green",
-        "en": "",
-        "ar": ""
+        "key": "glasses-put_on_accessoire-you",
+        "en": "Put on the glasses.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0623\u0633 \u0641\u064a \u0627\u0644\u0643\u0648\u0628.",
+        "de": "Setzen Sie die Gl\u00e4ser auf."
     },
     {
-        "key": "cat_food-feed-cat_eyes_green",
-        "en": "",
-        "ar": ""
+        "key": "globe-move_furniture-apartment",
+        "en": "Put the globe in the apartment.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0631\u0629 \u0627\u0644\u0623\u0631\u0636\u064a\u0629 \u0641\u064a \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Stellen Sie den Globus in die Wohnung."
     },
     {
-        "key": "teddy-put_in_bedding-bed",
-        "en": "Put the teddy bear on the bed.",
-        "ar": "ضعي الدبدوب على السرير."
+        "key": "hair_brush-brush-woman__hair__brunette",
+        "en": "The brunette woman brushes her hair.",
+        "ar": "\u0627\u0644\u0645\u0631\u0623\u0629 \u0627\u0644\u0633\u0645\u0631\u0627\u0621 \u062a\u0645\u0634\u0637 \u0634\u0639\u0631\u0647\u0627.",
+        "de": "Die br\u00fcnette Frau b\u00fcrstet sich die Haare."
     },
     {
-        "key": "mosque-go_to-house",
-        "en": "",
-        "ar": ""
+        "key": "hair_brush-brush-woman__hair__blonde",
+        "en": "The blonde woman brushes her hair.",
+        "ar": "\u0627\u0644\u0645\u0631\u0623\u0629 \u0627\u0644\u0634\u0642\u0631\u0627\u0621 \u062a\u0645\u0634\u0637 \u0634\u0639\u0631\u0647\u0627.",
+        "de": "Die blonde Frau b\u00fcrstet sich die Haare."
+    },
+    {
+        "key": "hair_dryer-dry_hair-man",
+        "en": "The man dries his hair.",
+        "ar": "\u0627\u0644\u0631\u062c\u0644 \u064a\u062c\u0641\u0641 \u0634\u0639\u0631\u0647.",
+        "de": "Der Mann f\u00f6hnt sich die Haare."
+    },
+    {
+        "key": "hair_dryer-store_small-suitcase",
+        "en": "Put the hair dryer in the suitcase.",
+        "ar": "\u0636\u0639 \u0645\u062c\u0641\u0641 \u0627\u0644\u0634\u0639\u0631 \u0641\u064a \u0627\u0644\u062d\u0642\u064a\u0628\u0629.",
+        "de": "Legen Sie den Haartrockner in den Koffer."
+    },
+    {
+        "key": "hair_dryer-store_small-suitcase__color__white",
+        "en": "Put the hair dryer in the white suitcase.",
+        "ar": "\u0636\u0639 \u0645\u062c\u0641\u0641 \u0627\u0644\u0634\u0639\u0631 \u0641\u064a \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Legen Sie den Haartrockner in den wei\u00dfen Koffer."
+    },
+    {
+        "key": "hair_dryer-store_small-suitcase__color__blue",
+        "en": "Put the hair dryer in the blue suitcase.",
+        "ar": "\u0636\u0639 \u0645\u062c\u0641\u0641 \u0627\u0644\u0634\u0639\u0631 \u0641\u064a \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Legen Sie den Haartrockner in den blauen Koffer."
+    },
+    {
+        "key": "hammer-give-woman",
+        "en": "Give the hammer to the woman.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0645\u0637\u0631\u0642\u0629 \u0644\u0644\u0645\u0631\u0623\u0629.",
+        "de": "Geben Sie der Frau den Hammer."
+    },
+    {
+        "key": "hammer-give-you",
+        "en": "Take the hammer.",
+        "ar": "\u062e\u0630 \u0627\u0644\u0645\u0637\u0631\u0642\u0629.",
+        "de": "Nehmen Sie den Hammer."
+    },
+    {
+        "key": "hand_pull-peel-banana",
+        "en": "Peel the banana.",
+        "ar": "\u0642\u0634\u0651\u0631 \u0627\u0644\u0645\u0648\u0632\u0629.",
+        "de": "Sch\u00e4le die Banane."
+    },
+    {
+        "key": "hand_pull-pull-box_closed",
+        "en": "Open the box.",
+        "ar": "\u0627\u0641\u062a\u062d \u0627\u0644\u0635\u0646\u062f\u0648\u0642.",
+        "de": "\u00d6ffne die Schachtel."
+    },
+    {
+        "key": "hand_pull-pet-cat",
+        "en": "Pet the cat.",
+        "ar": "\u062f\u0627\u0639\u0628 \u0627\u0644\u0642\u0637\u0629.",
+        "de": "Streichle die Katze."
+    },
+    {
+        "key": "hand_pull-pet-cat__color__grey",
+        "en": "Pet the grey cat.",
+        "ar": "\u062f\u0627\u0639\u0628 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0631\u0645\u0627\u062f\u064a\u0629.",
+        "de": "Streichle die graue Katze."
+    },
+    {
+        "key": "hand_pull-pet-cat__color__brown",
+        "en": "Pet the brown cat.",
+        "ar": "\u062f\u0627\u0639\u0628 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u0646\u064a\u0629.",
+        "de": "Streichle die braune Katze."
+    },
+    {
+        "key": "hand_pull-pet-cat__color__white",
+        "en": "Pet the white cat.",
+        "ar": "\u062f\u0627\u0639\u0628 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Streichle die wei\u00dfe Katze."
+    },
+    {
+        "key": "hand_pull-pet-cat__color__black_white",
+        "en": "Pet the black and white cat.",
+        "ar": "\u062f\u0627\u0639\u0628 \u0627\u0644\u0642\u0637\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621 \u0648\u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Streichle die schwarz-wei\u00dfe Katze."
+    },
+    {
+        "key": "hand_pull-pet-dog",
+        "en": "Pet the dog.",
+        "ar": "\u062f\u0627\u0639\u0628 \u0627\u0644\u0643\u0644\u0628.",
+        "de": "Streichle den Hund."
+    },
+    {
+        "key": "hand_pull-pet-dog__size__big",
+        "en": "Pet the big dog.",
+        "ar": "\u062f\u0627\u0639\u0628 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0643\u0628\u064a\u0631.",
+        "de": "Streichle den gro\u00dfen Hund."
+    },
+    {
+        "key": "hand_pull-pet-dog__size__small",
+        "en": "Pet the small dog.",
+        "ar": "\u062f\u0627\u0639\u0628 \u0627\u0644\u0643\u0644\u0628 \u0627\u0644\u0635\u063a\u064a\u0631.",
+        "de": "Streichle den kleinen Hund."
+    },
+    {
+        "key": "hand_pull-pull-door_red_open",
+        "en": "Close the door.",
+        "ar": "\u0623\u063a\u0644\u0642 \u0627\u0644\u0628\u0627\u0628.",
+        "de": "Schlie\u00dfe die T\u00fcr."
+    },
+    {
+        "key": "hand_pull-pull-mustang_closed",
+        "en": "Open the car door.",
+        "ar": "\u0627\u0641\u062a\u062d \u0628\u0627\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "\u00d6ffne die Autot\u00fcr."
+    },
+    {
+        "key": "hand_push-push-box_opened",
+        "en": "Close the box.",
+        "ar": "\u0623\u063a\u0644\u0642 \u0627\u0644\u0635\u0646\u062f\u0648\u0642.",
+        "de": "Schlie\u00dfe die Schachtel."
+    },
+    {
+        "key": "hand_push-push_open-door_red_closed",
+        "en": "Open the door.",
+        "ar": "\u0627\u0641\u062a\u062d \u0627\u0644\u0628\u0627\u0628.",
+        "de": "\u00d6ffne die T\u00fcr."
+    },
+    {
+        "key": "hand_push-push-mustang_open",
+        "en": "Close the car door.",
+        "ar": "\u0623\u063a\u0644\u0642 \u0628\u0627\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Schlie\u00dfe die Autot\u00fcr."
+    },
+    {
+        "key": "hat-give-boy",
+        "en": "Give the hat to the boy.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0642\u0628\u0639\u0629 \u0644\u0644\u0635\u0628\u064a.",
+        "de": "Gib den Hut dem Jungen."
+    },
+    {
+        "key": "hat-interact_clothes-coat_rack",
+        "en": "Hang up the hat.",
+        "ar": "\u0639\u0644\u0651\u0642 \u0627\u0644\u0642\u0628\u0639\u0629.",
+        "de": "H\u00e4ngen Sie den Hut auf."
+    },
+    {
+        "key": "hat-give-woman",
+        "en": "Give the woman the hat.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0645\u0631\u0623\u0629 \u0627\u0644\u0642\u0628\u0639\u0629.",
+        "de": "Geben Sie der Frau den Hut."
+    },
+    {
+        "key": "hat-interact_clothes-you",
+        "en": "Put on the hat.",
+        "ar": "\u0627\u0631\u062a\u062f\u064a \u0627\u0644\u0642\u0628\u0639\u0629.",
+        "de": "Setze den Hut auf."
+    },
+    {
+        "key": "hat-give-you",
+        "en": "Take the hat.",
+        "ar": "\u062e\u0630 \u0627\u0644\u0642\u0628\u0639\u0629.",
+        "de": "Nimm die M\u00fctze."
+    },
+    {
+        "key": "honeymelon-store_small-shopping_cart",
+        "en": "Put the honeydew melon in the shopping cart.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0628\u0637\u064a\u062e\u0629 \u0641\u064a \u0639\u0631\u0628\u0629 \u0627\u0644\u062a\u0633\u0648\u0642.",
+        "de": "Lege die Honigmelone in den Einkaufswagen."
+    },
+    {
+        "key": "honeymelon-eat-you",
+        "en": "Eat the honeydew melon.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0628\u0637\u064a\u062e\u0629 \u0627\u0644\u0639\u0633\u0644\u064a\u0629.",
+        "de": "Essen Sie die Honigmelone."
+    },
+    {
+        "key": "jam-store_small-cupboard",
+        "en": "Put the jam in the cabinet.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0631\u0628\u0649 \u0641\u064a \u0627\u0644\u062e\u0632\u0627\u0646\u0629.",
+        "de": "Legen Sie die Marmelade in den Schrank."
+    },
+    {
+        "key": "jam-store_small-shopping_cart",
+        "en": "Put the jam in the shopping cart.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0631\u0628\u0649 \u0641\u064a \u0639\u0631\u0628\u0629 \u0627\u0644\u062a\u0633\u0648\u0642.",
+        "de": "Lege die Marmelade in den Einkaufswagen."
+    },
+    {
+        "key": "jeans-interact_clothes-clothes_line",
+        "en": "Hang the jeans on the clothesline.",
+        "ar": "\u0639\u0644\u0651\u0642 \u0627\u0644\u062c\u064a\u0646\u0632 \u0639\u0644\u0649 \u062d\u0628\u0644 \u0627\u0644\u063a\u0633\u064a\u0644.",
+        "de": "H\u00e4ngen Sie die Jeans auf die W\u00e4scheleine."
+    },
+    {
+        "key": "jeans__color__dark_blue-interact_clothes-clothes_line",
+        "en": "Hang the dark blue jeans on the clothesline.",
+        "ar": "\u0639\u0644\u0650\u0651\u0642 \u0627\u0644\u062c\u064a\u0646\u0632 \u0627\u0644\u0623\u0632\u0631\u0642 \u0627\u0644\u062f\u0627\u0643\u0646 \u0639\u0644\u0649 \u062d\u0628\u0644 \u0627\u0644\u063a\u0633\u064a\u0644.",
+        "de": "H\u00e4ngen Sie die dunkelblaue Jeans auf die W\u00e4scheleine."
+    },
+    {
+        "key": "jeans-interact_clothes-washing_machine",
+        "en": "Wash the jeans. ",
+        "ar": "\u0627\u063a\u0633\u0644 \u0627\u0644\u062c\u064a\u0646\u0632. ",
+        "de": "Wasche die Jeans. "
+    },
+    {
+        "key": "jeans__color__dark_blue-interact_clothes-washing_machine",
+        "en": "Wash the dark blue jeans.",
+        "ar": "\u0627\u063a\u0633\u0644 \u0627\u0644\u062c\u064a\u0646\u0632 \u0627\u0644\u0623\u0632\u0631\u0642 \u0627\u0644\u062f\u0627\u0643\u0646.",
+        "de": "Wasche die dunkelblaue Jeans."
+    },
+    {
+        "key": "jeans-interact_clothes-you",
+        "en": "Put on the jeans.",
+        "ar": "\u0627\u0631\u062a\u062f\u064a \u0627\u0644\u062c\u064a\u0646\u0632.",
+        "de": "Ziehe die Jeans an."
+    },
+    {
+        "key": "jeans__color__dark_blue-interact_clothes-you",
+        "en": "Put on the dark blue jeans.",
+        "ar": "\u0627\u0631\u062a\u062f\u064a \u0627\u0644\u062c\u064a\u0646\u0632 \u0627\u0644\u0623\u0632\u0631\u0642 \u0627\u0644\u062f\u0627\u0643\u0646.",
+        "de": "Ziehen Sie die dunkelblaue Jeans an."
+    },
+    {
+        "key": "jeans__color__light_blue-interact_clothes-clothes_line",
+        "en": "Hang the light blue jeans on the clothesline.",
+        "ar": "\u0639\u0644\u0651\u0642 \u0627\u0644\u062c\u064a\u0646\u0632 \u0627\u0644\u0623\u0632\u0631\u0642 \u0627\u0644\u0641\u0627\u062a\u062d \u0639\u0644\u0649 \u062d\u0628\u0644 \u0627\u0644\u063a\u0633\u064a\u0644.",
+        "de": "H\u00e4ngen Sie die hellblaue Jeans auf die W\u00e4scheleine."
+    },
+    {
+        "key": "jeans__color__light_blue-interact_clothes-washing_machine",
+        "en": "Wash the light blue jeans.",
+        "ar": "\u0627\u063a\u0633\u0644 \u0627\u0644\u062c\u064a\u0646\u0632 \u0627\u0644\u0623\u0632\u0631\u0642 \u0627\u0644\u0641\u0627\u062a\u062d.",
+        "de": "Wasche die hellblaue Jeans."
+    },
+    {
+        "key": "jeans__color__light_blue-interact_clothes-you",
+        "en": "Put on the light blue jeans.",
+        "ar": "\u0627\u0631\u062a\u062f\u064a \u0627\u0644\u062c\u064a\u0646\u0632 \u0627\u0644\u0623\u0632\u0631\u0642 \u0627\u0644\u0641\u0627\u062a\u062d.",
+        "de": "Ziehen Sie die hellblaue Jeans an."
+    },
+    {
+        "key": "key-give-man",
+        "en": "Give the man the key.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0645\u0641\u062a\u0627\u062d \u0644\u0644\u0631\u062c\u0644.",
+        "de": "Geben Sie dem Mann den Schl\u00fcssel."
+    },
+    {
+        "key": "key-give-woman",
+        "en": "Give the woman the key.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0645\u0631\u0623\u0629 \u0627\u0644\u0645\u0641\u062a\u0627\u062d.",
+        "de": "Geben Sie der Frau den Schl\u00fcssel."
+    },
+    {
+        "key": "kiwi-put_in_bowl-bowl",
+        "en": "Put the kiwi in the bowl.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u064a\u0648\u064a \u0641\u064a \u0627\u0644\u0648\u0639\u0627\u0621.",
+        "de": "Legen Sie die Kiwi in die Sch\u00fcssel."
+    },
+    {
+        "key": "kiwi-store_small-shopping_cart",
+        "en": "Put the kiwi in the shopping cart.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u064a\u0648\u064a \u0641\u064a \u0639\u0631\u0628\u0629 \u0627\u0644\u062a\u0633\u0648\u0642.",
+        "de": "Lege die Kiwi in den Einkaufswagen."
+    },
+    {
+        "key": "kiwi-eat-you",
+        "en": "Eat the kiwi.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0643\u064a\u0648\u064a.",
+        "de": "Iss die Kiwi."
+    },
+    {
+        "key": "knife-cut-apple",
+        "en": "Cut the apple.",
+        "ar": "\u0642\u0637\u0639 \u0627\u0644\u062a\u0641\u0627\u062d\u0629.",
+        "de": "Schneide den Apfel."
+    },
+    {
+        "key": "knife-cut-avocado",
+        "en": "Cut the avocado.",
+        "ar": "\u0642\u0637\u0639 \u0627\u0644\u0623\u0641\u0648\u0643\u0627\u062f\u0648.",
+        "de": "Schneiden Sie die Avocado."
+    },
+    {
+        "key": "knife-give-boy",
+        "en": "Give the knife to the boy.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0633\u0643\u064a\u0646 \u0644\u0644\u0648\u0644\u062f.",
+        "de": "Gib das Messer dem Jungen."
     },
     {
         "key": "knife-cut-broccoli",
-        "en": "",
-        "ar": ""
+        "en": "Cut the broccoli.",
+        "ar": "\u0627\u0642\u0637\u0639 \u0627\u0644\u0628\u0631\u0648\u0643\u0644\u064a.",
+        "de": "Schneide den Brokkoli."
     },
     {
-        "key": "Amisha-get_in-car",
-        "en": "",
-        "ar": ""
+        "key": "knife-give-brothers",
+        "en": "Give the knife to the brothers.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0633\u0643\u064a\u0646 \u0644\u0644\u0623\u062e\u0648\u064a\u0646.",
+        "de": "Gib das Messer den Br\u00fcdern."
     },
     {
-        "key": "Amisha-get_in-car__color__black",
-        "en": "",
-        "ar": ""
+        "key": "knife-give-couple",
+        "en": "Give the knife to the couple.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0633\u0643\u064a\u0646 \u0644\u0644\u0632\u0648\u062c\u064a\u0646.",
+        "de": "Gib das Messer dem Paar."
     },
     {
-        "key": "Amisha-get_in-car__color__blue",
-        "en": "",
-        "ar": ""
+        "key": "knife-give-family",
+        "en": "Give the knife to the family.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0633\u0643\u064a\u0646 \u0644\u0644\u0639\u0627\u0626\u0644\u0629.",
+        "de": "Geben Sie das Messer der Familie."
     },
     {
-        "key": "Amisha-get_in-car__color__green",
-        "en": "",
-        "ar": ""
+        "key": "knife-give-father_son",
+        "en": "Give the knife to the father and son.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0633\u0643\u064a\u0646 \u0644\u0644\u0623\u0628 \u0648\u0627\u0644\u0627\u0628\u0646.",
+        "de": "Geben Sie das Messer dem Vater und dem Sohn."
     },
     {
-        "key": "Amisha-get_in-car__color__orange",
-        "en": "",
-        "ar": ""
+        "key": "knife-cut-honeymelon",
+        "en": "Cut the honeydew melon.",
+        "ar": "\u0642\u0637\u0639 \u0627\u0644\u0628\u0637\u064a\u062e \u0628\u0627\u0644\u0639\u0633\u0644.",
+        "de": "Schneiden Sie die Honigmelone."
     },
     {
-        "key": "Amisha-get_in-car__color__pink",
-        "en": "",
-        "ar": ""
+        "key": "knife-cut-kiwi",
+        "en": "Cut the kiwi.",
+        "ar": "\u0627\u0642\u0637\u0639 \u0627\u0644\u0643\u064a\u0648\u064a.",
+        "de": "Schneide die Kiwi."
     },
     {
-        "key": "Amisha-get_in-car__color__purple",
-        "en": "",
-        "ar": ""
+        "key": "knife-cut-lemon",
+        "en": "Cut the lemon.",
+        "ar": "\u0627\u0642\u0637\u0639 \u0627\u0644\u0644\u064a\u0645\u0648\u0646.",
+        "de": "Schneiden Sie die Zitrone."
     },
     {
-        "key": "Amisha-get_in-car__color__red",
-        "en": "",
-        "ar": ""
+        "key": "knife-give-man",
+        "en": "Give the man the knife.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0633\u0643\u064a\u0646 \u0644\u0644\u0631\u062c\u0644.",
+        "de": "Gib dem Mann das Messer."
     },
     {
-        "key": "Amisha-get_in-car__color__silver",
-        "en": "",
-        "ar": ""
+        "key": "knife-cut-mango",
+        "en": "Cut the mango.",
+        "ar": "\u0627\u0642\u0637\u0639 \u0627\u0644\u0645\u0627\u0646\u062c\u0648.",
+        "de": "Schneide die Mango."
     },
     {
-        "key": "Amisha-get_in-car__color__white",
-        "en": "",
-        "ar": ""
+        "key": "knife-cut-melon_whole",
+        "en": "Cut the melon.",
+        "ar": "\u0642\u0637\u0639 \u0627\u0644\u0628\u0637\u064a\u062e.",
+        "de": "Schneide die Melone."
     },
     {
-        "key": "Amisha-get_in-car__color__yellow",
-        "en": "",
-        "ar": ""
+        "key": "knife-cut-onion",
+        "en": "Cut the onion.",
+        "ar": "\u0627\u0642\u0637\u0639 \u0627\u0644\u0628\u0635\u0644.",
+        "de": "Schneide die Zwiebel."
     },
     {
-        "key": "Amisha-get_in-car__age__new",
-        "en": "",
-        "ar": ""
+        "key": "knife-give-you",
+        "en": "Take the knife.",
+        "ar": "\u062e\u0630 \u0627\u0644\u0633\u0643\u064a\u0646.",
+        "de": "Nimm das Messer."
     },
     {
-        "key": "Amisha-get_in-car__age__old",
-        "en": "",
-        "ar": ""
+        "key": "kufiyyeh-interact_clothes-clothes_line",
+        "en": "Hang the keffiyeh on the clothesline.",
+        "ar": "\u0639\u0644\u0651\u0642 \u0627\u0644\u0643\u0648\u0641\u064a\u0629 \u0639\u0644\u0649 \u062d\u0628\u0644 \u0627\u0644\u063a\u0633\u064a\u0644.",
+        "de": "H\u00e4nge die Keffiyeh auf die W\u00e4scheleine."
     },
     {
-        "key": "Amisha-get_in-tuktuk",
-        "en": "",
-        "ar": ""
+        "key": "kufiyyeh-interact_clothes-washing_machine",
+        "en": "Wash the keffiyeh.",
+        "ar": "\u0627\u063a\u0633\u0644 \u0627\u0644\u0643\u0648\u0641\u064a\u0629.",
+        "de": "Wasche die Keffiyeh."
     },
     {
-        "key": "Amisha-get_in-plane",
-        "en": "",
-        "ar": ""
+        "key": "laptop-give-woman",
+        "en": "Give the woman the laptop.",
+        "ar": "\u0623\u0639\u0637\u0650 \u0627\u0644\u0645\u0631\u0623\u0629 \u0627\u0644\u062d\u0627\u0633\u0648\u0628 \u0627\u0644\u0645\u062d\u0645\u0648\u0644.",
+        "de": "Gib der Frau den Laptop."
     },
     {
-        "key": "Amisha-go_to-house",
-        "en": "",
-        "ar": ""
+        "key": "lemon-put_in_bowl-bowl",
+        "en": "Put the lemon in the bowl.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0644\u064a\u0645\u0648\u0646 \u0641\u064a \u0627\u0644\u0648\u0639\u0627\u0621.",
+        "de": "Lege die Zitrone in die Sch\u00fcssel."
     },
     {
-        "key": "Amisha-get_in-taxi",
-        "en": "",
-        "ar": ""
+        "key": "lemon-store_small-shopping_cart",
+        "en": "Put the lemon in the shopping cart.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0644\u064a\u0645\u0648\u0646 \u0641\u064a \u0639\u0631\u0628\u0629 \u0627\u0644\u062a\u0633\u0648\u0642.",
+        "de": "Lege die Zitrone in den Einkaufswagen."
     },
     {
-        "key": "Amisha-get_in-tractor",
-        "en": "",
-        "ar": ""
+        "key": "mango-put_in_bowl-bowl",
+        "en": "Put the mango in the bowl.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0627\u0646\u062c\u0648 \u0641\u064a \u0627\u0644\u0648\u0639\u0627\u0621.",
+        "de": "Lege die Mango in die Sch\u00fcssel."
+    },
+    {
+        "key": "mango-eat-you",
+        "en": "Eat the mango.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0645\u0627\u0646\u062c\u0648.",
+        "de": "Essen Sie die Mango."
+    },
+    {
+        "key": "melon_whole-store_small-shopping_cart",
+        "en": "Put the melon in the shopping cart.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0628\u0637\u064a\u062e \u0641\u064a \u0639\u0631\u0628\u0629 \u0627\u0644\u062a\u0633\u0648\u0642.",
+        "de": "Lege die Melone in den Einkaufswagen."
+    },
+    {
+        "key": "notebook-store_small-box_opened",
+        "en": "Put the notebook in the box.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0641\u062a\u0631 \u0641\u064a \u0627\u0644\u0635\u0646\u062f\u0648\u0642.",
+        "de": "Lege das Notizbuch in die Schachtel."
+    },
+    {
+        "key": "nutcracker-crack_nut-walnut",
+        "en": "Crack the walnut.",
+        "ar": "\u0627\u0643\u0633\u0631 \u0627\u0644\u062c\u0648\u0632.",
+        "de": "Knacke die Walnuss."
+    },
+    {
+        "key": "onion-put_in_bowl-bowl",
+        "en": "Put the onion in the bowl.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0628\u0635\u0644 \u0641\u064a \u0627\u0644\u0648\u0639\u0627\u0621.",
+        "de": "Lege die Zwiebel in die Sch\u00fcssel."
+    },
+    {
+        "key": "pear-store_small-backpack",
+        "en": "Put the pear in the backpack.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0643\u0645\u062b\u0631\u0649 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631.",
+        "de": "Lege die Birne in den Rucksack."
+    },
+    {
+        "key": "pear-eat-you",
+        "en": "Eat the pear.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0643\u0645\u062b\u0631\u0649.",
+        "de": "Iss die Birne."
+    },
+    {
+        "key": "pencil-write-notebook",
+        "en": "Write in the notebook.",
+        "ar": "\u0627\u0643\u062a\u0628 \u0641\u064a \u0627\u0644\u062f\u0641\u062a\u0631.",
+        "de": "Schreibe in das Notizbuch."
+    },
+    {
+        "key": "phone-give-brothers",
+        "en": "Give the brothers the phone.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0647\u0627\u062a\u0641 \u0644\u0644\u0625\u062e\u0648\u0629.",
+        "de": "Gib den Br\u00fcdern das Telefon."
+    },
+    {
+        "key": "phone-give-couple",
+        "en": "Give the family the phone.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u0647\u0627\u062a\u0641 \u0644\u0644\u0639\u0627\u0626\u0644\u0629.",
+        "de": "Geben Sie der Familie das Telefon."
+    },
+    {
+        "key": "piano-move_furniture-apartment",
+        "en": "Move the piano into the apartment.",
+        "ar": "\u0627\u0646\u0642\u0644 \u0627\u0644\u0628\u064a\u0627\u0646\u0648 \u0625\u0644\u0649 \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Bringen Sie das Klavier in die Wohnung."
     },
     {
         "key": "pillow-put_in_bedding-bed",
         "en": "Put the pillow on the bed.",
-        "ar": "ضعي الوسادة على السرير."
+        "ar": "\u0636\u0639 \u0627\u0644\u0648\u0633\u0627\u062f\u0629 \u0639\u0644\u0649 \u0627\u0644\u0633\u0631\u064a\u0631.",
+        "de": "Lege das Kissen auf das Bett."
+    },
+    {
+        "key": "pineapple-store_small-shopping_cart",
+        "en": "Put the pineapple in the shopping cart.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0623\u0646\u0627\u0646\u0627\u0633 \u0641\u064a \u0639\u0631\u0628\u0629 \u0627\u0644\u062a\u0633\u0648\u0642.",
+        "de": "Lege die Ananas in den Einkaufswagen."
+    },
+    {
+        "key": "pizza-eat-you",
+        "en": "Eat the pizza.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u0628\u064a\u062a\u0632\u0627.",
+        "de": "Iss die Pizza."
+    },
+    {
+        "key": "pot_cactus-move_furniture-apartment",
+        "en": "Put the cactus in the apartment.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0635\u0628\u0627\u0631 \u0641\u064a \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Stellen Sie den Kaktus in die Wohnung."
+    },
+    {
+        "key": "pot_flower-move_furniture-apartment",
+        "en": "Put the flower in the apartment.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0632\u0647\u0631\u0629 \u0641\u064a \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Stellen Sie die Blume in die Wohnung."
+    },
+    {
+        "key": "pot_plant-move_furniture-apartment",
+        "en": "Put the potted plant in the apartment.",
+        "ar": "\u0636\u0639 \u0623\u0635\u064a\u0635 \u0627\u0644\u0646\u0628\u0627\u062a \u0641\u064a \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Stellen Sie die Topfpflanze in die Wohnung."
+    },
+    {
+        "key": "ring-give-couple",
+        "en": "Give the couple the ring.",
+        "ar": "\u0623\u0639\u0637\u0650 \u0627\u0644\u0632\u0648\u062c\u064a\u0646 \u0627\u0644\u062e\u0627\u062a\u0645.",
+        "de": "Geben Sie dem Paar den Ring."
+    },
+    {
+        "key": "ring-put_on_accessoire-you",
+        "en": "Put on the ring.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062e\u0627\u062a\u0645.",
+        "de": "Ziehen Sie den Ring an."
+    },
+    {
+        "key": "shirt-store_small-backpack__color__blue",
+        "en": "Put the shirt in the blue backpack.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege das Hemd in den blauen Rucksack."
+    },
+    {
+        "key": "shirt-store_small-box_opened",
+        "en": "Put the shirt in the box.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u0635\u0646\u062f\u0648\u0642.",
+        "de": "Lege das Hemd in die Schachtel."
+    },
+    {
+        "key": "shirt-interact_clothes-clothes_line",
+        "en": "Hang the shirt on the clothesline.",
+        "ar": "\u0639\u0644\u0642 \u0627\u0644\u0642\u0645\u064a\u0635 \u0639\u0644\u0649 \u062d\u0628\u0644 \u0627\u0644\u063a\u0633\u064a\u0644.",
+        "de": "H\u00e4ngen Sie das Hemd auf die W\u00e4scheleine."
+    },
+    {
+        "key": "shirt-store_small-suitcase__color__blue",
+        "en": "Put the shirt in the blue suitcase.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0642\u0645\u064a\u0635 \u0641\u064a \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege das Hemd in den blauen Koffer."
+    },
+    {
+        "key": "shirt-interact_clothes-washing_machine",
+        "en": "Wash the shirt.",
+        "ar": "\u0627\u063a\u0633\u0644 \u0627\u0644\u0642\u0645\u064a\u0635.",
+        "de": "Wasche das Hemd."
+    },
+    {
+        "key": "shirt-interact_clothes-you",
+        "en": "Put on the shirt.",
+        "ar": "\u0627\u0631\u062a\u062f\u0650 \u0627\u0644\u0642\u0645\u064a\u0635.",
+        "de": "Ziehe das Hemd an."
+    },
+    {
+        "key": "shoes-store_small-suitcase",
+        "en": "Put the shoes in the suitcase.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0630\u0627\u0621 \u0641\u064a \u0627\u0644\u062d\u0642\u064a\u0628\u0629.",
+        "de": "Lege die Schuhe in den Koffer."
+    },
+    {
+        "key": "shoes-put_on_accessoire-you",
+        "en": "Put the shoes on.",
+        "ar": "\u0627\u0631\u062a\u062f\u064a \u0627\u0644\u062d\u0630\u0627\u0621.",
+        "de": "Ziehen Sie die Schuhe an."
+    },
+    {
+        "key": "stool-move_furniture-apartment",
+        "en": "Move the stool into the apartment.",
+        "ar": "\u0627\u0646\u0642\u0644 \u0627\u0644\u0645\u0642\u0639\u062f \u0625\u0644\u0649 \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Bringe den Hocker in die Wohnung."
+    },
+    {
+        "key": "suitcase-store_medium-car",
+        "en": "Put the suitcase in the car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Lege den Koffer in das Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__black",
+        "en": "Put the suitcase in the black car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege den Koffer in das schwarze Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car",
+        "en": "Put the white suitcase in the car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Legen Sie den wei\u00dfen Koffer in das Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__black",
+        "en": "Put the white suitcase in the black car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Lege den wei\u00dfen Koffer in das schwarze Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__blue",
+        "en": "Put the suitcase in the blue car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Legen Sie den Koffer in das blaue Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__blue",
+        "en": "Put the white suitcase in the blue car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege den wei\u00dfen Koffer in das blaue Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__green",
+        "en": "Put the suitcase in the green car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Legen Sie den Koffer in das gr\u00fcne Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__green",
+        "en": "Put the white suitcase in the green car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Lege den wei\u00dfen Koffer in das gr\u00fcne Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__orange",
+        "en": "Put the suitcase in the orange car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Lege den Koffer in das orangefarbene Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__orange",
+        "en": "Put the white suitcase in the orange car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Legen Sie den wei\u00dfen Koffer in das orangefarbene Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__pink",
+        "en": "Put the suitcase in the pink car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Lege den Koffer in das rosa Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__pink",
+        "en": "Put the white suitcase in the pink car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Lege den wei\u00dfen Koffer in das rosa Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__purple",
+        "en": "Put the suitcase in the purple car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege den Koffer in das lila Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__purple",
+        "en": "Put the white suitcase in the purple car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege den wei\u00dfen Koffer in das lila Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__red",
+        "en": "Put the suitcase in the red car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege den Koffer in das rote Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__red",
+        "en": "Put the white suitcase in the red car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege den wei\u00dfen Koffer in das rote Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__silver",
+        "en": "Put the suitcase in the silver car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Lege den Koffer in das silberne Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__silver",
+        "en": "Put the white suitcase in the silver car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Lege den wei\u00dfen Koffer in das silberne Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__white",
+        "en": "Put the suitcase in the white car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Legen Sie den Koffer in das wei\u00dfe Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__white",
+        "en": "Put the white suitcase in the white car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Lege den wei\u00dfen Koffer in das wei\u00dfe Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__color__yellow",
+        "en": "Put the suitcase in the yellow car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Legen Sie den Koffer in das gelbe Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__age__new",
+        "en": "Put the suitcase in the new car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Legen Sie den Koffer in das neue Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__color__yellow",
+        "en": "Put the white suitcase in the yellow car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Legen Sie den wei\u00dfen Koffer in das gelbe Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__age__new",
+        "en": "Put the white suitcase in the new car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Legen Sie den wei\u00dfen Koffer in das neue Auto."
+    },
+    {
+        "key": "suitcase-store_medium-car__age__old",
+        "en": "Put the suitcase in the old car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Legen Sie den Koffer in das alte Auto."
+    },
+    {
+        "key": "suitcase__color__white-store_medium-car__age__old",
+        "en": "Put the white suitcase in the old car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Legen Sie den wei\u00dfen Koffer in das alte Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car",
+        "en": "Put the blue suitcase in the car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Legen Sie den blauen Koffer in das Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__black",
+        "en": "Put the blue suitcase in the black car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Legen Sie den blauen Koffer in das schwarze Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__blue",
+        "en": "Put the blue suitcase in the blue car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Lege den blauen Koffer in das blaue Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__green",
+        "en": "Put the blue suitcase in the green car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062e\u0636\u0631\u0627\u0621.",
+        "de": "Lege den blauen Koffer in das gr\u00fcne Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__orange",
+        "en": "Put the blue suitcase in the orange car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u062a\u0642\u0627\u0644\u064a\u0629.",
+        "de": "Lege den blauen Koffer in das orangefarbene Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__pink",
+        "en": "Put the blue suitcase in the pink car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0648\u0631\u062f\u064a\u0629.",
+        "de": "Lege den blauen Koffer in das rosa Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__purple",
+        "en": "Put the blue suitcase in the purple car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege den blauen Koffer in das lila Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__red",
+        "en": "Put the blue suitcase in the red car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege den blauen Koffer in das rote Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__silver",
+        "en": "Put the blue suitcase in the silver car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0641\u0636\u064a\u0629.",
+        "de": "Legen Sie den blauen Koffer in das silberne Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__white",
+        "en": "Put the blue suitcase in the white car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u064a\u0636\u0627\u0621.",
+        "de": "Lege den blauen Koffer in das wei\u00dfe Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__color__yellow",
+        "en": "Put the blue suitcase in the yellow car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0635\u0641\u0631\u0627\u0621.",
+        "de": "Legen Sie den blauen Koffer in das gelbe Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__age__new",
+        "en": "Put the blue suitcase in the new car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Legen Sie den blauen Koffer in das neue Auto."
+    },
+    {
+        "key": "suitcase__color__blue-store_medium-car__age__old",
+        "en": "Put the blue suitcase in the old car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0642\u062f\u064a\u0645\u0629.",
+        "de": "Legen Sie den blauen Koffer in das alte Auto."
+    },
+    {
+        "key": "table-move_furniture-apartment",
+        "en": "Move the table into the apartment.",
+        "ar": "\u0627\u0646\u0642\u0644 \u0627\u0644\u0637\u0627\u0648\u0644\u0629 \u0625\u0644\u0649 \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Bringen Sie den Tisch in die Wohnung."
+    },
+    {
+        "key": "teddy-put_in_bedding-bed",
+        "en": "Put the teddy on the bed.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0645\u064a\u0629 \u0639\u0644\u0649 \u0627\u0644\u0633\u0631\u064a\u0631.",
+        "de": "Legen Sie den Teddy auf das Bett."
+    },
+    {
+        "key": "teddy-give-siblings",
+        "en": "Give the teddy to the siblings.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u062f\u0645\u064a\u0629 \u0644\u0644\u0623\u0634\u0642\u0627\u0621.",
+        "de": "Geben Sie den Teddy den Geschwistern."
+    },
+    {
+        "key": "teddy-give-sisters",
+        "en": "Give the teddy to the sisters.",
+        "ar": "\u0623\u0639\u0637 \u0627\u0644\u062f\u0645\u064a\u0629 \u0644\u0644\u0623\u062e\u0648\u0627\u062a.",
+        "de": "Gib den Teddy den Schwestern."
+    },
+    {
+        "key": "toddler-put_child-bed",
+        "en": "Put the toddler on the bed.",
+        "ar": "\u0636\u0639 \u0627\u0644\u062f\u0645\u064a\u0629 \u0639\u0644\u0649 \u0627\u0644\u0633\u0631\u064a\u0631.",
+        "de": "Lege das Kleinkind auf das Bett."
+    },
+    {
+        "key": "toddler-put_child-stroller",
+        "en": "Put the toddler in the stroller.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0637\u0641\u0644 \u0641\u064a \u0639\u0631\u0628\u0629 \u0627\u0644\u0623\u0637\u0641\u0627\u0644.",
+        "de": "Setze das Kleinkind in den Kinderwagen."
+    },
+    {
+        "key": "towels_folded-store_small-backpack",
+        "en": "Put the towels in the backpack.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0646\u0627\u0634\u0641 \u0641\u064a \u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0638\u0647\u0631.",
+        "de": "Lege die Handt\u00fccher in den Rucksack."
+    },
+    {
+        "key": "toy-give-boy",
+        "en": "Give the toy to the boy.",
+        "ar": "\u0623\u0639\u0637\u0650 \u0627\u0644\u0644\u0639\u0628\u0629 \u0644\u0644\u0648\u0644\u062f.",
+        "de": "Geben Sie das Spielzeug dem Jungen."
+    },
+    {
+        "key": "toy-give-sisters",
+        "en": "Give the toy to the sisters.",
+        "ar": "\u0623\u0639\u0637\u0650 \u0627\u0644\u0644\u0639\u0628\u0629 \u0644\u0644\u0623\u062e\u062a\u064a\u0646.",
+        "de": "Gib das Spielzeug den Schwestern."
+    },
+    {
+        "key": "tractor-drive_to-house",
+        "en": "Drive the tractor to the house.",
+        "ar": "\u0642\u064f\u062f \u0627\u0644\u062c\u0631\u0627\u0631 \u0625\u0644\u0649 \u0627\u0644\u0645\u0646\u0632\u0644.",
+        "de": "Fahre den Traktor zum Haus."
+    },
+    {
+        "key": "truck-drive_to-house",
+        "en": "The truck drives to the house.",
+        "ar": "\u0642\u064a\u0627\u062f\u0629 \u0627\u0644\u062c\u0631\u0627\u0631 \u0625\u0644\u0649 \u0627\u0644\u0645\u0646\u0632\u0644.",
+        "de": "Der Lastwagen f\u00e4hrt zum Haus."
+    },
+    {
+        "key": "truck-drive_to-parking_lot",
+        "en": "Park the truck.",
+        "ar": "\u0623\u0648\u0642\u0641 \u0627\u0644\u0634\u0627\u062d\u0646\u0629.",
+        "de": "Parken Sie den Lkw."
+    },
+    {
+        "key": "tuktuk-drive_to-parking_lot",
+        "en": "Park the tuktuk.",
+        "ar": "\u0623\u0648\u0642\u0641 \u0627\u0644\u062a\u0648\u0643\u062a\u0648\u0643.",
+        "de": "Parke das Tuktuk."
+    },
+    {
+        "key": "umbrella-store_medium-car",
+        "en": "Put the umbrella in the car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0638\u0644\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Lege den Regenschirm in das Auto."
+    },
+    {
+        "key": "umbrella-store_medium-car__color__purple",
+        "en": "Put the umbrella in the purple car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0638\u0644\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0628\u0646\u0641\u0633\u062c\u064a\u0629.",
+        "de": "Lege den Regenschirm in das lila Auto."
+    },
+    {
+        "key": "umbrella-store_medium-car__color__red",
+        "en": "Put the umbrella in the red car.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0638\u0644\u0629 \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062d\u0645\u0631\u0627\u0621.",
+        "de": "Lege den Regenschirm in das rote Auto."
+    },
+    {
+        "key": "vase-move_furniture-apartment",
+        "en": "Put the vase in the apartment.",
+        "ar": "\u0636\u0639 \u0627\u0644\u0645\u0632\u0647\u0631\u064a\u0629 \u0641\u064a \u0627\u0644\u0634\u0642\u0629.",
+        "de": "Stellen Sie die Vase in die Wohnung."
+    },
+    {
+        "key": "walnut_half-eat-you",
+        "en": "Eat the walnut.",
+        "ar": "\u062a\u0646\u0627\u0648\u0644 \u0627\u0644\u062c\u0648\u0632.",
+        "de": "Essen Sie die Walnuss."
+    },
+    {
+        "key": "water_bottle-drink-you",
+        "en": "Drink some water.",
+        "ar": "\u0627\u0634\u0631\u0628 \u0628\u0639\u0636 \u0627\u0644\u0645\u0627\u0621.",
+        "de": "Trinke etwas Wasser."
+    },
+    {
+        "key": "wedding_ring-store_small-box_opened",
+        "en": "Put the wedding ring in the box.",
+        "ar": "\u0636\u0639 \u062e\u0627\u062a\u0645 \u0627\u0644\u0632\u0648\u0627\u062c \u0641\u064a \u0627\u0644\u0635\u0646\u062f\u0648\u0642.",
+        "de": "Legen Sie den Ehering in die Schachtel."
+    },
+    {
+        "key": "woman-go_to-church",
+        "en": "The woman goes to church.",
+        "ar": "\u062a\u0630\u0647\u0628 \u0627\u0644\u0645\u0631\u0623\u0629 \u0625\u0644\u0649 \u0627\u0644\u0643\u0646\u064a\u0633\u0629.",
+        "de": "Die Frau geht in die Kirche."
+    },
+    {
+        "key": "you-get_in-bus",
+        "en": "Get in the bus.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u062d\u0627\u0641\u0644\u0629.",
+        "de": "Steigen Sie in den Bus."
+    },
+    {
+        "key": "you-get_in-bus__size__big",
+        "en": "Get in the big bus.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u062d\u0627\u0641\u0644\u0629 \u0627\u0644\u0643\u0628\u064a\u0631\u0629.",
+        "de": "Steigen Sie in den gro\u00dfen Bus."
+    },
+    {
+        "key": "you-get_in-bus__color__blue",
+        "en": "Get in the blue bus.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u062d\u0627\u0641\u0644\u0629 \u0627\u0644\u0632\u0631\u0642\u0627\u0621.",
+        "de": "Steigen Sie in den blauen Bus."
+    },
+    {
+        "key": "you-get_in-car",
+        "en": "Get in the car.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629.",
+        "de": "Steigen Sie in das Auto."
+    },
+    {
+        "key": "you-get_in-car__color__black",
+        "en": "Get in the black clar.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0621.",
+        "de": "Steig in den schwarzen Bus."
+    },
+    {
+        "key": "you-get_in-car__age__new",
+        "en": "Get in the new car.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u062c\u062f\u064a\u062f\u0629.",
+        "de": "Steig in das neue Auto."
+    },
+    {
+        "key": "you-go_to-church",
+        "en": "Go to the church.",
+        "ar": "\u0627\u0630\u0647\u0628 \u0625\u0644\u0649 \u0627\u0644\u0643\u0646\u064a\u0633\u0629.",
+        "de": "Geh zur Kirche."
+    },
+    {
+        "key": "you-go_to-flag_egypt",
+        "en": "Go to the Egyptian flag.",
+        "ar": "\u0627\u0630\u0647\u0628 \u0625\u0644\u0649 \u0627\u0644\u0639\u0644\u0645 \u0627\u0644\u0645\u0635\u0631\u064a.",
+        "de": "Geh zur \u00e4gyptischen Flagge."
+    },
+    {
+        "key": "you-go_to-flag_germany",
+        "en": "Go to the German flag.",
+        "ar": "\u0627\u0630\u0647\u0628 \u0625\u0644\u0649 \u0627\u0644\u0639\u0644\u0645 \u0627\u0644\u0623\u0644\u0645\u0627\u0646\u064a.",
+        "de": "Gehen Sie zur deutschen Flagge."
+    },
+    {
+        "key": "you-go_to-flag_jordan",
+        "en": "Go to the Jordanian flag.",
+        "ar": "\u0627\u0630\u0647\u0628 \u0625\u0644\u0649 \u0627\u0644\u0639\u0644\u0645 \u0627\u0644\u0623\u0631\u062f\u0646\u064a.",
+        "de": "Gehen Sie zur jordanischen Flagge."
+    },
+    {
+        "key": "you-go_to-house",
+        "en": "Go into the house.",
+        "ar": "\u0627\u0630\u0647\u0628 \u0625\u0644\u0649 \u0627\u0644\u0645\u0646\u0632\u0644.",
+        "de": "Gehen Sie in das Haus."
+    },
+    {
+        "key": "you-get_in-plane",
+        "en": "Board the plane.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u0637\u0627\u0626\u0631\u0629.",
+        "de": "Steigen Sie in das Flugzeug."
+    },
+    {
+        "key": "you-get_in-taxi",
+        "en": "Get in the taxi.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0633\u064a\u0627\u0631\u0629 \u0627\u0644\u0623\u062c\u0631\u0629.",
+        "de": "Steigen Sie in das Taxi."
+    },
+    {
+        "key": "you-get_in-tractor",
+        "en": "Get in the tractor.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u062c\u0631\u0627\u0631.",
+        "de": "Steigen Sie in den Traktor."
+    },
+    {
+        "key": "you-get_in-tuktuk",
+        "en": "Get in the tuktuk.",
+        "ar": "\u0627\u0631\u0643\u0628 \u0627\u0644\u062a\u0648\u0643\u062a\u0648\u0643.",
+        "de": "Steigen Sie in das Tuktuk."
     }
 ]
