@@ -1,6 +1,7 @@
 <template>
     <!-- change color when right/wrong -->
-    <div class="bg-slate-100 rounded p-4 m-2" :class="{
+    <div class="rounded p-4 m-2" :class="{
+        'bg-slate-100': exerciseState === ExerciseState.Waiting,
         'bg-green-200': exerciseState === ExerciseState.DoneCorrect,
         'bg-red-200': exerciseState === ExerciseState.DoneIncorrect
     }">
@@ -12,11 +13,10 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, watchEffect } from 'vue';
+import { onMounted, ref } from 'vue';
 import GridRenderer from './exercise/GridRenderer.vue';
 import QuestDisplay from './exercise/QuestDisplay.vue';
-import { GameHelper } from '../../classes/GameHelper';
-import type { Exercise, Grid } from '../../types';
+import type { Exercise } from '../../types';
 import { useFirestore } from '../../composables/useFireStore';
 import { v4 as uuidv4 } from 'uuid';
 import { useIndexedDB } from '../../composables/useIndexedDB';
@@ -34,14 +34,12 @@ type Feedback = {
 }
 
 
-const feedbackForAction = ref(undefined as (undefined | Feedback))
 
 const store = useFirestore();
 
 const { addLog } = useIndexedDB('LearningLogDB', 'learning-logs');
 
-// check if 'user-id' is set in localstorage, otherwise generate uuidv4 and save it
-const userID = ref('')
+// track exercise state to set stuff wrong or right
 
 enum ExerciseState {
     Waiting,
@@ -51,12 +49,16 @@ enum ExerciseState {
 
 const exerciseState = ref(ExerciseState.Waiting)
 
+// check if 'user-id' is set in localstorage, otherwise generate uuidv4 and save it
+const userID = ref('')
 onMounted(() => {
     if (!localStorage.getItem('user-id')) {
         localStorage.setItem('user-id', uuidv4())
     }
     userID.value = localStorage.getItem('user-id')!
 })
+
+// it follows the reaction for an interaction passed up from the children
 
 function onInteractionHappened(interaction: string) {
     const gridSize = props.exercise.grid.length * props.exercise.grid[0].length

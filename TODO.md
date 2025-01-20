@@ -1,7 +1,4 @@
-- tutorial
 - publish
-- touch
-- replace toast
-
+- document well for future
 
 - (difficulty adjust)
