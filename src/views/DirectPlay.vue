@@ -1,4 +1,5 @@
 <template>
+    {{  language }}
     <ExerciseRenderer v-if="currentExercise" :exercise="currentExercise" @exercise-over="handleExerciseDone" />
 </template>
 
@@ -7,8 +8,18 @@ import { onMounted, ref, watch } from 'vue';
 import ExerciseRenderer from '../components/game/ExerciseRenderer.vue';
 import { GameHelper } from '../classes/GameHelper';
 import type { Exercise } from '../types';
+import { defineProps } from 'vue';
+
+defineProps({
+  language: {
+    type: String,
+    required: true,
+  },
+});
+
 
 const currentExercise = ref(undefined as (Exercise | undefined))
+
 
 onMounted(() => {
     startNextExercise()

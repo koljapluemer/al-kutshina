@@ -1,3 +1,4 @@
+<!-- unused currently -->
 <template>
     <h2>
         you are playing {{  boxName }}
