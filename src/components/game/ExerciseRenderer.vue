@@ -1,6 +1,9 @@
 <template>
-    <div class="bg-slate-100 rounded p-4 m-2">
-        <Alert :type="feedbackForAction?.type" :msg="feedbackForAction?.message" v-if="feedbackForAction" />
+    <!-- change color when right/wrong -->
+    <div class="bg-slate-100 rounded p-4 m-2" :class="{
+        'bg-green-200': exerciseState === ExerciseState.DoneCorrect,
+        'bg-red-200': exerciseState === ExerciseState.DoneIncorrect
+    }">
         <GridRenderer :grid="exercise.grid" @interactionHappened="onInteractionHappened"
             @drag-started="onDragStarted" />
 
@@ -12,7 +15,6 @@
 import { onMounted, ref, watchEffect } from 'vue';
 import GridRenderer from './exercise/GridRenderer.vue';
 import QuestDisplay from './exercise/QuestDisplay.vue';
-import Alert from '../Alert.vue';
 import { GameHelper } from '../../classes/GameHelper';
 import type { Exercise, Grid } from '../../types';
 import { useFirestore } from '../../composables/useFireStore';
@@ -41,6 +43,14 @@ const { addLog } = useIndexedDB('LearningLogDB', 'learning-logs');
 // check if 'user-id' is set in localstorage, otherwise generate uuidv4 and save it
 const userID = ref('')
 
+enum ExerciseState {
+    Waiting,
+    DoneCorrect,
+    DoneIncorrect
+}
+
+const exerciseState = ref(ExerciseState.Waiting)
+
 onMounted(() => {
     if (!localStorage.getItem('user-id')) {
         localStorage.setItem('user-id', uuidv4())
@@ -51,20 +61,14 @@ onMounted(() => {
 function onInteractionHappened(interaction: string) {
     const gridSize = props.exercise.grid.length * props.exercise.grid[0].length
     if (interaction === props.exercise.quest) {
+        exerciseState.value = ExerciseState.DoneCorrect
         playSuccessSound()
-        feedbackForAction.value = {
-            type: 'success',
-            message: 'صـَلّـَح'
-        }
         const logObject = { user: userID.value, exercise: props.exercise.quest, solved: true, timestamp: new Date(), drags: dragsAttempted.value, gridSize: gridSize }
         store.writeToCollection('learning-data', { "data": logObject })
         addLog(logObject)
 
     } else {
-        feedbackForAction.value = {
-            type: 'warning',
-            message: 'غـَلـَط'
-        }
+        exerciseState.value = ExerciseState.DoneIncorrect
 
         const logObject = { user: userID.value, exercise: props.exercise.quest, solved: false, timestamp: new Date(), dragsAttempted: dragsAttempted.value, gridSize: gridSize }
         store.writeToCollection('learning-data', { "data": logObject })
@@ -92,11 +96,11 @@ function onDragStarted() {
 
 
 function playSuccessSound() {
-  const audio = new Audio('/assets/sounds/success_short.mp3');
-  audio.volume = 0.2;
-  audio.play().catch((err) => {
-    console.error("Failed to play the sound:", err);
-  });
+    const audio = new Audio('/assets/sounds/success_short.mp3');
+    audio.volume = 0.2;
+    audio.play().catch((err) => {
+        console.error("Failed to play the sound:", err);
+    });
 }
 
 </script>

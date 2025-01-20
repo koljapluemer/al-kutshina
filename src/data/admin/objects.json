@@ -891,7 +891,7 @@
             [
                 "pull",
                 2,
-                "door_red_open"
+                "door_red_closed"
             ]
         ],
         "things": [
