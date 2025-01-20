@@ -213,14 +213,11 @@
         "props": {}
     },
     {
-        "img": "Adanna",
-        "item": "Adanna",
-        "props": {}
-    },
-    {
         "img": "cat_grey",
-        "item": "cat_grey",
-        "props": {}
+        "item": "cat",
+        "props": {
+            "color": "grey"
+        }
     },
     {
         "img": "acorn",
@@ -258,28 +255,8 @@
         "props": {}
     },
     {
-        "img": "hut_no_bg",
-        "item": "hut_no_bg",
-        "props": {}
-    },
-    {
-        "img": "kite",
-        "item": "kite",
-        "props": {}
-    },
-    {
-        "img": "siblings1_brother",
-        "item": "siblings1_brother",
-        "props": {}
-    },
-    {
         "img": "books",
         "item": "books",
-        "props": {}
-    },
-    {
-        "img": "Amisha",
-        "item": "Amisha",
         "props": {}
     },
     {
@@ -299,27 +276,29 @@
     },
     {
         "img": "pencil_colored",
-        "item": "pencil_colored",
+        "item": "pencil",
         "props": {}
     },
     {
         "img": "pot_tree",
-        "item": "pot_tree",
+        "item": "potted_tree",
         "props": {}
     },
     {
         "img": "woman_full_basket",
-        "item": "woman_full_basket",
-        "props": {}
+        "item": "woman",
+        "props": {
+            "position": "standing"
+        }
     },
     {
         "img": "house_front",
-        "item": "house_front",
+        "item": "house",
         "props": {}
     },
     {
         "img": "bus_front",
-        "item": "bus_front",
+        "item": "bus",
         "props": {}
     },
     {
@@ -334,17 +313,19 @@
     },
     {
         "img": "bus_big",
-        "item": "bus_big",
-        "props": {}
+        "item": "bus",
+        "props": {
+            "size": "big"
+        }
     },
     {
         "img": "couple1",
-        "item": "couple1",
+        "item": "couple",
         "props": {}
     },
     {
         "img": "couple3",
-        "item": "couple3",
+        "item": "couple",
         "props": {}
     },
     {
@@ -359,7 +340,7 @@
     },
     {
         "img": "shroom",
-        "item": "shroom",
+        "item": "mushroom",
         "props": {}
     },
     {
@@ -388,11 +369,6 @@
         "props": {}
     },
     {
-        "img": "siblings7",
-        "item": "siblings7",
-        "props": {}
-    },
-    {
         "img": "pineapple",
         "item": "pineapple",
         "props": {}
@@ -404,7 +380,7 @@
     },
     {
         "img": "woman_semi_3",
-        "item": "woman_semi_3",
+        "item": "woman",
         "props": {}
     },
     {
@@ -434,7 +410,7 @@
     },
     {
         "img": "family4",
-        "item": "family4",
+        "item": "family",
         "props": {}
     },
     {
@@ -444,7 +420,7 @@
     },
     {
         "img": "woman_semi_2",
-        "item": "woman_semi_2",
+        "item": "woman",
         "props": {}
     },
     {
@@ -464,12 +440,12 @@
     },
     {
         "img": "cupboard_1",
-        "item": "cupboard_1",
+        "item": "cupboard",
         "props": {}
     },
     {
         "img": "siblings4",
-        "item": "siblings4",
+        "item": "siblings",
         "props": {}
     },
     {
@@ -484,13 +460,15 @@
     },
     {
         "img": "bowl_3",
-        "item": "bowl_3",
+        "item": "bowl",
         "props": {}
     },
     {
         "img": "woman_full_sitting_2",
-        "item": "woman_full_sitting_2",
-        "props": {}
+        "item": "woman",
+        "props": {
+            "position": "sitting"
+        }
     },
     {
         "img": "cake",
@@ -504,12 +482,12 @@
     },
     {
         "img": "sisters1",
-        "item": "sisters1",
+        "item": "sisters",
         "props": {}
     },
     {
         "img": "cap_beanie",
-        "item": "cap_beanie",
+        "item": "beanie",
         "props": {}
     },
     {
@@ -524,7 +502,7 @@
     },
     {
         "img": "boy_full_2",
-        "item": "boy_full_2",
+        "item": "boy",
         "props": {}
     },
     {
@@ -534,7 +512,7 @@
     },
     {
         "img": "bowl_2",
-        "item": "bowl_2",
+        "item": "bowl",
         "props": {}
     },
     {
@@ -544,7 +522,7 @@
     },
     {
         "img": "brothers3",
-        "item": "brothers3",
+        "item": "brothers",
         "props": {}
     },
     {
@@ -559,7 +537,7 @@
     },
     {
         "img": "cupboard_2",
-        "item": "cupboard_2",
+        "item": "cupboard",
         "props": {}
     },
     {
@@ -569,12 +547,14 @@
     },
     {
         "img": "cat_alt",
-        "item": "cat_alt",
-        "props": {}
+        "item": "cat",
+        "props": {
+            "color": "brown"
+        }
     },
     {
         "img": "boy_full_4",
-        "item": "boy_full_4",
+        "item": "boy",
         "props": {}
     },
     {
@@ -599,7 +579,7 @@
     },
     {
         "img": "siblings1",
-        "item": "siblings1",
+        "item": "siblings",
         "props": {}
     },
     {
@@ -609,7 +589,7 @@
     },
     {
         "img": "flag_eg",
-        "item": "flag_eg",
+        "item": "flag_egypt",
         "props": {}
     },
     {
@@ -639,8 +619,10 @@
     },
     {
         "img": "woman_full_sittin_1",
-        "item": "woman_full_sittin_1",
-        "props": {}
+        "item": "woman",
+        "props": {
+            "position": "sitting"
+        }
     },
     {
         "img": "sunflower",
@@ -654,17 +636,19 @@
     },
     {
         "img": "taxi_old",
-        "item": "taxi_old",
-        "props": {}
+        "item": "taxi",
+        "props": {
+            "age": "old"
+        }
     },
     {
         "img": "parking_lot_2",
-        "item": "parking_lot_2",
+        "item": "parking_lot",
         "props": {}
     },
     {
         "img": "toddler1",
-        "item": "toddler1",
+        "item": "toddler",
         "props": {}
     },
     {
@@ -674,8 +658,10 @@
     },
     {
         "img": "cat_white",
-        "item": "cat_white",
-        "props": {}
+        "item": "cat",
+        "props": {
+            "color": "white"
+        }
     },
     {
         "img": "walnut",
@@ -684,8 +670,10 @@
     },
     {
         "img": "hair_girls_curly",
-        "item": "hair_girls_curly",
-        "props": {}
+        "item": "girl",
+        "props": {
+            "hair": "curly"
+        }
     },
     {
         "img": "church",
@@ -718,11 +706,6 @@
         "props": {}
     },
     {
-        "img": "siblings1_sister",
-        "item": "siblings1_sister",
-        "props": {}
-    },
-    {
         "img": "stool",
         "item": "stool",
         "props": {}
@@ -739,8 +722,10 @@
     },
     {
         "img": "woman_hair_brunette",
-        "item": "woman_hair_brunette",
-        "props": {}
+        "item": "woman",
+        "props": {
+            "hair": "brunette"
+        }
     },
     {
         "img": "phone",
@@ -749,12 +734,14 @@
     },
     {
         "img": "woman_hair_blonde",
-        "item": "woman_hair_blonde",
-        "props": {}
+        "item": "woman",
+        "props": {
+            "hair": "blonde"
+        }
     },
     {
         "img": "glasses2",
-        "item": "glasses2",
+        "item": "glasses",
         "props": {}
     },
     {
@@ -764,17 +751,12 @@
     },
     {
         "img": "man_semi_1",
-        "item": "man_semi_1",
+        "item": "man",
         "props": {}
     },
     {
         "img": "instrument",
         "item": "instrument",
-        "props": {}
-    },
-    {
-        "img": "anchor",
-        "item": "anchor",
         "props": {}
     },
     {
@@ -784,7 +766,7 @@
     },
     {
         "img": "brothers2",
-        "item": "brothers2",
+        "item": "brothers",
         "props": {}
     },
     {
@@ -799,17 +781,17 @@
     },
     {
         "img": "family3",
-        "item": "family3",
+        "item": "family",
         "props": {}
     },
     {
         "img": "family2",
-        "item": "family2",
+        "item": "family",
         "props": {}
     },
     {
         "img": "family5",
-        "item": "family5",
+        "item": "family",
         "props": {}
     },
     {
@@ -864,8 +846,10 @@
     },
     {
         "img": "woman_hair_black",
-        "item": "woman_hair_black",
-        "props": {}
+        "item": "woman",
+        "props": {
+            "hair": "black"
+        }
     },
     {
         "img": "radishes",
@@ -874,7 +858,7 @@
     },
     {
         "img": "man_full_1",
-        "item": "man_full_1",
+        "item": "man",
         "props": {}
     },
     {
@@ -884,7 +868,7 @@
     },
     {
         "img": "sisters3",
-        "item": "sisters3",
+        "item": "sisters",
         "props": {}
     },
     {
@@ -894,7 +878,7 @@
     },
     {
         "img": "toy1",
-        "item": "toy1",
+        "item": "toy",
         "props": {}
     },
     {
@@ -905,11 +889,6 @@
     {
         "img": "clock",
         "item": "clock",
-        "props": {}
-    },
-    {
-        "img": "siblings5",
-        "item": "siblings5",
         "props": {}
     },
     {
@@ -950,11 +929,6 @@
         "props": {}
     },
     {
-        "img": "siblings8",
-        "item": "siblings8",
-        "props": {}
-    },
-    {
         "img": "knife",
         "item": "knife",
         "props": {}
@@ -962,11 +936,6 @@
     {
         "img": "glue",
         "item": "glue",
-        "props": {}
-    },
-    {
-        "img": "hut",
-        "item": "hut",
         "props": {}
     },
     {
@@ -991,8 +960,10 @@
     },
     {
         "img": "hair_girls_straight",
-        "item": "hair_girls_straight",
-        "props": {}
+        "item": "girl",
+        "props": {
+            "hair": "straight"
+        }
     },
     {
         "img": "mosque",
@@ -1011,7 +982,7 @@
     },
     {
         "img": "boy_full_1",
-        "item": "boy_full_1",
+        "item": "boy",
         "props": {}
     },
     {
@@ -1031,12 +1002,12 @@
     },
     {
         "img": "siblings3",
-        "item": "siblings3",
+        "item": "siblings",
         "props": {}
     },
     {
         "img": "boy_full_3",
-        "item": "boy_full_3",
+        "item": "boy",
         "props": {}
     },
     {
@@ -1061,17 +1032,12 @@
     },
     {
         "img": "couple2",
-        "item": "couple2",
+        "item": "couple",
         "props": {}
     },
     {
         "img": "toddler2",
-        "item": "toddler2",
-        "props": {}
-    },
-    {
-        "img": "car_mustang_ajar",
-        "item": "car_mustang_ajar",
+        "item": "toddler",
         "props": {}
     },
     {
@@ -1085,28 +1051,25 @@
         "props": {}
     },
     {
-        "img": "siblings6",
-        "item": "siblings6",
-        "props": {}
-    },
-    {
         "img": "sakko",
         "item": "sakko",
         "props": {}
     },
     {
         "img": "house_rot",
-        "item": "house_rot",
+        "item": "house",
         "props": {}
     },
     {
         "img": "cat_brown",
-        "item": "cat_brown",
-        "props": {}
+        "item": "cat",
+        "props": {
+            "color": "brown"
+        }
     },
     {
         "img": "siblings4b",
-        "item": "siblings4b",
+        "item": "siblings",
         "props": {}
     },
     {
@@ -1131,17 +1094,12 @@
     },
     {
         "img": "bg_tree",
-        "item": "bg_tree",
+        "item": "tree",
         "props": {}
     },
     {
         "img": "car_key",
         "item": "car_key",
-        "props": {}
-    },
-    {
-        "img": "door_red_ajar",
-        "item": "door_red_ajar",
         "props": {}
     },
     {
@@ -1151,8 +1109,10 @@
     },
     {
         "img": "jeans_blue_dark",
-        "item": "jeans_blue_dark",
-        "props": {}
+        "item": "jeans",
+        "props": {
+            "color": "dark_blue"
+        }
     },
     {
         "img": "motor_bike",
@@ -1191,7 +1151,7 @@
     },
     {
         "img": "bg_pot",
-        "item": "bg_pot",
+        "item": "put_bush",
         "props": {}
     },
     {
@@ -1206,8 +1166,10 @@
     },
     {
         "img": "jeans_blue_light",
-        "item": "jeans_blue_light",
-        "props": {}
+        "item": "jeans",
+        "props": {
+            "color": "light_blue"
+        }
     },
     {
         "img": "pot_plant",
@@ -1226,7 +1188,7 @@
     },
     {
         "img": "woman_semi_1",
-        "item": "woman_semi_1",
+        "item": "woman",
         "props": {}
     },
     {
@@ -1236,8 +1198,10 @@
     },
     {
         "img": "cat_eyes_green",
-        "item": "cat_eyes_green",
-        "props": {}
+        "item": "cat",
+        "props": {
+            "color": "black_white"
+        }
     },
     {
         "img": "lemon",
@@ -1251,12 +1215,14 @@
     },
     {
         "img": "bus_blue",
-        "item": "bus_blue",
-        "props": {}
+        "item": "bus",
+        "props": {
+            "color": "blue"
+        }
     },
     {
         "img": "family1",
-        "item": "family1",
+        "item": "family",
         "props": {}
     },
     {
@@ -1286,17 +1252,17 @@
     },
     {
         "img": "brothers1",
-        "item": "brothers1",
+        "item": "brothers",
         "props": {}
     },
     {
         "img": "bus_mid_size",
-        "item": "bus_mid_size",
+        "item": "bus",
         "props": {}
     },
     {
         "img": "vase2",
-        "item": "vase2",
+        "item": "vase",
         "props": {}
     },
     {
@@ -1306,7 +1272,7 @@
     },
     {
         "img": "siblings2",
-        "item": "siblings2",
+        "item": "siblings",
         "props": {}
     },
     {
