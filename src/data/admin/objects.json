@@ -1,7 +1,56 @@
 {
+    "you": {
+        "key": "you",
+        "capabilities": [
+            [
+                "get_in",
+                0
+            ],
+            [
+                "go_to",
+                0
+            ],
+            
+        ],
+        "affordances": [
+            [
+                "comb",
+                1
+            ],
+            [
+                "eat", 1
+            ],
+            [
+                "drink", 1
+            ],
+            [
+                "give", 1
+            ],
+            ["interact_clothes", 1]
+
+        ],
+        "things": [
+            "you"
+        ]
+    },
+    "hand_push": {
+        "key": "hand_push",
+        "capabilities": [
+            ["push_open", 1]
+        ],
+        "affordances": [],
+        "things": [
+            "hand_push"
+        ]
+    },
     "backpack": {
         "key": "backpack",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
         "boxes": [
             "packing things"
         ],
@@ -36,7 +85,16 @@
     },
     "car": {
         "key": "car",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "park",
+                0
+            ],
+            [
+                "drive_to",
+                0
+            ]
+        ],
         "boxes": [
             "vehicles"
         ],
@@ -81,7 +139,12 @@
                 0
             ]
         ],
-        "affordances": [],
+        "affordances": [
+            [
+                "feed",
+                1
+            ]
+        ],
         "things": [
             "dog",
             "dog_small"
@@ -89,7 +152,20 @@
     },
     "hat": {
         "key": "hat",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ],
+            [
+                "interact_clothes",
+                0
+            ],
+            [
+                "give",
+                0
+            ]
+        ],
         "affordances": [],
         "things": [
             "hat"
@@ -107,7 +183,16 @@
                 0
             ]
         ],
-        "affordances": [],
+        "affordances": [
+            [
+                "write",
+                1
+            ],
+            [
+                "paint_in",
+                1
+            ]
+        ],
         "things": [
             "notebook"
         ]
@@ -135,7 +220,11 @@
                 0
             ],
             [
-                "wash",
+                "wash_laundry",
+                0
+            ],
+            [
+                "interact_clothes",
                 0
             ]
         ],
@@ -167,7 +256,12 @@
     "stroller": {
         "key": "stroller",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "put_child",
+                1
+            ]
+        ],
         "things": [
             "stroller"
         ]
@@ -177,7 +271,12 @@
         "boxes": [
             "packing things"
         ],
-        "capabilities": [],
+        "capabilities": [
+            [
+                "store_medium",
+                0
+            ]
+        ],
         "affordances": [
             [
                 "store_small",
@@ -202,30 +301,18 @@
             "umbrella"
         ]
     },
-    "you": {
-        "key": "you",
-        "capabilities": [
-            [
-                "get_in",
-                0
-            ],
-            [
-                "go_to",
-                0
-            ],
-            [
-                "comb",
-                1
-            ]
-        ],
-        "affordances": [],
-        "things": [
-            "you"
-        ]
-    },
     "brush": {
         "key": "brush",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "paint_in",
+                1
+            ],
+            [
+                "store_small",
+                0
+            ]
+        ],
         "affordances": [],
         "things": [
             "brush"
@@ -242,14 +329,24 @@
     "father_son": {
         "key": "father_son",
         "capabilities": [],
-        "affordances": [],
+        "affordances": [
+            [
+                "give",
+                1
+            ]
+        ],
         "things": [
             "father_son"
         ]
     },
     "wedding_ring": {
         "key": "wedding_ring",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ]
+        ],
         "affordances": [],
         "things": [
             "wedding_ring"
@@ -257,7 +354,17 @@
     },
     "banana_peeled": {
         "key": "banana_peeled",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            ["eat", 0]
+        ],
         "affordances": [],
         "things": [
             "banana_peeled"
@@ -265,7 +372,17 @@
     },
     "avocado_cut": {
         "key": "avocado_cut",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "store_small",
+                0
+            ],
+            [
+                "put_in_bowl",
+                0
+            ],
+            ["eat", 0]
+        ],
         "affordances": [],
         "things": [
             "avocado_cut"
@@ -273,7 +390,11 @@
     },
     "stool": {
         "key": "stool",
-        "capabilities": [],
+        "capabilities": [
+            [
+                "move_furniture", 0
+            ]
+        ],
         "affordances": [],
         "things": [
             "stool"
@@ -281,7 +402,9 @@
     },
     "laptop": {
         "key": "laptop",
-        "capabilities": [],
+        "capabilities": [
+            ["give", 0]
+        ],
         "affordances": [],
         "things": [
             "laptop"
@@ -289,7 +412,9 @@
     },
     "doll": {
         "key": "doll",
-        "capabilities": [],
+        "capabilities": [
+            ["give", 0]
+        ],
         "affordances": [],
         "things": [
             "doll"
@@ -297,7 +422,9 @@
     },
     "cake": {
         "key": "cake",
-        "capabilities": [],
+        "capabilities": [
+            ["eat", 0]
+        ],
         "affordances": [],
         "things": [
             "cake"
@@ -313,7 +440,9 @@
     },
     "pizza": {
         "key": "pizza",
-        "capabilities": [],
+        "capabilities": [
+            ["eat", 0]
+        ],
         "affordances": [],
         "things": [
             "pizza"
@@ -321,7 +450,11 @@
     },
     "walnut_half": {
         "key": "walnut_half",
-        "capabilities": [],
+        "capabilities": [
+            ["eat", 0],
+            ["store_small", 0],
+            ["put_in_bowl", 0]
+        ],
         "affordances": [],
         "things": [
             "walnut_half"
@@ -329,7 +462,11 @@
     },
     "onion_cut": {
         "key": "onion_cut",
-        "capabilities": [],
+        "capabilities": [
+            ["eat", 0],
+            ["store_small", 0],
+            ["put_in_bowl", 0]
+        ],
         "affordances": [],
         "things": [
             "onion_cut"
@@ -345,23 +482,20 @@
     },
     "garlic": {
         "key": "garlic",
-        "capabilities": [],
+        "capabilities": [
+            ["store_small", 0],
+            ["put_in_bowl", 0]
+        ],
         "affordances": [],
         "things": [
             "garlic"
         ]
     },
-    "hand_push": {
-        "key": "hand_push",
-        "capabilities": [],
-        "affordances": [],
-        "things": [
-            "hand_push"
-        ]
-    },
     "watch": {
         "key": "watch",
-        "capabilities": [],
+        "capabilities": [
+            ["interact_clothes", 0]
+        ],
         "affordances": [],
         "things": [
             "watch"
@@ -369,7 +503,10 @@
     },
     "onion": {
         "key": "onion",
-        "capabilities": [],
+        "capabilities": [
+            ["store_small", 0],
+            ["put_in_bowl", 0]
+        ],
         "affordances": [],
         "things": [
             "onion"
@@ -390,7 +527,9 @@
     },
     "ring": {
         "key": "ring",
-        "capabilities": [],
+        "capabilities": [
+            ["interact_clothes", 0]
+        ],
         "affordances": [],
         "things": [
             "ring"
@@ -406,7 +545,9 @@
     },
     "nutcracker": {
         "key": "nutcracker",
-        "capabilities": [],
+        "capabilities": [
+            ["crack_nut", 1]
+        ],
         "affordances": [],
         "things": [
             "nutcracker"
@@ -414,7 +555,10 @@
     },
     "lemon_cut": {
         "key": "lemon_cut",
-        "capabilities": [],
+        "capabilities": [
+            ["store_small", 0],
+            ["put_in_bowl", 0]
+        ],
         "affordances": [],
         "things": [
             "lemon_cut"
@@ -422,8 +566,12 @@
     },
     "box": {
         "key": "box",
-        "capabilities": [],
-        "affordances": [],
+        "capabilities": [
+            ["store_big", 1]
+        ],
+        "affordances": [
+            ["store_small", 0]
+        ],
         "things": [
             "box"
         ]
@@ -434,7 +582,8 @@
             [
                 "put_in_bedding",
                 0
-            ]
+            ],
+            ["give", 0]
         ],
         "affordances": [],
         "things": [
@@ -443,7 +592,9 @@
     },
     "saw": {
         "key": "saw",
-        "capabilities": [],
+        "capabilities": [
+            ["saw", 1]
+        ],
         "affordances": [],
         "things": [
             "saw"
@@ -1400,7 +1551,7 @@
         "capabilities": [],
         "affordances": [
             [
-                "wash",
+                "wash_laundry",
                 1
             ]
         ],
