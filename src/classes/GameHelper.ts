@@ -7,6 +7,8 @@ import rawItems from '../data/items.json';
 const items: Item[] = rawItems;
 
 // handles the stuff that encompasses interactions, affordances, capabilities
+// used to be the whole "backend"
+// will need to be reworked when/if django admin goes online
 export class GameHelper {
 
     public static getItemById(id: string) {

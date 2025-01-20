@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-slate-100 rounded p-4 m-2">
         <Alert :type="feedbackForAction?.type" :msg="feedbackForAction?.message" v-if="feedbackForAction" />
         <GridRenderer :grid="exercise.grid" @interactionHappened="onInteractionHappened"
             @drag-started="onDragStarted" />

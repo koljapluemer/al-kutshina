@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center mt-10 text-4xl">
+    <div class="text-center mt-10  p-3 text-5xl bg-slate-200 rounded">
         {{ TranslationHelper.getTranslationForKey(questKey) }}
     </div>
 

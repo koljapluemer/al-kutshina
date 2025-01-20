@@ -1,6 +1,6 @@
 <template>
 
-    <div class="bg-base-200 p-1 aspect-square" @dragover="hasItemOnIt ? $event.preventDefault() : null" @drop="onDrop($event)"
+    <div class="p-1 aspect-square" @dragover="hasItemOnIt ? $event.preventDefault() : null" @drop="onDrop($event)"
         :style="{
             height: cellSize,
             width: cellSize,
