@@ -4,7 +4,7 @@
         <GridRenderer :grid="exercise.grid" @interactionHappened="onInteractionHappened"
             @drag-started="onDragStarted" />
 
-        <QuestDisplay :questKey="exercise.quest" @exerciseHasNoTranslation="skipExercise" />
+        <QuestDisplay :questKey="exercise.quest" @exerciseHasNoTranslation="skipExercise" :language="language" />
     </div>
 </template>
 
@@ -21,7 +21,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { useIndexedDB } from '../../composables/useIndexedDB';
 
 const props = defineProps<{
-    exercise: Exercise
+    exercise: Exercise,
+    language: string
 }>();
 
 const emit = defineEmits(['exerciseOver'])

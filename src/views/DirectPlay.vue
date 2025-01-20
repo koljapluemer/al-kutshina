@@ -1,6 +1,5 @@
 <template>
-    {{  language }}
-    <ExerciseRenderer v-if="currentExercise" :exercise="currentExercise" @exercise-over="handleExerciseDone" />
+    <ExerciseRenderer v-if="currentExercise" :exercise="currentExercise" :language="language" @exercise-over="handleExerciseDone" />
 </template>
 
 <script setup lang="ts">
