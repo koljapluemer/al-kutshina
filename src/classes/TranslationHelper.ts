@@ -6,6 +6,8 @@ export class TranslationHelper {
             return translations.find(translation => translation.key === key)?.de
         } else if (language === 'ar') {
             return translations.find(translation => translation.key === key)?.ar
+        } else if (language === 'es') {
+            return translations.find(translation => translation.key === key)?.es
         }
 
     }

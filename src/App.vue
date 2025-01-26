@@ -15,6 +15,7 @@
       <p class="text-center">
         Made by <a href="https://koljapluemer.com/" class="link" target="_blank">Kolja Sam Pluemer</a>.
       </p>
+      <p>This app is <a href="https://github.com/koljapluemer/al-kutshina" class="link" target="_blank">open source</a> and free.</p>
   </footer>
 
 </template>

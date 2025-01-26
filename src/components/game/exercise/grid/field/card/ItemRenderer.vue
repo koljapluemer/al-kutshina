@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import type { Item } from '../../../../../../data/items';
+import type { Item } from '../../../../../../types';
 
 
 const props = defineProps<{

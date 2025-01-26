@@ -8,6 +8,10 @@
         <router-link class="btn" :to="{ name: 'direct-play', params: { language: 'de' } }">
             🇩🇪 Learn German
         </router-link>
+
+        <router-link class="btn" :to="{ name: 'direct-play', params: { language: 'es' } }">
+            🇪🇸 Learn Spanish
+        </router-link>
     </nav>
 
 </template>

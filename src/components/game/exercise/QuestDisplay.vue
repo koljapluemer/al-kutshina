@@ -59,8 +59,13 @@ function playQuestSound() {
     }
 }
 
-if (!TranslationHelper.getTranslationForKey(props.language, props.questKey) || !TranslationHelper.getAudioPathForKey(props.language, props.questKey)) {
-    console.error('no translation found for key', props.questKey)
+if (!TranslationHelper.getTranslationForKey(props.language, props.questKey)) {
+    console.error('no translation found for key', props.language, props.questKey)
+    emit('exerciseHasNoTranslation')
+}
+
+if (!TranslationHelper.getAudioPathForKey(props.language, props.questKey)) {
+    console.error('no auio found for key', props.language, props.questKey)
     emit('exerciseHasNoTranslation')
 }
 
