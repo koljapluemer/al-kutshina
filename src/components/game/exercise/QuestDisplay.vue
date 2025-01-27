@@ -42,12 +42,6 @@ enum AudioState  {
 
 const audioState = ref(AudioState.Waiting)
 
-onMounted(() => {
-    setTimeout(() => {
-        playQuestSound()
-    }, 400)
-})
-
 function playQuestSound() {
     audioState.value = AudioState.Playing
     const audio = new Audio(TranslationHelper.getAudioPathForKey(props.language, props.questKey));
@@ -69,6 +63,13 @@ if (!TranslationHelper.getAudioPathForKey(props.language, props.questKey)) {
     emit('exerciseHasNoTranslation')
 }
 
+
+
+onMounted(() => {
+    setTimeout(() => {
+        playQuestSound()
+    }, 400)
+})
 
 
 
