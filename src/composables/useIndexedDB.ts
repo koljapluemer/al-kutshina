@@ -4,12 +4,11 @@ export function useIndexedDB(dbName: string, storeName: string) {
   const db = ref<IDBDatabase | null>(null);
   const isReady = ref(false);
 
-  // Open or create the database
   const openDB = () => {
     return new Promise<void>((resolve, reject) => {
       const request = indexedDB.open(dbName, 1);
 
-      request.onupgradeneeded = (_event) => {
+      request.onupgradeneeded = () => {
         const database = request.result;
         if (!database.objectStoreNames.contains(storeName)) {
           database.createObjectStore(storeName, { keyPath: 'id', autoIncrement: true });
@@ -29,15 +28,15 @@ export function useIndexedDB(dbName: string, storeName: string) {
     });
   };
 
-  // Add an entry to the store
-  const addLog = (logData: any) => {
-    if (!db.value) {
+  const addLog = (logData: Record<string, unknown>) => {
+    const database = db.value;
+    if (!database) {
       console.error('Database is not initialized.');
       return Promise.reject('Database is not initialized.');
     }
 
     return new Promise<void>((resolve, reject) => {
-      const transaction = db.value.transaction(storeName, 'readwrite');
+      const transaction = database.transaction(storeName, 'readwrite');
       const store = transaction.objectStore(storeName);
 
       const request = store.add(logData);
@@ -46,15 +45,15 @@ export function useIndexedDB(dbName: string, storeName: string) {
     });
   };
 
-  // Retrieve all entries from the store
   const getAllLogs = () => {
-    if (!db.value) {
+    const database = db.value;
+    if (!database) {
       console.error('Database is not initialized.');
       return Promise.reject('Database is not initialized.');
     }
 
-    return new Promise<any[]>((resolve, reject) => {
-      const transaction = db.value.transaction(storeName, 'readonly');
+    return new Promise<unknown[]>((resolve, reject) => {
+      const transaction = database.transaction(storeName, 'readonly');
       const store = transaction.objectStore(storeName);
 
       const request = store.getAll();
@@ -63,15 +62,15 @@ export function useIndexedDB(dbName: string, storeName: string) {
     });
   };
 
-  // Clear all entries in the store
   const clearLogs = () => {
-    if (!db.value) {
+    const database = db.value;
+    if (!database) {
       console.error('Database is not initialized.');
       return Promise.reject('Database is not initialized.');
     }
 
     return new Promise<void>((resolve, reject) => {
-      const transaction = db.value.transaction(storeName, 'readwrite');
+      const transaction = database.transaction(storeName, 'readwrite');
       const store = transaction.objectStore(storeName);
 
       const request = store.clear();
@@ -80,10 +79,8 @@ export function useIndexedDB(dbName: string, storeName: string) {
     });
   };
 
-  // Initialize the database when the composable is used
   openDB();
 
-  // Close the database when the component is unmounted
   onUnmounted(() => {
     if (db.value) {
       db.value.close();

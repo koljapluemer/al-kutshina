@@ -1,7 +1,7 @@
 <template>
 
     <div class="draggable-component grow relative h-full w-full card rounded shadow-md bg-gray-200"
-        :class="{ 'being-dragged': isBeingDragged }" @dragstart="onDragStart($event)" @dragend="onDragEnd($event)"
+        :class="{ 'being-dragged': isBeingDragged }" @dragstart="onDragStart($event)" @dragend="onDragEnd"
         draggable="true">
         <ItemRenderer :item="item" v-if="item" />
         <ExtraImageRenderer :image="parentField.extraImage" v-if="parentField.extraImage" />
@@ -11,7 +11,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import type { Card, Field, Item, } from '../../../../../types';
+import type { Field, Item } from '../../../../../types';
 import ItemRenderer from './card/ItemRenderer.vue';
 import ExtraImageRenderer from './card/ExtraImageRenderer.vue';
 import { GameHelper } from '../../../../../classes/GameHelper';
@@ -41,7 +41,7 @@ function onDragStart(event: DragEvent) {
     emit('dragStarted')
 }
 
-function onDragEnd(_event: DragEvent) {
+function onDragEnd() {
     isBeingDragged.value = false
     // actual drops are handled by the field their dropped on
 }

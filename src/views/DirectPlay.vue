@@ -9,11 +9,10 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, watch } from 'vue';
+import { onMounted, ref } from 'vue';
 import ExerciseRenderer from '../components/game/ExerciseRenderer.vue';
 import { GameHelper } from '../classes/GameHelper';
 import type { Exercise } from '../types';
-import { defineProps } from 'vue';
 
 defineProps({
     language: {

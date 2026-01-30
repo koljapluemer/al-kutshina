@@ -28,13 +28,6 @@ const props = defineProps<{
 
 const emit = defineEmits(['exerciseOver'])
 
-type Feedback = {
-    type: string,
-    message: string
-}
-
-
-
 const store = useFirestore();
 
 const { addLog } = useIndexedDB('LearningLogDB', 'learning-logs');
@@ -61,7 +54,7 @@ onMounted(() => {
 // it follows the reaction for an interaction passed up from the children
 
 function onInteractionHappened(interaction: string) {
-    const gridSize = props.exercise.grid.length * props.exercise.grid[0].length
+    const gridSize = props.exercise.grid.length * (props.exercise.grid[0]?.length ?? 0)
     if (interaction === props.exercise.quest) {
         exerciseState.value = ExerciseState.DoneCorrect
         playSuccessSound()

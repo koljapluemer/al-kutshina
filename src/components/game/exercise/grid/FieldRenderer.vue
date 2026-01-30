@@ -1,6 +1,6 @@
 <template>
 
-    <div class="p-1 aspect-square" @dragover="hasItemOnIt ? $event.preventDefault() : null" @drop="onDrop($event)"
+    <div class="p-1 aspect-square" @dragover="hasItemOnIt ? $event.preventDefault() : null" @drop="onDrop"
         :style="{
             height: cellSize,
             width: cellSize,
@@ -30,7 +30,7 @@ function onCardDragStarted() {
 }
 
 
-function onDrop(_event: any) {
+function onDrop() {
     console.info('drop!')
     emit('dropHappenedOnField',  props.coordinate)
 }

@@ -1,9 +1,9 @@
-import { AffordanceReaction, CapabilityReaction, type Item, type Exercise, type ExtraImage, type Field, type Grid, type ItemNameGrid } from "../types";
+import { AffordanceReaction, CapabilityReaction, type Item, type Exercise, type ExtraImage, type Field, type Grid } from "../types";
 import { pickRandom, pickRandomN, shuffleArray } from "../utils/arrayUtils";
 
 import rawItems from '../data/items.json';
 
-// @ts-ignore
+// @ts-expect-error JSON import typing
 const items: Item[] = rawItems;
 
 // handles the stuff that encompasses interactions, affordances, capabilities
@@ -153,6 +153,7 @@ export class GameHelper {
         // b) same property, but key different
 
         const [key, prop, value] = exerciseString.split('__')
+        if (!prop) return []
         const distractors: Item[] = items.filter(otherItem => {
             if (otherItem === item) return false
             // check a)
@@ -203,7 +204,7 @@ export class GameHelper {
         distractors.forEach(distractor => {
             fields.push({
                 itemId: distractor.img,
-                key: this.getPossibleQuestKeysForItem(distractor)[0],
+                key: this.getPossibleQuestKeysForItem(distractor)[0] ?? distractor.key,
             })
         }
         )

@@ -2,7 +2,7 @@ import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
 
 export const useFirestore = () => {
-  const writeToCollection = async (collectionName: string, data: Record<string, any>) => {
+  const writeToCollection = async (collectionName: string, data: Record<string, unknown>) => {
     try {
       const docRef = await addDoc(collection(db, collectionName), data);
       return docRef.id;

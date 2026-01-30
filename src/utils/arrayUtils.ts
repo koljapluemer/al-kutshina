@@ -1,5 +1,3 @@
-import type { Coordinate } from "../types";
-
 /**
  * Picks a random element from an array.
  * @param array The array to pick from.
@@ -13,7 +11,7 @@ export const pickRandom = <T>(array: T[]): T | undefined => {
 
 export const pickRandomN = <T>(array: T[], n: number): T[] => {
   if (!array.length || n <= 0) return [];
-  if (n >= array.length) return [...array].sort(() => Math.random() - 0.5); // Shuffle and return all items
+  if (n >= array.length) return [...array].sort(() => Math.random() - 0.5);
 
   const result: T[] = [];
   const usedIndices = new Set<number>();
@@ -22,7 +20,10 @@ export const pickRandomN = <T>(array: T[], n: number): T[] => {
       const randomIndex = Math.floor(Math.random() * array.length);
       if (!usedIndices.has(randomIndex)) {
           usedIndices.add(randomIndex);
-          result.push(array[randomIndex]);
+          const item = array[randomIndex];
+          if (item !== undefined) {
+              result.push(item);
+          }
       }
   }
 
@@ -32,7 +33,7 @@ export const pickRandomN = <T>(array: T[], n: number): T[] => {
 
 export function getGridDimensions<T>(grid: T[][]): { rows: number; cols: number } {
     const rows = grid.length;
-    const cols = grid[0]?.length || 0; // Fallback to 0 if no columns exist
+    const cols = grid[0]?.length ?? 0;
     return { rows, cols };
 }
 
@@ -41,7 +42,12 @@ export function getGridDimensions<T>(grid: T[][]): { rows: number; cols: number 
 export function shuffleArray<T>(array: T[]): T[] {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+      const temp = array[i];
+      const swapVal = array[j];
+      if (temp !== undefined && swapVal !== undefined) {
+          array[i] = swapVal;
+          array[j] = temp;
+      }
     }
     return array;
   }
