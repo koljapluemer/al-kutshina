@@ -1,5 +1,7 @@
 # Al Kutshina
 
+![](doc/screenshot.webp)
+
 A language learning game where users learn vocabulary by dragging items onto each other to perform actions. Players see visual cards and hear/read instructions like "Feed the cat" or "Put the bottle in the blue backpack", then drag the correct items together.
 
 ## Supported Languages

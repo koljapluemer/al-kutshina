@@ -10,12 +10,17 @@
   </main>
   <footer class="m-auto mt-4 text-xs p-4 flex flex-col items-center gap-1">
     <p class="text-center">Anonymous learning data is collected for research and to make this game
-      better. No personal data and no
-      device-related data is saved.</p>
-      <p class="text-center">
-        Made by <a href="https://koljapluemer.com/" class="link" target="_blank">Kolja Sam Pluemer</a>.
-      </p>
-      <p>This app is <a href="https://github.com/koljapluemer/al-kutshina" class="link" target="_blank">open source</a> and free.</p>
+      better. No personal data is saved.</p>
+    <p class="text-center">
+      Made by <a href="https://koljapluemer.com/" class="link" target="_blank">Kolja Sam Pluemer</a>.
+    </p>
+    <p>This app is <a href="https://github.com/koljapluemer/al-kutshina" class="link" target="_blank">open source</a>
+      and free.</p>
+    <p>
+      If you enjoy this app, you can <a href="https://ko-fi.com/S6S81CWUVD" target="_blank" rel="noopener" class="link">
+        buy me a coffee
+      </a>.
+    </p>
   </footer>
 
 </template>
